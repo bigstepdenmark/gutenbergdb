@@ -8,6 +8,7 @@ import io.ReadController;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.Executors;
 
@@ -23,16 +24,21 @@ public class IOMain
         String path = new File( "src/main/files/books/" ).toURI().getPath();
         File[] files = new File( path ).listFiles();
 
-        ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newCachedThreadPool();
+        // ORG
+        // ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newCachedThreadPool();
+
+        // After memory error
+        int processors = Runtime.getRuntime().availableProcessors();
+        ExecutorService service = Executors.newFixedThreadPool( processors );
 
         for( File file : files )
         {
             int bookId = Integer.parseInt( file.getName().replace( ".txt", "" ) );
 
-            executor.execute( new CityController( bookId, r, cities ) );
+            service.execute( new CityController( bookId, r, cities ) );
         }
 
-        executor.shutdown();
+        service.shutdown();
     }
 }
 
