@@ -109,11 +109,6 @@ public class ReadController
         return getFieldFromBooks( "Author: " );
     }
 
-    public void getAuthorBookPivot()
-    {
-
-    }
-
     /**
      * Get all citites from cities15000.csv
      *

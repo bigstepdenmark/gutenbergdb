@@ -1,5 +1,8 @@
 package entity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by ismailcam on 15/05/2017.
  */
@@ -7,6 +10,7 @@ public class Author
 {
     private int id;
     private String name;
+    private List<Book> books = new ArrayList<>();
 
     public Author(int id, String name)
     {
@@ -37,6 +41,21 @@ public class Author
     public void setName(String name)
     {
         this.name = name;
+    }
+
+    public List<Book> getBooks()
+    {
+        return books;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Author{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", books=" + books +
+                '}';
     }
 }
 
