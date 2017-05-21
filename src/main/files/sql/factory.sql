@@ -26,34 +26,48 @@ CREATE TABLE cities(
 	timezone VARCHAR(255)
 ) ENGINE=InnoDB;
 
-LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergDatabase/src/main/resources/csvfiles/authors.csv'
+CREATE TABLE book_cities(
+book_id int NOT NULL,
+city_id int NOT NULL,
+PRIMARY KEY (book_id, city_id),
+CONSTRAINT fk_book_cities_book_id FOREIGN KEY (book_id) REFERENCES books(id),
+CONSTRAINT fk_book_cities_city_id FOREIGN KEY (city_id) REFERENCES cities(id)
+)ENGINE=InnoDB;
+
+LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergdb/src/main/files/output/authors_21-05-2017_00-37-54.csv'
 INTO TABLE authors
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n'
-IGNORE 1 LINES
+--IGNORE 1 LINES
 (id,name);
 
-LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergDatabase/src/main/resources/csvfiles/titles.csv'
+LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergdb/src/main/files/output/titles_20-05-2017_23-39-51.csv'
 INTO TABLE books
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n'
-IGNORE 1 LINES
+--IGNORE 1 LINES
 (id,title);
 
-LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergDatabase/src/main/resources/csvfiles/author_books.csv'
+LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergdb/src/main/files/output/bookAuthorPivot_21-05-2017_00-31-03.csv'
 INTO TABLE author_books
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n'
-IGNORE 1 LINES
+--IGNORE 1 LINES
 (book_id,author_id);
 
-LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergDatabase/src/main/resources/csvfiles/cities15000.csv'
+LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergdb/src/main/files/csvfiles/cities15000.csv'
 INTO TABLE cities
 FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n'
-IGNORE 1 LINES
+--IGNORE 1 LINES
 (id,name,latitude,longitude,country_code,population,timezone);
 
 ALTER TABLE cities ADD position Point;
 UPDATE  cities
 SET     position = Point(longitude, latitude);
+
+LOAD DATA LOCAL INFILE '/Users/ismailcam/IdeaProjects/gutenbergdb/src/main/files/output/bookcitypivot.csv'
+INTO TABLE book_cities
+FIELDS TERMINATED BY ';'
+LINES TERMINATED BY '\n'
+(book_id,city_id);

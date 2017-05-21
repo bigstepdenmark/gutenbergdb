@@ -17,6 +17,16 @@ public class MySQL implements DatabaseInterface, QueryInterface
     private Statement statement;
     private ResultSet resultSet;
 
+    public static void main(String[] args)
+    {
+        MySQL m = new MySQL();
+
+        for( Book book : m.booksByTitle( "The Forest Schoolmaster" ) )
+        {
+            System.out.println( book );
+        }
+    }
+
     public Connection connect()
     {
         String url = "jdbc:mysql://localhost:3306/gutenberg";
@@ -159,13 +169,33 @@ public class MySQL implements DatabaseInterface, QueryInterface
         return null;
     }
 
-    public static void main(String[] args)
+    private Book getBook(int bookId)
     {
-        MySQL m = new MySQL();
-
-        for( Book book : m.booksByTitle( "The Forest Schoolmaster" ) )
+        Book book;
+        try
         {
-            System.out.println( book );
+            setResultSet( getQuery( "book", Integer.toString( bookId ) ) );
+
+            while( resultSet.next() )
+            {
+                String title = resultSet.getString( "title" );
+                int authorId = resultSet.getInt( "author_id" );
+                String authorName = resultSet.getString( "author_name" );
+                int cityId = resultSet.getInt( "city_id" );
+                String cityName = resultSet.getString( "city_name" );
+                double latitude = resultSet.getDouble( "city_latitude" );
+                double longitude = resultSet.getDouble( "city_latitude" );
+                String countyCode = resultSet.getString( "city_country_code" );
+                int population = resultSet.getInt( "city_population" );
+                String timezone = resultSet.getString( "city_timezone" );
+                Object position = resultSet.getObject( "city_position" );
+            }
         }
+        catch( SQLException e )
+        {
+            e.printStackTrace();
+        }
+
+        return book;
     }
 }
