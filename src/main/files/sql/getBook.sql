@@ -19,4 +19,4 @@ join authors a on a.id = ab.author_id
 join book_cities bc on bc.book_id = b.id
 join cities c on c.id = bc.city_id
 
-where b.id = '%d';
+where b.id = '%s';

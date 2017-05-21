@@ -3,12 +3,15 @@ package database;
 
 import entity.Author;
 import entity.Book;
+import entity.City;
 import interfaces.DatabaseInterface;
 import interfaces.QueryInterface;
+import io.FilesCtrl;
 
 import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class MySQL implements DatabaseInterface, QueryInterface
@@ -21,15 +24,23 @@ public class MySQL implements DatabaseInterface, QueryInterface
     {
         MySQL m = new MySQL();
 
-        for( Book book : m.booksByTitle( "The Forest Schoolmaster" ) )
+/*        for( Book book : m.booksByTitle( "The Forest Schoolmaster" ) )
         {
             System.out.println( book );
+        }*/
+
+        //System.out.println( m.getBook( "23" ) );
+
+        for( Book book : m.getBooks() )
+        {
+            System.out.println( book );
+            System.out.println("\n\n");
         }
     }
 
     public Connection connect()
     {
-        String url = "jdbc:mysql://localhost:3306/gutenberg";
+        String url = "jdbc:mysql://127.0.0.1:3306/gutenberg";
         String username = "root";
         String password = "root";
 
@@ -37,7 +48,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
         {
             if( connection == null )
                 connection = DriverManager.getConnection( url, username, password );
-            System.out.println( "Success!" );
+            //System.out.println( "Success!" );
         }
         catch( SQLException e )
         {
@@ -142,7 +153,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
     {
         try
         {
-            String path = new File( "src/main/resources/sql/" + filename + ".sql" ).toURI().getPath();
+            String path = new File( "src/main/files/sql/" + filename + ".sql" ).toURI().getPath();
 
             BufferedReader reader = new BufferedReader( new FileReader( path ) );
 
@@ -169,18 +180,27 @@ public class MySQL implements DatabaseInterface, QueryInterface
         return null;
     }
 
-    private Book getBook(int bookId)
+    public Book getBookById(String bookId)
     {
-        Book book;
+        Book book = new Book( Integer.parseInt( bookId ) );
         try
         {
-            setResultSet( getQuery( "book", Integer.toString( bookId ) ) );
+            setResultSet( getQuery( "getBook", bookId ) );
+
+            int counter = 0;
 
             while( resultSet.next() )
             {
-                String title = resultSet.getString( "title" );
-                int authorId = resultSet.getInt( "author_id" );
-                String authorName = resultSet.getString( "author_name" );
+                if( counter == 0 )
+                {
+                    String title = resultSet.getString( "title" );
+                    int authorId = resultSet.getInt( "author_id" );
+                    String authorName = resultSet.getString( "author_name" );
+
+                    book.setTitle( title );
+                    book.setAuthor( new Author( authorId, authorName ) );
+                }
+
                 int cityId = resultSet.getInt( "city_id" );
                 String cityName = resultSet.getString( "city_name" );
                 double latitude = resultSet.getDouble( "city_latitude" );
@@ -189,13 +209,38 @@ public class MySQL implements DatabaseInterface, QueryInterface
                 int population = resultSet.getInt( "city_population" );
                 String timezone = resultSet.getString( "city_timezone" );
                 Object position = resultSet.getObject( "city_position" );
+
+                book.getCities()
+                    .add( new City( cityId,
+                                    cityName,
+                                    latitude,
+                                    longitude,
+                                    countyCode,
+                                    population,
+                                    timezone,
+                                    position.toString() ) );
+
+                counter++;
             }
         }
         catch( SQLException e )
         {
             e.printStackTrace();
         }
-
         return book;
+    }
+
+    public List<Book> getBooks()
+    {
+        FilesCtrl filesCtrl = new FilesCtrl( "books" );
+        File[] files = filesCtrl.getFiles();
+        List<Book> books = new ArrayList<>();
+
+        for( File file : files )
+        {
+            books.add( getBookById( file.getName().replace( ".txt", "" ) ) );
+        }
+
+        return books;
     }
 }

@@ -12,13 +12,17 @@ public class Book
     private int id;
     private String title;
     private String content;
-    private Author author;
+    private Author author = new Author();
     private List<City> cities = new ArrayList<>();
 
     public Book(int id, String title)
     {
         this.id = id;
         this.title = title;
+    }
+
+    public Book()
+    {
     }
 
     public Book(int id)

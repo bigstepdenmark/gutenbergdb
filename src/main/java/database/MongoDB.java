@@ -1,10 +1,10 @@
 package database;
 
-
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import entity.Book;
+import entity.City;
 import interfaces.DatabaseInterface;
 import interfaces.QueryInterface;
 import org.bson.Document;
@@ -21,6 +21,13 @@ public class MongoDB implements DatabaseInterface, QueryInterface
     private MongoDatabase database;
     private MongoCollection<Document> collection;
 
+    public static void main(String[] args)
+    {
+        MongoDB m = new MongoDB();
+        m.connect();
+        //m.importFromMysqlToMongoDB();
+    }
+
     public MongoClient connect()
     {
         if( client == null )
@@ -28,7 +35,6 @@ public class MongoDB implements DatabaseInterface, QueryInterface
 
         return client;
     }
-
 
     public void close()
     {
@@ -55,6 +61,43 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         return null;
     }
 
+    public void importFromMysqlToMongoDB()
+    {
+        MySQL mySQL = new MySQL();
+
+        List<Book> books = mySQL.getBooks();
+        List<Document> documents = new ArrayList<>();
+
+        for( Book book : books )
+        {
+            Document doc = new Document( "book_id", book.getId() );
+            doc.append( "title", book.getTitle() );
+            doc.append( "author", book.getAuthor().getName() );
+
+            List<Document> citiesDoc = new ArrayList<>();
+
+            for( City city : book.getCities() )
+            {
+                Document cityDoc = new Document();
+                cityDoc.append( "id", city.getId() );
+                cityDoc.append( "name", city.getName() );
+                cityDoc.append( "latitude", city.getLatitude() );
+                cityDoc.append( "longitude", city.getLongitude() );
+                cityDoc.append( "country_code", city.getCountryCode() );
+                cityDoc.append( "population", city.getPopulation() );
+                cityDoc.append( "timezone", city.getTimezone() );
+
+                citiesDoc.add( cityDoc );
+            }
+
+            doc.append( "cities", citiesDoc );
+
+            documents.add( doc );
+        }
+
+        getCollection().insertMany( documents );
+    }
+
     private MongoDatabase getDatabase()
     {
         if( database == null )
@@ -69,18 +112,6 @@ public class MongoDB implements DatabaseInterface, QueryInterface
             collection = getDatabase().getCollection( "gutenberg" );
 
         return collection;
-    }
-
-    public static void main(String[] args)
-    {
-        MongoDB m = new MongoDB();
-
-        List<Document> finds = m.getCollection().find().into( new ArrayList<Document>() );
-
-        for( Document d : finds )
-        {
-            System.out.println( d.toJson() );
-        }
     }
 
 }
