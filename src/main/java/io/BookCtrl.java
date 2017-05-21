@@ -165,7 +165,7 @@ public class BookCtrl
         FileGenerater generater = new FileGenerater();
         try
         {
-            generater.writeToFile( filename, lines );
+            generater.writeToFile( filename, "csv", lines );
         }
         catch( IOException e )
         {

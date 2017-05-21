@@ -1,9 +1,7 @@
 package main;
 
-
 import entity.City;
-import io.CityController;
-import io.ReadController;
+import io.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,10 +16,9 @@ public class IOMain
 {
     public static void main(String[] args) throws IOException
     {
-        ReadController r = new ReadController();
-        List<City> cities = r.getCitiesFromCSV();
-        String path = new File( "src/main/files/books/" ).toURI().getPath();
-        File[] files = new File( path ).listFiles();
+        List<City> cities = new BookCtrl().getCities();
+        FilesCtrl filesCtrl = new FilesCtrl( "books" );
+        File[] files = filesCtrl.getFiles();
 
         // ORG
         // ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newCachedThreadPool();
@@ -33,8 +30,7 @@ public class IOMain
         for( File file : files )
         {
             int bookId = Integer.parseInt( file.getName().replace( ".txt", "" ) );
-
-            service.execute( new CityController( bookId, r, cities ) );
+            service.execute( new CityCtrl( bookId, cities ) );
         }
 
         service.shutdown();

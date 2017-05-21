@@ -14,17 +14,14 @@ import java.util.List;
 /**
  * Created by ismailcam on 15/05/2017.
  */
-public class CityController implements Runnable
+public class CityCtrl implements Runnable
 {
     private int bookId;
-    private ReadController rc;
-    List<City> cities;
+    private List<City> cities;
 
-
-    public CityController(int bookId, ReadController rc, List<City> cities)
+    public CityCtrl(int bookId, List<City> cities)
     {
         this.bookId = bookId;
-        this.rc = rc;
         this.cities = cities;
     }
 
@@ -42,7 +39,8 @@ public class CityController implements Runnable
 
     private void getCitiesFromBook() throws IOException
     {
-        String book = rc.getBookAsString( bookId );
+        FileCtrl fileCtrl = new FileCtrl( "books/" + bookId + ".txt" );
+        String book = fileCtrl.asString();
 
         HashMap<Integer, City> citiesInBook = new HashMap<>();
 
@@ -52,7 +50,7 @@ public class CityController implements Runnable
                 citiesInBook.put( city.getId(), city );
         }
 
-        String path = new File( "src/main/files/csvfiles/bookcitypivot.csv" ).toURI().getPath();
+        String path = new File( "src/main/files/output/bookcitypivot2.csv" ).toURI().getPath();
 
         FileWriter writer = new FileWriter( path, true );
 
