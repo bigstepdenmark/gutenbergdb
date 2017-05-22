@@ -2,15 +2,19 @@ package database;
 
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
+import entity.Author;
 import entity.Book;
 import entity.City;
 import interfaces.DatabaseInterface;
 import interfaces.QueryInterface;
 import org.bson.Document;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.IOException;
+import java.util.*;
+
+import static com.mongodb.client.model.Filters.*;
 
 /**
  * Created by ismailcam on 08/05/2017.
@@ -20,13 +24,6 @@ public class MongoDB implements DatabaseInterface, QueryInterface
     private MongoClient client;
     private MongoDatabase database;
     private MongoCollection<Document> collection;
-
-    public static void main(String[] args)
-    {
-        MongoDB m = new MongoDB();
-        m.connect();
-        //m.importFromMysqlToMongoDB();
-    }
 
     public MongoClient connect()
     {
@@ -41,27 +38,27 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         client.close();
     }
 
-    public ArrayList<Book> booksByCity(String city)
+    public List<Book> booksByCity(String city)
     {
         return null;
     }
 
-    public ArrayList<Book> booksByTitle(String title)
+    public List<Book> booksByTitle(String title)
+    {
+        return getBookWhere( "title", title );
+    }
+
+    public List<Book> booksByAuthor(String author)
+    {
+        return getBookWhere( "author", author );
+    }
+
+    public List<Book> booksByLocation(String location)
     {
         return null;
     }
 
-    public ArrayList<Book> booksByAuthor(String author)
-    {
-        return null;
-    }
-
-    public ArrayList<Book> booksByLocation(String location)
-    {
-        return null;
-    }
-
-    public void importFromMysqlToMongoDB()
+    public void importFromMysqlToMongoDB() throws IOException
     {
         MySQL mySQL = new MySQL();
 
@@ -114,5 +111,49 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         return collection;
     }
 
+    public List<Book> getBookWhere(String field, String value)
+    {
+        MongoCursor<Document> cursor = getCollection().find( eq( field, value ) ).iterator();
+        List<Book> books = new ArrayList<>();
+
+        while( cursor.hasNext() )
+        {
+            Document bookDoc = cursor.next();
+            Book book = new Book( bookDoc.getInteger( "book_id" ), bookDoc.getString( "title" ) );
+            book.setAuthor( new Author( bookDoc.getString( "author" ) ) );
+
+            List<Document> cities = (List<Document>) bookDoc.get( "cities" );
+
+            for( Document city : cities )
+            {
+                book.getCities()
+                    .add( new City( city.getInteger( "id" ),
+                                    city.getString( "name" ),
+                                    city.getDouble( "latitude" ),
+                                    city.getDouble( "longitude" ),
+                                    city.getString( "country_code" ),
+                                    city.getInteger( "population" ),
+                                    city.getString( "timezone" ) ) );
+            }
+
+            books.add( book );
+        }
+
+        cursor.close();
+
+        return books;
+    }
+
+    public void getBooksContainsCity(String cityname)
+    {
+        // db.getCollection('gutenberg').find({cities : {$elemMatch : {name : 'Ankara'} } } ).count();
+        MongoCursor<Document> cursor = getCollection().find( elemMatch( "cities", new Document( "name", cityname ) ) )
+                                                      .iterator();
+
+        while( cursor.hasNext() )
+        {
+            System.out.println( cursor.next().getString( "title" ) );
+        }
+    }
 }
 

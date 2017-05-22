@@ -3,17 +3,18 @@ package interfaces;
 import entity.Book;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by ismailcam on 07/05/2017.
  */
 public interface QueryInterface
 {
-    ArrayList<Book> booksByCity(String city);
+    List<Book> booksByCity(String city);
 
-    ArrayList<Book> booksByTitle(String title);
+    List<Book> booksByTitle(String title);
 
-    ArrayList<Book> booksByAuthor(String author);
+    List<Book> booksByAuthor(String author);
 
-    ArrayList<Book> booksByLocation(String location);
+    List<Book> booksByLocation(String location);
 }
