@@ -8,7 +8,5 @@ from books b
 
 join author_books ab on ab.book_id = b.id
 join authors a on a.id = ab.author_id
-join book_cities bc on bc.book_id = b.id
-join cities c on c.id = bc.city_id
 
-where c.name = '%s';
+where b.id = '%s';

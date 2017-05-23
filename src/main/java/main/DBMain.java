@@ -16,12 +16,16 @@ import java.util.List;
  */
 public class DBMain
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
         //----------------------------------------------------
         // MySQL
         //----------------------------------------------------
         MySQL mySQL = new MySQL();
+
+        //System.out.println( mySQL.booksByLocation( 41.01384, 28.94966, 100 ).size() );
+        System.out.println( mySQL.booksByTitle( "The King James Bible" ).size() );
+        //System.out.println( mySQL.getBookById2( 10 ).getCities().size() );
 
         // Print Title and Author name by given a city name
 //        for( Book book : mySQL.booksByCity( "Pen" ) )
@@ -79,7 +83,7 @@ public class DBMain
 //            System.out.println( book );
 //        }
 
-        mongoDb.getBooksContainsCity("Ankara");
+        //mongoDb.getBooksContainsCity("Ankara");
     }
 }
 

@@ -9,7 +9,9 @@ import entity.Book;
 import entity.City;
 import interfaces.DatabaseInterface;
 import interfaces.QueryInterface;
+import org.bson.BsonDocument;
 import org.bson.Document;
+import org.bson.conversions.Bson;
 
 import java.io.IOException;
 import java.util.*;
@@ -40,24 +42,29 @@ public class MongoDB implements DatabaseInterface, QueryInterface
 
     public List<Book> booksByCity(String city)
     {
-        return null;
+        return getBooks( getCursor( elemMatch( "cities", new Document( "name", city ) ) ) );
     }
 
     public List<Book> booksByTitle(String title)
     {
-        return getBookWhere( "title", title );
+        return getBooks( getCursor( eq( "title", title ) ) );
     }
 
     public List<Book> booksByAuthor(String author)
     {
-        return getBookWhere( "author", author );
+        return getBooks( getCursor( eq( "author", author ) ) );
     }
 
-    public List<Book> booksByLocation(String location)
+    public List<Book> booksByLocation(double latitude, double longitude, int radius)
     {
         return null;
     }
 
+    /**
+     * Used to import book objects from Mysql to MongoDB.
+     *
+     * @throws IOException
+     */
     public void importFromMysqlToMongoDB() throws IOException
     {
         MySQL mySQL = new MySQL();
@@ -111,9 +118,8 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         return collection;
     }
 
-    public List<Book> getBookWhere(String field, String value)
+    private List<Book> getBooks(MongoCursor<Document> cursor)
     {
-        MongoCursor<Document> cursor = getCollection().find( eq( field, value ) ).iterator();
         List<Book> books = new ArrayList<>();
 
         while( cursor.hasNext() )
@@ -142,6 +148,11 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         cursor.close();
 
         return books;
+    }
+
+    private MongoCursor<Document> getCursor(Bson filter)
+    {
+        return getCollection().find( filter ).iterator();
     }
 
     public void getBooksContainsCity(String cityname)

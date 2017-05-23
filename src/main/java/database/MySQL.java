@@ -7,7 +7,6 @@ import entity.City;
 import interfaces.DatabaseInterface;
 import interfaces.QueryInterface;
 import io.FileCtrl;
-import io.FilesCtrl;
 
 import java.io.*;
 import java.sql.*;
@@ -21,6 +20,10 @@ public class MySQL implements DatabaseInterface, QueryInterface
     private Statement statement;
     private ResultSet resultSet;
 
+    /**
+     * Make the connection
+     * @return
+     */
     public Connection connect()
     {
         String url = "jdbc:mysql://127.0.0.1:3306/gutenberg";
@@ -42,6 +45,9 @@ public class MySQL implements DatabaseInterface, QueryInterface
         return connection;
     }
 
+    /**
+     * Close all, resultset, statement and connection.
+     */
     public void close()
     {
         try
@@ -62,33 +68,215 @@ public class MySQL implements DatabaseInterface, QueryInterface
         }
     }
 
+    /**
+     * Get books that mentioned the given city name.
+     * @param city
+     * @return
+     */
     public List<Book> booksByCity(String city)
     {
-        return getBooksWithWhere( "c.name", city );
+        List<Book> books = new ArrayList<>();
+
+        try
+        {
+            addBookToBooks( getSQL( "booksByCity", city ), books );
+        }
+        catch( SQLException e )
+        {
+            System.err.println( e.getMessage() );
+        }
+
+        return books;
     }
 
+    /**
+     * Get books with cities by given book title.
+     * @param title
+     * @return
+     */
     public List<Book> booksByTitle(String title)
     {
-        return getBooksWithWhere( "b.title", title );
+        List<Book> books = new ArrayList<>();
+
+        try
+        {
+            addBookToBooks( getSQL( "booksByTitle", title ), books );
+            addCitiesToBooks( books );
+        }
+        catch( SQLException e )
+        {
+            System.err.println( e.getMessage() );
+        }
+
+        return books;
     }
 
+    /**
+     * Get books with cities by given Author name.
+     * @param author
+     * @return
+     */
     public List<Book> booksByAuthor(String author)
     {
-        return getBooksWithWhere( "a.name", author );
+        List<Book> books = new ArrayList<>();
+
+        try
+        {
+            addBookToBooks( getSQL( "booksByAuthor", author ), books );
+            addCitiesToBooks( books );
+        }
+        catch( SQLException e )
+        {
+            System.err.println( e.getMessage() );
+        }
+
+        return books;
     }
 
-    public List<Book> booksByLocation(String location)
+    /**
+     * Get books near the given latitude, longitude and radius.
+     * @param latitude
+     * @param longitude
+     * @param radius
+     * @return
+     */
+    public List<Book> booksByLocation(double latitude, double longitude, int radius)
     {
-        return null;
+        List<Book> books = new ArrayList<>();
+
+        try
+        {
+            addBookToBooks( getSQL( "booksByLocation",
+                                    Double.toString( latitude ),
+                                    Double.toString( longitude ),
+                                    Integer.toString( radius ) ), books );
+        }
+        catch( SQLException e )
+        {
+            e.printStackTrace();
+        }
+
+        return books;
     }
 
+    // Used in MongoDb to import objects to MongoDB
+    public Book getBookById(int bookId)
+    {
+        Book book = new Book( bookId );
+
+        try
+        {
+            setResultSet( getSQL( "getBookAndAuthor", Integer.toString( bookId ) ) );
+
+            while( resultSet.next() )
+            {
+                book.setTitle( resultSet.getString( "title" ) );
+                book.setAuthor( new Author( resultSet.getInt( "author_id" ), resultSet.getString( "author_name" ) ) );
+            }
+
+            setResultSet( getSQL( "getCitiesByBookId", Integer.toString( bookId ) ) );
+
+            while( resultSet.next() )
+            {
+                City city = new City( resultSet.getInt( "city_id" ),
+                                      resultSet.getString( "city_name" ),
+                                      resultSet.getDouble( "city_latitude" ),
+                                      resultSet.getDouble( "city_longitude" ),
+                                      resultSet.getString( "city_country_code" ),
+                                      resultSet.getInt( "city_population" ),
+                                      resultSet.getString( "city_timezone" ),
+                                      null );
+
+                book.getCities().add( city );
+            }
+        }
+        catch( SQLException e )
+        {
+            e.printStackTrace();
+        }
+
+        return book;
+    }
+
+    // Used in MongoDb to import objects to MongoDB
+    public List<Book> getBooks() throws IOException
+    {
+        FileCtrl fileCtrl = new FileCtrl( "output/titles_21-05-2017_20-39-52.csv" );
+        List<String> lines = fileCtrl.asLines();
+        List<Book> books = new ArrayList<>();
+
+        for( String line : lines )
+        {
+            int bookId = Integer.parseInt( line.split( ";" )[ 0 ] );
+            books.add( getBookById( bookId ) );
+        }
+
+        return books;
+    }
+
+    /**
+     * Get mentioned in cities in books, and add them to Book object.
+     * @param books
+     * @throws SQLException
+     */
+    public void addCitiesToBooks(List<Book> books) throws SQLException
+    {
+        for( Book book : books )
+        {
+            setResultSet( getSQL( "getCitiesByBookId", Integer.toString( book.getId() ) ) );
+
+            while( resultSet.next() )
+            {
+                City city = new City( resultSet.getInt( "city_id" ),
+                                      resultSet.getString( "city_name" ),
+                                      resultSet.getDouble( "city_latitude" ),
+                                      resultSet.getDouble( "city_longitude" ),
+                                      resultSet.getString( "city_country_code" ),
+                                      resultSet.getInt( "city_population" ),
+                                      resultSet.getString( "city_timezone" ),
+                                      null );
+
+                book.getCities().add( city );
+            }
+        }
+    }
+
+    /**
+     * Get Book to books list
+     * @param query
+     * @param books
+     * @throws SQLException
+     */
+    private void addBookToBooks(String query, List<Book> books) throws SQLException
+    {
+        setResultSet( query );
+
+        while( resultSet.next() )
+        {
+            Book book = new Book( resultSet.getInt( "book_id" ), resultSet.getString( "title" ) );
+            book.setAuthor( new Author( resultSet.getInt( "author_id" ), resultSet.getString( "author_name" ) ) );
+            books.add( book );
+        }
+    }
+
+    /**
+     * Create statement and set resultset.
+     * @param query
+     * @throws SQLException
+     */
     private void setResultSet(String query) throws SQLException
     {
         statement = connect().createStatement();
         resultSet = statement.executeQuery( query );
     }
 
-    private String getQuery(String filename, String... params)
+    /**
+     * Get SQL file as String from src/main/files/sql/*
+     * @param filename
+     * @param params
+     * @return
+     */
+    private String getSQL(String filename, String... params)
     {
         try
         {
@@ -117,119 +305,5 @@ public class MySQL implements DatabaseInterface, QueryInterface
         }
 
         return null;
-    }
-
-    public Book getBookById(String bookId)
-    {
-        Book book = new Book( Integer.parseInt( bookId ) );
-        try
-        {
-            setResultSet( getQuery( "getBook", bookId ) );
-
-            int counter = 0;
-
-            while( resultSet.next() )
-            {
-                if( counter == 0 )
-                {
-                    String title = resultSet.getString( "title" );
-                    int authorId = resultSet.getInt( "author_id" );
-                    String authorName = resultSet.getString( "author_name" );
-
-                    book.setTitle( title );
-                    book.setAuthor( new Author( authorId, authorName ) );
-                }
-
-                int cityId = resultSet.getInt( "city_id" );
-                String cityName = resultSet.getString( "city_name" );
-                double latitude = resultSet.getDouble( "city_latitude" );
-                double longitude = resultSet.getDouble( "city_latitude" );
-                String countyCode = resultSet.getString( "city_country_code" );
-                int population = resultSet.getInt( "city_population" );
-                String timezone = resultSet.getString( "city_timezone" );
-                Object position = resultSet.getObject( "city_position" );
-
-                book.getCities()
-                    .add( new City( cityId,
-                                    cityName,
-                                    latitude,
-                                    longitude,
-                                    countyCode,
-                                    population,
-                                    timezone,
-                                    position.toString() ) );
-
-                counter++;
-            }
-        }
-        catch( SQLException e )
-        {
-            e.printStackTrace();
-        }
-        return book;
-    }
-
-    public List<Book> getBooksWithWhere(String column, String value)
-    {
-        List<Book> books = new ArrayList<>();
-
-        try
-        {
-            setResultSet( getQuery( "bookWhere", column, value ) );
-
-            while( resultSet.next() )
-            {
-                Book book = new Book();
-
-                int bookId = resultSet.getInt( "book_id" );
-                String title = resultSet.getString( "title" );
-                int authorId = resultSet.getInt( "author_id" );
-                String authorName = resultSet.getString( "author_name" );
-
-                book.setId( bookId );
-                book.setTitle( title );
-                book.setAuthor( new Author( authorId, authorName ) );
-
-                int cityId = resultSet.getInt( "city_id" );
-                String cityName = resultSet.getString( "city_name" );
-                double latitude = resultSet.getDouble( "city_latitude" );
-                double longitude = resultSet.getDouble( "city_latitude" );
-                String countyCode = resultSet.getString( "city_country_code" );
-                int population = resultSet.getInt( "city_population" );
-                String timezone = resultSet.getString( "city_timezone" );
-                Object position = resultSet.getObject( "city_position" );
-
-                book.getCities()
-                    .add( new City( cityId,
-                                    cityName,
-                                    latitude,
-                                    longitude,
-                                    countyCode,
-                                    population,
-                                    timezone,
-                                    position.toString() ) );
-
-                books.add( book );
-            }
-        }
-        catch( SQLException e )
-        {
-            e.printStackTrace();
-        }
-        return books;
-    }
-
-    public List<Book> getBooks() throws IOException
-    {
-        FileCtrl fileCtrl = new FileCtrl( "output/titles_21-05-2017_20-39-52.csv" );
-        List<String> lines = fileCtrl.asLines();
-        List<Book> books = new ArrayList<>();
-
-        for( String line : lines )
-        {
-            books.add( getBookById( line.split( ";" )[ 0 ] ) );
-        }
-
-        return books;
     }
 }
