@@ -25,7 +25,7 @@ public class BookCtrl
 
         // Er overført 20-05-2017
         //bookCtrl.importToCSV( "titles", bookCtrl.getTitles( true ) );
-        bookCtrl.importToCSV( "bookAuthorPivot", bookCtrl.getAuthorBooksPivot() );
+        //bookCtrl.importToCSV( "bookAuthorPivot", bookCtrl.getAuthorBooksPivot() );
         // bookCtrl.importToCSV( "authors", bookCtrl.getDistinctAuthorList() );
         // Cities er overført og hedder output/bookcitypivot.csv
     }

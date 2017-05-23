@@ -9,7 +9,6 @@ import entity.Book;
 import entity.City;
 import interfaces.DatabaseInterface;
 import interfaces.QueryInterface;
-import org.bson.BsonDocument;
 import org.bson.Document;
 import org.bson.conversions.Bson;
 
@@ -85,8 +84,9 @@ public class MongoDB implements DatabaseInterface, QueryInterface
                 Document cityDoc = new Document();
                 cityDoc.append( "id", city.getId() );
                 cityDoc.append( "name", city.getName() );
-                cityDoc.append( "latitude", city.getLatitude() );
-                cityDoc.append( "longitude", city.getLongitude() );
+                cityDoc.append( "loc", Arrays.asList( city.getLongitude(), city.getLatitude() ) );
+//                cityDoc.append( "latitude", city.getLatitude() );
+//                cityDoc.append( "longitude", city.getLongitude() );
                 cityDoc.append( "country_code", city.getCountryCode() );
                 cityDoc.append( "population", city.getPopulation() );
                 cityDoc.append( "timezone", city.getTimezone() );
@@ -132,11 +132,15 @@ public class MongoDB implements DatabaseInterface, QueryInterface
 
             for( Document city : cities )
             {
+                Object[] location = ( (List<Document>) city.get( "loc" ) ).toArray();
+                double lat = Double.parseDouble( location[ 1 ].toString() );
+                double lon = Double.parseDouble( location[ 0 ].toString() );
+
                 book.getCities()
                     .add( new City( city.getInteger( "id" ),
                                     city.getString( "name" ),
-                                    city.getDouble( "latitude" ),
-                                    city.getDouble( "longitude" ),
+                                    lat,
+                                    lon,
                                     city.getString( "country_code" ),
                                     city.getInteger( "population" ),
                                     city.getString( "timezone" ) ) );

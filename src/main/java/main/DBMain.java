@@ -24,7 +24,7 @@ public class DBMain
         MySQL mySQL = new MySQL();
 
         //System.out.println( mySQL.booksByLocation( 41.01384, 28.94966, 100 ).size() );
-        System.out.println( mySQL.booksByTitle( "The King James Bible" ).size() );
+        //System.out.println( mySQL.booksByTitle( "The King James Bible" ).size() );
         //System.out.println( mySQL.getBookById2( 10 ).getCities().size() );
 
         // Print Title and Author name by given a city name
@@ -84,6 +84,15 @@ public class DBMain
 //        }
 
         //mongoDb.getBooksContainsCity("Ankara");
+
+        for( Book book : mongoDb.booksByTitle( "The King James Bible" ) )
+        {
+            for( City city : book.getCities() )
+            {
+                System.out.println( "Id: " + city.getId() + ", Name: " + city.getName() + ", Lat: " + city.getLatitude() + ", Long: " + city
+                        .getLongitude() );
+            }
+        }
     }
 }
 
