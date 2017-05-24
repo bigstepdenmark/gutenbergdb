@@ -16,6 +16,13 @@ import java.util.List;
  */
 public class FileGenerater
 {
+    /**
+     * Write content to file by given list of String lines.
+     * @param prefix
+     * @param extension
+     * @param lines
+     * @throws IOException
+     */
     public void writeToFile(String prefix, String extension, List<String> lines) throws IOException
     {
         File file = createEmptyFile( prefix, extension );
@@ -30,11 +37,23 @@ public class FileGenerater
         buffer.close();
     }
 
+    /**
+     * Generate file name by given prefix and current datetime.
+     * @param prefix
+     * @return
+     */
     private String generateFileName(String prefix)
     {
         return prefix + "_" + new SimpleDateFormat( "dd-MM-yyyy_HH-m-ss" ).format( new Date() );
     }
 
+    /**
+     * Create empty file in output directory
+     * @param prefix
+     * @param extension
+     * @return
+     * @throws IOException
+     */
     private File createEmptyFile(String prefix, String extension) throws IOException
     {
         String path = getOutputDir() + generateFileName( prefix ) + "." + extension;
@@ -43,6 +62,10 @@ public class FileGenerater
         return new File( path );
     }
 
+    /**
+     * Get path of output folder.
+     * @return
+     */
     private String getOutputDir()
     {
         return new File( "src/main/files/output/" ).toURI().getPath();

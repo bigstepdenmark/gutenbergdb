@@ -37,6 +37,11 @@ public class MapGenerater
         }
     }
 
+    /**
+     * Generate map by given Book list.
+     * @param books
+     * @param openMap
+     */
     public void generate(List<Book> books, boolean openMap)
     {
         StringBuilder builder = new StringBuilder();
@@ -71,6 +76,10 @@ public class MapGenerater
             openMapInBrowser();
     }
 
+    /**
+     * Write to file by given content
+     * @param content
+     */
     private void writeToFile(String content)
     {
         try
@@ -87,6 +96,9 @@ public class MapGenerater
         }
     }
 
+    /**
+     * Open the generated map in the default browser.
+     */
     private void openMapInBrowser()
     {
         try
@@ -99,6 +111,9 @@ public class MapGenerater
         }
     }
 
+    /**
+     * Close Bufferwriter
+     */
     private void closeWriter()
     {
         try

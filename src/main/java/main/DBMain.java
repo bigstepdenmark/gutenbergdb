@@ -85,14 +85,16 @@ public class DBMain
 
         //mongoDb.getBooksContainsCity("Ankara");
 
-        for( Book book : mongoDb.booksByTitle( "The King James Bible" ) )
-        {
-            for( City city : book.getCities() )
-            {
-                System.out.println( "Id: " + city.getId() + ", Name: " + city.getName() + ", Lat: " + city.getLatitude() + ", Long: " + city
-                        .getLongitude() );
-            }
-        }
+//        for( Book book : mongoDb.booksByTitle( "The King James Bible" ) )
+//        {
+//            for( City city : book.getCities() )
+//            {
+//                System.out.println( "Id: " + city.getId() + ", Name: " + city.getName() + ", Lat: " + city.getLatitude() + ", Long: " + city
+//                        .getLongitude() );
+//            }
+//        }
+
+        System.out.println( mongoDb.booksByLocation( 25.78953000, 55.94320000, 1000 ).size() );
     }
 }
 

@@ -23,6 +23,9 @@ public class CityCtrl implements Runnable
         this.cities = cities;
     }
 
+    /**
+     * Used to run Thread
+     */
     public void run()
     {
         try
@@ -35,6 +38,10 @@ public class CityCtrl implements Runnable
         }
     }
 
+    /**
+     * Pick all cities that mentioned in a book file.
+     * @throws IOException
+     */
     private void getCitiesFromBook() throws IOException
     {
         FileCtrl fileCtrl = new FileCtrl( "books/" + bookId + ".txt" );

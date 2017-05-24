@@ -21,7 +21,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
     private ResultSet resultSet;
 
     /**
-     * Make the connection
+     * Make the connection to MySQL
      * @return
      */
     public Connection connect()
@@ -137,10 +137,10 @@ public class MySQL implements DatabaseInterface, QueryInterface
      * Get books near the given latitude, longitude and radius.
      * @param latitude
      * @param longitude
-     * @param radius
+     * @param radiusInKm
      * @return
      */
-    public List<Book> booksByLocation(double latitude, double longitude, int radius)
+    public List<Book> booksByLocation(double latitude, double longitude, int radiusInKm)
     {
         List<Book> books = new ArrayList<>();
 
@@ -149,7 +149,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
             addBookToBooks( getSQL( "booksByLocation",
                                     Double.toString( latitude ),
                                     Double.toString( longitude ),
-                                    Integer.toString( radius ) ), books );
+                                    Integer.toString( radiusInKm ) ), books );
         }
         catch( SQLException e )
         {

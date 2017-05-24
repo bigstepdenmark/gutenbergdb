@@ -26,6 +26,11 @@ public class MongoDB implements DatabaseInterface, QueryInterface
     private MongoDatabase database;
     private MongoCollection<Document> collection;
 
+    /**
+     * Connect to MongoDB.
+     *
+     * @return
+     */
     public MongoClient connect()
     {
         if( client == null )
@@ -34,33 +39,73 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         return client;
     }
 
+    /**
+     * Close connedtion
+     */
     public void close()
     {
         client.close();
     }
 
+    /**
+     * Get books that mentioned the given city name.
+     *
+     * @param city
+     * @return
+     */
     public List<Book> booksByCity(String city)
     {
         return getBooks( getCursor( elemMatch( "cities", new Document( "name", city ) ) ) );
     }
 
+    /**
+     * Get books with cities by given book title.
+     *
+     * @param title
+     * @return
+     */
     public List<Book> booksByTitle(String title)
     {
         return getBooks( getCursor( eq( "title", title ) ) );
     }
 
+    /**
+     * Get books with cities by given Author name.
+     *
+     * @param author
+     * @return
+     */
     public List<Book> booksByAuthor(String author)
     {
         return getBooks( getCursor( eq( "author", author ) ) );
     }
 
-    public List<Book> booksByLocation(double latitude, double longitude, int radius)
+    /**
+     * Get books near the given latitude, longitude and radius.
+     *
+     * @param latitude
+     * @param longitude
+     * @param radiusInKm
+     * @return
+     */
+    public List<Book> booksByLocation(double latitude, double longitude, int radiusInKm)
     {
-        return null;
+        Document document = new Document();
+        document.append( "cities.loc",
+                         new Document( "$near",
+                                       new Document( "$geometry",
+                                                     new Document( "type", "Point" ).append( "coordinates",
+                                                                                             Arrays.asList( longitude,
+                                                                                                            latitude ) ) )
+                                               .append( "$minDistance", 0.001 )
+                                               .append( "$maxDistance", radiusInKm * 1000 ) )
+        );
+
+        return getBooks( getCursor( document ) );
     }
 
     /**
-     * Used to import book objects from Mysql to MongoDB.
+     * Only used to import book objects from Mysql to MongoDB.
      *
      * @throws IOException
      */
@@ -84,9 +129,10 @@ public class MongoDB implements DatabaseInterface, QueryInterface
                 Document cityDoc = new Document();
                 cityDoc.append( "id", city.getId() );
                 cityDoc.append( "name", city.getName() );
-                cityDoc.append( "loc", Arrays.asList( city.getLongitude(), city.getLatitude() ) );
-//                cityDoc.append( "latitude", city.getLatitude() );
-//                cityDoc.append( "longitude", city.getLongitude() );
+                cityDoc.append( "loc",
+                                new Document().append( "type", "Point" )
+                                              .append( "coordinates",
+                                                       Arrays.asList( city.getLongitude(), city.getLatitude() ) ) );
                 cityDoc.append( "country_code", city.getCountryCode() );
                 cityDoc.append( "population", city.getPopulation() );
                 cityDoc.append( "timezone", city.getTimezone() );
@@ -102,6 +148,11 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         getCollection().insertMany( documents );
     }
 
+    /**
+     * Get database
+     *
+     * @return
+     */
     private MongoDatabase getDatabase()
     {
         if( database == null )
@@ -110,6 +161,11 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         return database;
     }
 
+    /**
+     * Get gutenberg collection from database.
+     *
+     * @return
+     */
     private MongoCollection<Document> getCollection()
     {
         if( collection == null )
@@ -118,6 +174,12 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         return collection;
     }
 
+    /**
+     * Get books by given cursor.
+     *
+     * @param cursor
+     * @return
+     */
     private List<Book> getBooks(MongoCursor<Document> cursor)
     {
         List<Book> books = new ArrayList<>();
@@ -132,9 +194,10 @@ public class MongoDB implements DatabaseInterface, QueryInterface
 
             for( Document city : cities )
             {
-                Object[] location = ( (List<Document>) city.get( "loc" ) ).toArray();
-                double lat = Double.parseDouble( location[ 1 ].toString() );
-                double lon = Double.parseDouble( location[ 0 ].toString() );
+                Document loc = (Document) city.get( "loc" );
+                Object[] longLat = ( (List<Document>) loc.get( "coordinates" ) ).toArray();
+                double lat = Double.parseDouble( longLat[ 1 ].toString() );
+                double lon = Double.parseDouble( longLat[ 0 ].toString() );
 
                 book.getCities()
                     .add( new City( city.getInteger( "id" ),
@@ -154,21 +217,15 @@ public class MongoDB implements DatabaseInterface, QueryInterface
         return books;
     }
 
+    /**
+     * Get MongoCursor by given given Bson filter.
+     *
+     * @param filter
+     * @return
+     */
     private MongoCursor<Document> getCursor(Bson filter)
     {
         return getCollection().find( filter ).iterator();
-    }
-
-    public void getBooksContainsCity(String cityname)
-    {
-        // db.getCollection('gutenberg').find({cities : {$elemMatch : {name : 'Ankara'} } } ).count();
-        MongoCursor<Document> cursor = getCollection().find( elemMatch( "cities", new Document( "name", cityname ) ) )
-                                                      .iterator();
-
-        while( cursor.hasNext() )
-        {
-            System.out.println( cursor.next().getString( "title" ) );
-        }
     }
 }
 

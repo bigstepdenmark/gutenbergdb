@@ -12,6 +12,6 @@ public class MapMain
     {
         MapGenerater mapGenerater = new MapGenerater();
         MySQL mySQL = new MySQL();
-        mapGenerater.generate( mySQL.booksByTitle( "The United States Constitution" ), true );
+        mapGenerater.generate( mySQL.booksByTitle( "A Voyage to the Moon" ), true );
     }
 }

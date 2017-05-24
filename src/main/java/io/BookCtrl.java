@@ -19,17 +19,11 @@ public class BookCtrl
     private static String[] fields = { "Title:", "Author:", "Release Date:", "Language:", "haracter set encoding:", "Reposted:", "Posting Date:" };
     public static String delimeter = ";";
 
-    public static void main(String[] args) throws IOException
-    {
-        BookCtrl bookCtrl = new BookCtrl();
-
-        // Er overført 20-05-2017
-        //bookCtrl.importToCSV( "titles", bookCtrl.getTitles( true ) );
-        //bookCtrl.importToCSV( "bookAuthorPivot", bookCtrl.getAuthorBooksPivot() );
-        // bookCtrl.importToCSV( "authors", bookCtrl.getDistinctAuthorList() );
-        // Cities er overført og hedder output/bookcitypivot.csv
-    }
-
+    /**
+     * Scan Titles from book files and return them as a list.
+     * @param withBookId
+     * @return
+     */
     public List<String> getTitles(boolean withBookId)
     {
         List<String> titles = new ArrayList<>();
@@ -46,6 +40,11 @@ public class BookCtrl
         return titles;
     }
 
+    /**
+     * Scan Authors from book files and return them as a list
+     * @param withBookId
+     * @return
+     */
     public List<String> getAuthors(boolean withBookId)
     {
         List<String> authors = new ArrayList<>();
@@ -62,9 +61,15 @@ public class BookCtrl
         return authors;
     }
 
+    /**
+     * Get all cities from src/files/csvfiles/cities15000.csv file
+     * and return them as a list of City objects.
+     * @return
+     * @throws IOException
+     */
     public List<City> getCities() throws IOException
     {
-        // id;name;latitude;longitude;country_code;population;timezone
+        // Header: id;name;latitude;longitude;country_code;population;timezone
         FileCtrl fileCtrl = new FileCtrl( "csvfiles/cities15000.csv" );
         List<City> cities = new ArrayList<>();
 
@@ -76,6 +81,10 @@ public class BookCtrl
         return cities;
     }
 
+    /**
+     * Get a map with Author objects. The objects also include book that belongs to Author.
+     * @return
+     */
     public HashMap<String, Author> getAuthorsWithBooks()
     {
         List<String> authors = getAuthors( true );
@@ -104,6 +113,11 @@ public class BookCtrl
         return authorsMap;
     }
 
+    /**
+     * Get a list of Author names, with Author name and *generated Author id.
+     * *The Author id is generated in getAuthorsWithBooks() method.
+     * @return
+     */
     public List<String> getDistinctAuthorList()
     {
         HashMap<String, Author> authorsMap = getAuthorsWithBooks();
@@ -117,34 +131,11 @@ public class BookCtrl
         return authorList;
     }
 
-    // Use CityConroller instead of this method.
-    public List<Book> getBooksWithCities() throws IOException
-    {
-        File[] files = new FilesCtrl( "books" ).getFiles();
-        List<City> cities = getCities();
-        List<Book> books = new ArrayList<>();
-
-        for( File file : files )
-        {
-            FileCtrl fileCtrl = new FileCtrl( "books/" + file.getName() );
-            // String book = new FileCtrl( "books/" + file.getName() ).asString();
-            Book book = new Book( Integer.parseInt( fileCtrl.getName() ), getField( file, "Title: ", false ) );
-            book.setContent( fileCtrl.asString() );
-
-            for( City city : cities )
-            {
-                if( book.getContent().contains( city.getName() ) )
-                {
-                    book.getCities().add( city );
-                }
-            }
-
-            books.add( book );
-        }
-
-        return books;
-    }
-
+    /**
+     * Get a list with bookId and authorId. Values in list is
+     * seperated whit delimeter variable
+     * @return
+     */
     public List<String> getAuthorBooksPivot()
     {
         List<String> pivot = new ArrayList<>();
@@ -160,6 +151,11 @@ public class BookCtrl
         return pivot;
     }
 
+    /**
+     * Generates CSV files by given list
+     * @param filename
+     * @param lines
+     */
     public void importToCSV(String filename, List<String> lines)
     {
         FileGenerater generater = new FileGenerater();
@@ -173,6 +169,14 @@ public class BookCtrl
         }
     }
 
+    /**
+     * Get field value from book file by given field.
+     * @param file
+     * @param field
+     * @param withBookId
+     * @return
+     * @throws IOException
+     */
     private String getField(File file, String field, boolean withBookId) throws IOException
     {
         FileCtrl fileCtrl = new FileCtrl( "books/" + file.getName() );
@@ -216,6 +220,13 @@ public class BookCtrl
         return withBookId ? fileCtrl.getName() + delimeter + title : title;
     }
 
+    /**
+     * Get field values from book files by given field.
+     * @param field
+     * @param withBookId
+     * @return
+     * @throws IOException
+     */
     private List<String> getFields(String field, boolean withBookId) throws IOException
     {
         FilesCtrl filesCtrl = new FilesCtrl( "books" );

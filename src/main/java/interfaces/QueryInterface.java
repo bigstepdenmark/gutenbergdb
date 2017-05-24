@@ -16,5 +16,5 @@ public interface QueryInterface
 
     List<Book> booksByAuthor(String author);
 
-    List<Book> booksByLocation(double latitude, double longitude, int radius);
+    List<Book> booksByLocation(double latitude, double longitude, int radiusInKM);
 }
