@@ -27,38 +27,40 @@ public class FileCtrlTest
     }
 
     @Test
-    public void getFile() throws Exception
+    public void fileExists() throws Exception
     {
         assertThat( fileCtrl.getFile().exists(), is( true ) );
     }
 
     @Test
-    public void asString() throws Exception
+    public void textStartWith() throws Exception
     {
         String startText = "The Project Gutenberg EBook of The Rime of the Ancient Mariner, by";
         assertThat( fileCtrl.asString().startsWith( startText ), is( true ) );
     }
 
     @Test
-    public void asLines() throws Exception
+    public void listSize() throws Exception
     {
         assertThat( fileCtrl.asLines().size(), is( 1217 ) );
     }
 
     @Test
-    public void asIterator() throws Exception
+    public void iteratorHasNext() throws Exception
     {
         assertThat( fileCtrl.asIterator().hasNext(), is( true ) );
     }
 
     @Test
-    public void getName() throws Exception
+    public void fileNameWithoutExtension() throws Exception
     {
+        assertThat( fileCtrl.getName(), is( "test1" ) );
     }
 
     @Test
-    public void getNameWithExtension() throws Exception
+    public void fileNameWithExtension() throws Exception
     {
+        assertThat( fileCtrl.getNameWithExtension(), is( "test1.txt" ) );
     }
 
 }
