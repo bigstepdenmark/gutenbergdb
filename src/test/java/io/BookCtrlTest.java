@@ -70,7 +70,7 @@ public class BookCtrlTest
     }
 
     @Test
-    public void testGetAuthor()
+    public void testGetAuthors()
     {
         List<String> mockAuthorList = mock( List.class );
         when( mockAuthorList.get( 0 ) ).thenReturn( "Samuel Taylor Coleridge 1" );
@@ -78,6 +78,8 @@ public class BookCtrlTest
         when( mockAuthorList.get( 2 ) ).thenReturn( "James M. Barrie" );
 
         when( bookCtrl.getAuthors( false ) ).thenReturn( mockAuthorList );
+
+        assertThat( bookCtrl.getAuthors( false ).isEmpty(), is( false ) );
     }
 
     @Test
