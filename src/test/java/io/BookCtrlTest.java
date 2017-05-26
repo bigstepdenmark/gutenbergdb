@@ -34,7 +34,7 @@ public class BookCtrlTest
     @Before
     public void setUp() throws Exception
     {
-        bookCtrl = new BookCtrl();
+        bookCtrl = mock( BookCtrl.class );
     }
 
     @After
@@ -72,15 +72,12 @@ public class BookCtrlTest
     @Test
     public void testGetAuthor()
     {
-/*        List<String> mockAuthorList = mock( List.class );
+        List<String> mockAuthorList = mock( List.class );
         when( mockAuthorList.get( 0 ) ).thenReturn( "Samuel Taylor Coleridge 1" );
         when( mockAuthorList.get( 1 ) ).thenReturn( "Abraham Lincoln" );
         when( mockAuthorList.get( 2 ) ).thenReturn( "James M. Barrie" );
 
-        BookCtrl book2 = mock( BookCtrl.class );
-        when( book2.getAuthors( false ) ).thenReturn( mockAuthorList );*/
-
-        assertThat( true, is( true ) );
+        when( bookCtrl.getAuthors( false ) ).thenReturn( mockAuthorList );
     }
 
     @Test
