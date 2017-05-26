@@ -1,6 +1,7 @@
 package io;
 
 
+import entity.City;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -25,7 +26,7 @@ import static org.mockito.Mockito.when;
 public class BookCtrlTest
 {
 
-    BookCtrl book;
+    BookCtrl bookCtrl;
 
     @Mock
     List<String> mockAuthor;
@@ -33,7 +34,7 @@ public class BookCtrlTest
     @Before
     public void setUp() throws Exception
     {
-        book = new BookCtrl();
+        bookCtrl = new BookCtrl();
     }
 
     @After
@@ -42,36 +43,33 @@ public class BookCtrlTest
 
     }
 
-    @Test //( expected = IOException.class )
+    @Test
     public void testIfCityListIsEmpty() throws IOException
     {
-        //  assertThat(book.getCities().isEmpty(), is(false)  );
-        assertThat( true, is( true ) );
+        List<City> mockedList = mock( List.class );
+        when( mockedList.get( 0 ) ).thenReturn( new City( 1, "Copenhagen", 1.0, 2.0, "DK", 5000000, "DK" ) );
+        when( mockedList.get( 1 ) ).thenReturn( new City( 1, "Odense", 1.0, 2.0, "DK", 5000000, "DK" ) );
+        when( mockedList.get( 2 ) ).thenReturn( new City( 1, "AArhus", 1.0, 2.0, "DK", 5000000, "DK" ) );
+
+        when( bookCtrl.getCities() ).thenReturn( mockedList );
+
+        assertThat( bookCtrl.getCities().isEmpty(), is( false ) );
     }
 
     @Test
     public void testGetTitles() throws IOException
     {
-        //  assertThat(book.getTitles());
-        //assertThat( book.getCities().isEmpty(), is( false ) );
-        assertThat( true, is( true ) );
+        List<String> mockedList = mock( List.class );
+        when( mockedList.get( 0 ) ).thenReturn( "Hello 1" );
+        when( mockedList.get( 1 ) ).thenReturn( "Hello 1" );
+        when( mockedList.get( 2 ) ).thenReturn( "Hello 1" );
+
+        when( bookCtrl.getTitles( false ) ).thenReturn( mockedList );
+
+        assertThat( bookCtrl.getTitles( false ).isEmpty(), is( false ) );
     }
 
-    @Test //( expected = IOException.class )
-    public void testGetTitle()
-    {
-/*        List<String> mockTitleList = new ArrayList<>();
-        mockTitleList.add( "he Rime of the Ancient Mariner" );
-        mockTitleList.add( "Lincolns Second Inaugural Address, March 4, 1865" );
-        mockTitleList.add( "Peter Pan Peter Pan and Wendy" );
-
-        BookCtrl book1 = mock( BookCtrl.class );
-        when( book1.getTitles( false ) ).thenReturn( mockTitleList );*/
-
-        assertThat( true, is( true ) );
-    }
-
-    @Test //( expected = IOException.class )
+    @Test
     public void testGetAuthor()
     {
 /*        List<String> mockAuthorList = mock( List.class );
@@ -96,7 +94,7 @@ public class BookCtrlTest
     @Test
     public void testGetDistinctAuthorList()
     {
-//        mockAuthor = book.getDistinctAuthorList();
+        mockAuthor = bookCtrl.getDistinctAuthorList();
 //        mockAuthor.add( "Samuel Taylor Coleridge 1" );
 //        mockAuthor.add( "Abraham Lincoln" );
 //        mockAuthor.add( "James M. Barrie" );
