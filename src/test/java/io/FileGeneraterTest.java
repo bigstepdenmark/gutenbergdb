@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,21 +34,14 @@ public class FileGeneraterTest
     @Test
     public void writeToFile() throws Exception
     {
-//        // Mock list
-//        List<String> mockedList = mock( List.class );
-//
-//        // Stubbing
-//        when( mockedList.get( 0 ) ).thenReturn( "index 1" );
-//        when( mockedList.get( 1 ) ).thenReturn( "index 2" );
-//        when( mockedList.get( 2 ) ).thenReturn( "index 3" );
-//
-//        FileGenerater mockedFileGenerater = mock( FileGenerater.class );
-//
-//        //Mockito.doCallRealMethod().when( fileGenerater ).writeToFile( "test", "txt", mockedList );
-//
-//        doThrow( new Exception() ).when( mockedFileGenerater ).writeToFile( "test", "txt", null );
-//
-//        assertThat( mockedFileGenerater.writeToFile( "test", "txt", mockedList ), is(  ) );
+        FileGenerater mockedFileGenerater = mock( FileGenerater.class );
+        when( mockedFileGenerater );
+
+        Method method = FileGenerater.class.getDeclaredMethod( "createEmptyFile", String.class, String.class );
+        method.setAccessible( true );
+        String s = (String) method.invoke( mockedFileGenerater,  "test", "txt");
+
+        System.out.println(s);
     }
 
 }
