@@ -8,4 +8,5 @@ Open project from your IDE and run /src/main/java/main/Main.java <a href="https:
 
 <hr>
 
-## Reflection document: <a href="https://github.com/bigstepdenmark/gutenbergdb/tree/master/report/Refleksion.pdf">Open file</a>
+## Test
+- Reflection document: <a href="https://github.com/bigstepdenmark/gutenbergdb/tree/master/report/Refleksion.pdf">Open file</a>
