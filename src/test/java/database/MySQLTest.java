@@ -4,6 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.sql.DriverManager;
+
 import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.*;
 
@@ -17,7 +19,7 @@ public class MySQLTest
     @Before
     public void setUp() throws Exception
     {
-        mySQL = new MySQL();
+        mySQL = new MySQL( DriverManager.getConnection( "jdbc:mysql://127.0.0.1:3306/gutenberg", "root", "" ) );
     }
 
     @After
