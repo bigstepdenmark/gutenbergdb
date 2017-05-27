@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="io.BookCtrlTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="io.BookCtrlTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/lib"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="da"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,10 +62,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="io.BookCtrlTest" name="testGetTitle" time="0.004"/>
-  <testcase classname="io.BookCtrlTest" name="testGetDistinctAuthorList" time="0"/>
-  <testcase classname="io.BookCtrlTest" name="testGetAuthorsWithBooks" time="0"/>
-  <testcase classname="io.BookCtrlTest" name="testGetAuthor" time="0"/>
-  <testcase classname="io.BookCtrlTest" name="testIfCityListIsEmpty" time="0"/>
-  <testcase classname="io.BookCtrlTest" name="testGetTitles" time="0.001"/>
+  <testcase classname="io.BookCtrlTest" name="when_import_to_csv_throw_exception" time="0"/>
+  <testcase classname="io.BookCtrlTest" name="authorlist_is_not_empty" time="0"/>
+  <testcase classname="io.BookCtrlTest" name="exist_given_city_in_citylist" time="0"/>
+  <testcase classname="io.BookCtrlTest" name="check_if_HashMap_return_right_authorId_by_given_key" time="0.001"/>
+  <testcase classname="io.BookCtrlTest" name="titlelist_is_not_empty" time="0"/>
 </testsuite>
