@@ -3,30 +3,21 @@ package database;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.runners.MockitoJUnitRunner;
-
-import java.sql.Connection;
-
-import static org.hamcrest.CoreMatchers.is;
 
 import static org.junit.Assert.*;
-import static org.mockito.Mockito.when;
+import static org.hamcrest.Matchers.*;
 
 /**
- * Created by ismailcam on 26/05/2017.
+ * Created by ismailcam on 27/05/2017.
  */
-@RunWith( MockitoJUnitRunner.class )
 public class MySQLTest
 {
-    @Mock
     MySQL mySQL;
 
     @Before
     public void setUp() throws Exception
     {
-        //mySQL = new MySQL();
+        mySQL = new MySQL();
     }
 
     @After
@@ -37,7 +28,6 @@ public class MySQLTest
     @Test
     public void connect() throws Exception
     {
-
     }
 
     @Test
@@ -68,6 +58,9 @@ public class MySQLTest
     @Test
     public void getBookById() throws Exception
     {
+        String title = mySQL.getBookById( 10 ).getTitle();
+
+        assertThat( title, is( "The King James Bible" ) );
     }
 
     @Test

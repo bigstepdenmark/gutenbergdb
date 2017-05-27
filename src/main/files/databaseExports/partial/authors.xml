@@ -1,0 +1,2402 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <authors id="876" name="by William Henry Knight"/>
+  <authors id="1440" name="Peter B. Kyne"/>
+  <authors id="897" name="Dante Gabriel Rossetti"/>
+  <authors id="1648" name="Arthur T. Quiller Couch"/>
+  <authors id="1871" name="John Ruskin."/>
+  <authors id="1038" name="Robert Southey"/>
+  <authors id="688" name="Amelia E. Barr"/>
+  <authors id="524" name="David Magie Cory"/>
+  <authors id="1045" name="Edmund Lester Pearson"/>
+  <authors id="2183" name="Samuel Merwin"/>
+  <authors id="1042" name="Cyrus Thomas"/>
+  <authors id="2283" name="Elizabeth Drew Stoddard"/>
+  <authors id="62" name="George MacDonald"/>
+  <authors id="788" name="Saint Augustine"/>
+  <authors id="2430" name="Percy James Brebner"/>
+  <authors id="243" name="A. B. Paterson"/>
+  <authors id="511" name="Sir Walter Raleigh"/>
+  <authors id="1970" name="Margaret Widdemer"/>
+  <authors id="2329" name="Guy De Maupassant"/>
+  <authors id="2221" name="Mrs. Mary Rowlandson"/>
+  <authors id="2264" name="Alexis de Tocqueville et al."/>
+  <authors id="519" name="R. S. Ball"/>
+  <authors id="702" name="James Legge"/>
+  <authors id="1260" name="Andrew Jackson"/>
+  <authors id="1649" name="Guy Whitmore Carryl"/>
+  <authors id="969" name="Gustave Droz"/>
+  <authors id="264" name="Lucy Maud Montgomery"/>
+  <authors id="673" name="James Joyce"/>
+  <authors id="1641" name="Arthur Gilman"/>
+  <authors id="83" name="James Fenimore Cooper"/>
+  <authors id="347" name="John Farrar"/>
+  <authors id="623" name="Alfred Joyce Kilmer"/>
+  <authors id="917" name="J. H. Fabre"/>
+  <authors id="1948" name="Bracebridge Hemyng"/>
+  <authors id="1430" name="Theodore A. Dodge"/>
+  <authors id="2129" name="Ezra Pound"/>
+  <authors id="2346" name="Maurice Joblin"/>
+  <authors id="1549" name="W. H. Hudson"/>
+  <authors id="1802" name="Rosanna Eleanor Leprohon"/>
+  <authors id="198" name="Irvin S. Cobb"/>
+  <authors id="1399" name="Ross Kay"/>
+  <authors id="1646" name="Frederick Winslow Taylor"/>
+  <authors id="2113" name="Sallust"/>
+  <authors id="485" name="Louise Muhlbach"/>
+  <authors id="1876" name="Martha Young"/>
+  <authors id="2120" name="Kate Milner Rabb"/>
+  <authors id="1572" name="Paul Severing"/>
+  <authors id="706" name="May Agnes Fleming"/>
+  <authors id="30" name="E.R. Murray and Henrietta Brown Smith"/>
+  <authors id="2259" name="A. M. Barnard"/>
+  <authors id="647" name="Gary Mann"/>
+  <authors id="934" name="J. Cuthbert Hadden"/>
+  <authors id="2242" name="Epiphanius Wilson and J. Walker McSpadden"/>
+  <authors id="1500" name="Colonel George Durston"/>
+  <authors id="2405" name="Montague Rhodes James"/>
+  <authors id="280" name="Christopher Morley"/>
+  <authors id="1289" name="Bjornstjerne Bjornson"/>
+  <authors id="66" name="John P. Marquand"/>
+  <authors id="1074" name="Charles Sturt"/>
+  <authors id="139" name="Joseph McCabe"/>
+  <authors id="185" name="Charles Dodgson, AKA Lewis Carroll"/>
+  <authors id="946" name="Louis Becke"/>
+  <authors id="1325" name="George Crabbe"/>
+  <authors id="1427" name="George Durston"/>
+  <authors id="1541" name="John W. Moore"/>
+  <authors id="2111" name="Henry Inman"/>
+  <authors id="745" name="Guy de Maupassant"/>
+  <authors id="1984" name="Isaac Landman"/>
+  <authors id="1557" name="Frederick Philip Grove"/>
+  <authors id="211" name="Thomas Malory"/>
+  <authors id="694" name="F.W. Moorman"/>
+  <authors id="730" name="Emerson Hough"/>
+  <authors id="990" name="Eugene O&apos;Neill"/>
+  <authors id="230" name="John Galt"/>
+  <authors id="960" name="Madame du Hausset, and of an Unknown English Girl and the Princess Lamballe"/>
+  <authors id="2144" name="Edgar Franklin"/>
+  <authors id="2498" name="Matilda Betham"/>
+  <authors id="82" name="Howard Pyle"/>
+  <authors id="1744" name="Elinor Wylie"/>
+  <authors id="1720" name="Garrett Serviss"/>
+  <authors id="1852" name="Harry Castlemon"/>
+  <authors id="2101" name="Felicia Buttz Clark"/>
+  <authors id="2413" name="Thomas Love Peacock"/>
+  <authors id="743" name="Walter de la Mare"/>
+  <authors id="982" name="Rutherford Platt"/>
+  <authors id="144" name="George Bernard Shaw"/>
+  <authors id="937" name="Emma D. E. N. Southworth"/>
+  <authors id="1607" name="Fannie E. Newberry"/>
+  <authors id="1714" name="Charles M. Skinner"/>
+  <authors id="2494" name="Hendrik Willem van Loon"/>
+  <authors id="1226" name="Miss Mulock--Pseudonym of Maria Dinah Craik"/>
+  <authors id="1812" name="European Union"/>
+  <authors id="749" name="Ralph D. Paine"/>
+  <authors id="865" name="Robert Tressell"/>
+  <authors id="1803" name="Randall Parrish"/>
+  <authors id="147" name="Joseph Conrad"/>
+  <authors id="2068" name="Bernard Mandeville"/>
+  <authors id="221" name="H. Stanley Redgrove"/>
+  <authors id="1249" name="Albert Einstein"/>
+  <authors id="2195" name="Edith H. Allen"/>
+  <authors id="20" name="Fannie  Hurst"/>
+  <authors id="1580" name="Lodovico Ariosto"/>
+  <authors id="328" name="James M. Barrie"/>
+  <authors id="2466" name="Richard B. Cook"/>
+  <authors id="176" name="Sara Jeanette Duncan"/>
+  <authors id="2022" name="Samuel Pepys Edited and Arranged by David Widger"/>
+  <authors id="1863" name="Stphen Crane"/>
+  <authors id="2431" name="C. N. Williamson A. M. Williamson"/>
+  <authors id="2320" name="Edward J. Dent"/>
+  <authors id="526" name="Giuseppe Salza"/>
+  <authors id="1273" name="Warren Harding"/>
+  <authors id="608" name="Hippolyte A. Taine"/>
+  <authors id="13" name="William Hayley"/>
+  <authors id="926" name="Georgina Pell Curtis"/>
+  <authors id="948" name="Frederick Lawton"/>
+  <authors id="110" name="Kate Douglas Wiggin"/>
+  <authors id="1052" name="Immanuel Kant"/>
+  <authors id="950" name="Frederick Jackson Turner"/>
+  <authors id="1512" name="M. G. Lewis"/>
+  <authors id="1245" name="Matthew White, Jr."/>
+  <authors id="1600" name="Joshua Slocum"/>
+  <authors id="2160" name="H. Barber"/>
+  <authors id="711" name="Hjalmar Hjorth Boysen"/>
+  <authors id="2243" name="E. Dixon"/>
+  <authors id="2488" name="Gerhart Hauptmann"/>
+  <authors id="2308" name="M. E. Braddon"/>
+  <authors id="746" name="George M. Wrong"/>
+  <authors id="1067" name="J. Clontz"/>
+  <authors id="2047" name="Nellie M. Leonard"/>
+  <authors id="1318" name="William Butler Yeats"/>
+  <authors id="274" name="Andrew Lang"/>
+  <authors id="1437" name="Charles and Mary Lamb"/>
+  <authors id="2368" name="Robert Leighton"/>
+  <authors id="1654" name="Mary Shelley"/>
+  <authors id="420" name="Anatole France"/>
+  <authors id="910" name="OLIVER T. OSBORNE, A.M., M.D."/>
+  <authors id="1857" name="Lysias"/>
+  <authors id="1487" name="Ren� Descartes"/>
+  <authors id="2377" name="Kathleen Hay"/>
+  <authors id="2153" name="H. S. Merriman"/>
+  <authors id="1256" name="John Adams"/>
+  <authors id="968" name="Torquato Tasso"/>
+  <authors id="1896" name="Alexandre Dumas, pere"/>
+  <authors id="2146" name="F. H. Leeds W. J. Atkinson Butterfield"/>
+  <authors id="1278" name="Dwight D. Eisenhower"/>
+  <authors id="2254" name="G. Mercer Adam A. Ethelwyn Wetherald"/>
+  <authors id="2284" name="R. F. Weymouth"/>
+  <authors id="28" name="Charles A. Lee"/>
+  <authors id="1005" name="William Aikman"/>
+  <authors id="127" name="Mahatma Gandhi"/>
+  <authors id="616" name="J. M. Judy"/>
+  <authors id="1983" name="Feodor Sologub"/>
+  <authors id="1188" name="United States Rubber Company"/>
+  <authors id="1539" name="C.F. McGlashan"/>
+  <authors id="2387" name="T. S. Stribling"/>
+  <authors id="438" name="Aldous Huxley"/>
+  <authors id="1001" name="Mary Grant Bruce"/>
+  <authors id="2415" name="James H. McClintock"/>
+  <authors id="431" name="Aristotle"/>
+  <authors id="737" name="William R. Shepherd"/>
+  <authors id="2325" name="Francois Duc De La Rochefoucauld"/>
+  <authors id="263" name="Donald Mackenzie Wallace"/>
+  <authors id="303" name="Vicente Blasco Ibanez"/>
+  <authors id="428" name="Johann Wolfgang von Goethe"/>
+  <authors id="1264" name="James Buchanan"/>
+  <authors id="1725" name="James Parton"/>
+  <authors id="2324" name="Elizabeth E. Lea"/>
+  <authors id="305" name="Edward Everett Hale"/>
+  <authors id="976" name="Ludovic Halevy"/>
+  <authors id="742" name="Constance Lindsay Skinner"/>
+  <authors id="1547" name="R. Selden Rose Leonard Bacon"/>
+  <authors id="538" name="Gail Hamilton"/>
+  <authors id="1111" name="William Brett Fishburne"/>
+  <authors id="699" name="Holland Thompson"/>
+  <authors id="180" name="Alice Meynell"/>
+  <authors id="844" name="H. G. (Herbert George) Wells"/>
+  <authors id="2156" name="James MacPherson"/>
+  <authors id="1203" name="Victor MacClure"/>
+  <authors id="386" name="Grace Isabel Colbron, and Augusta Groner"/>
+  <authors id="1686" name="John St. Loe Strachey"/>
+  <authors id="2454" name="Latta Griswold"/>
+  <authors id="169" name="Henry Fielding"/>
+  <authors id="2452" name="Percy J. Brebner"/>
+  <authors id="361" name="Henry Smith Williams"/>
+  <authors id="683" name="Henryk Sienkiewicz"/>
+  <authors id="1510" name="Lucille Van Slyke"/>
+  <authors id="446" name="Freeman Wills Crofts"/>
+  <authors id="1094" name="John M. Synge"/>
+  <authors id="1786" name="Vera"/>
+  <authors id="165" name="Gene Stratton-Porter"/>
+  <authors id="1459" name="Clarence B. Kelland"/>
+  <authors id="933" name="Mrs. Inchbald"/>
+  <authors id="88" name="Percy Greg"/>
+  <authors id="1087" name="F. Scott Fitzgerald"/>
+  <authors id="1297" name="Standish O&apos;Grady"/>
+  <authors id="1836" name="Christopher Pierce Cranch"/>
+  <authors id="40" name="Jeffery Farnol"/>
+  <authors id="422" name="William Blake"/>
+  <authors id="1806" name="Ritter von Leopold Sacher-Masoch"/>
+  <authors id="10" name="Stewart Edward White and Samuel Hopkins Adams"/>
+  <authors id="820" name="Isabella L. Bird (Mrs. Bishop)"/>
+  <authors id="1483" name="Donald Keyhoe"/>
+  <authors id="2133" name="(A.E.) George William Russell"/>
+  <authors id="193" name="Mark Twain"/>
+  <authors id="1409" name="Charles E. Morris"/>
+  <authors id="2351" name="Alice Brown"/>
+  <authors id="2473" name="Woman&apos;s Institute of Domestic Arts and Sciences"/>
+  <authors id="146" name="The American Tract Society"/>
+  <authors id="350" name="(may be spurious) Plato"/>
+  <authors id="2446" name="Earl of Beaconsfield, Benjamin Disraeli"/>
+  <authors id="1709" name="Margaret Dixon McDougall"/>
+  <authors id="2215" name="M. R. James"/>
+  <authors id="378" name="Earl Derr Biggers"/>
+  <authors id="1110" name="Charles M. Sheldon"/>
+  <authors id="2058" name="Martin Anderson Nexo"/>
+  <authors id="442" name="P. G. Wodehouse"/>
+  <authors id="2314" name="W.J. Jackman and Thos. H. Russell"/>
+  <authors id="1127" name="T. S. Ackland"/>
+  <authors id="1775" name="James Seton Cockburn"/>
+  <authors id="758" name="Carl Russell Fish"/>
+  <authors id="1774" name="A. Arthur Reade"/>
+  <authors id="1680" name="Rabindranath Tagore (trans.)"/>
+  <authors id="2025" name="Charles Dudley Warner Edited and Arranged by David Widger"/>
+  <authors id="89" name="Thomas F. A. Smith"/>
+  <authors id="1276" name="Franklin D. Roosevelt"/>
+  <authors id="157" name="Nikolai Vasilievich Gogol"/>
+  <authors id="1663" name="John George Bourinot"/>
+  <authors id="680" name="Flavius Josephus"/>
+  <authors id="98" name="Charles Dickens"/>
+  <authors id="204" name="James Thomson"/>
+  <authors id="1795" name="Frances M.A. Roe"/>
+  <authors id="294" name="George Eliot"/>
+  <authors id="101" name="Isaac Barrow"/>
+  <authors id="1070" name="Byron J. Rees"/>
+  <authors id="2145" name="British Parliament"/>
+  <authors id="1743" name="Anne March"/>
+  <authors id="1745" name="Ida Coe Alice Christie Dillon"/>
+  <authors id="1351" name="Lillian C. Garis"/>
+  <authors id="1062" name="George Hartmann"/>
+  <authors id="1375" name="Various (Rosa M. R. Mikels ed.)"/>
+  <authors id="484" name="Herodotus"/>
+  <authors id="1717" name="Augustus Jessopp"/>
+  <authors id="2438" name="George Du Maurier"/>
+  <authors id="507" name="Peter Mark Roget"/>
+  <authors id="388" name="Emma Wolf"/>
+  <authors id="346" name="Herbert Darling Foster"/>
+  <authors id="1064" name="John H. Tilden, M.D."/>
+  <authors id="1966" name="Caius Sallustii Crispi (Sallustius)"/>
+  <authors id="1438" name="Sarah J. Eddy"/>
+  <authors id="1621" name="Pedro Calderon de la Barca Translated by Denis Florence MacCarthy"/>
+  <authors id="1681" name="Daniel Callahan"/>
+  <authors id="11" name="S. H. Hammond"/>
+  <authors id="1450" name="Sam Williams"/>
+  <authors id="760" name="Margaret Pedler"/>
+  <authors id="1253" name="Mrs. George Sheldon"/>
+  <authors id="2403" name="Eliza Leslie"/>
+  <authors id="2435" name="Edgar Jepson"/>
+  <authors id="1505" name="Robert S. Carroll"/>
+  <authors id="1393" name="Royall Tyler"/>
+  <authors id="1395" name="Thomas Sherlock"/>
+  <authors id="1402" name="Edward F. Adams"/>
+  <authors id="75" name="Mrs. Isabella Beeton"/>
+  <authors id="341" name="Charles Whibley"/>
+  <authors id="471" name="E. F. Benson"/>
+  <authors id="744" name="John Reed"/>
+  <authors id="741" name="Ellsworth Huntington"/>
+  <authors id="495" name="Thomas Burke"/>
+  <authors id="1173" name="John Richardson"/>
+  <authors id="74" name="Dan B. Brummitt"/>
+  <authors id="692" name="BY LOUIS GINZBERG"/>
+  <authors id="922" name="H. E. Marshall Author: Henrietta Elizabeth Marshall"/>
+  <authors id="1485" name="Mary E. Blain"/>
+  <authors id="482" name="Andrew Barton &apos;Banjo&apos; Paterson"/>
+  <authors id="1965" name="John C. Calhoun"/>
+  <authors id="258" name="Mary Wollstonecraft"/>
+  <authors id="269" name="Louise de la Ramee (AKA Ouida)"/>
+  <authors id="1137" name="James B. Stetson"/>
+  <authors id="887" name="Alfred Henry Lewis"/>
+  <authors id="501" name="G. Harvey Ralphson"/>
+  <authors id="270" name="Washington Irving"/>
+  <authors id="2489" name="Charles Inman Barnard"/>
+  <authors id="1041" name="Thomas Hariot"/>
+  <authors id="837" name="A. Merritt"/>
+  <authors id="1657" name="Walter Lippmann"/>
+  <authors id="143" name="Jane Austen"/>
+  <authors id="603" name="Aristophanes"/>
+  <authors id="1936" name="Stephen Levy"/>
+  <authors id="363" name="Nathaniel Wright Stephenson"/>
+  <authors id="1490" name="Lilyan Stratton"/>
+  <authors id="395" name="Henry Cabot Lodge, and Theodore Roosevelt"/>
+  <authors id="81" name="Thomas Herbert Russell"/>
+  <authors id="1592" name="Edward Bellamy"/>
+  <authors id="2485" name="J. Macdonald Oxley"/>
+  <authors id="1013" name="Phillis Wheatley"/>
+  <authors id="1773" name="Isabella L. Bird"/>
+  <authors id="1968" name="Thomas Hart Benton"/>
+  <authors id="2437" name="Mark Akenside"/>
+  <authors id="2447" name="Aneurin"/>
+  <authors id="405" name="Ida Pfeiffer"/>
+  <authors id="1238" name="Anna M. Galbraith"/>
+  <authors id="2109" name="Harold P. Manly"/>
+  <authors id="712" name="Francis Pretty"/>
+  <authors id="1019" name="Elbert Hubbard"/>
+  <authors id="313" name="Ruth M. Sprague"/>
+  <authors id="2417" name="George Gilfillan"/>
+  <authors id="2497" name="Charles Francis Adams"/>
+  <authors id="502" name="John Galsworthy"/>
+  <authors id="959" name="Duc de Saint-Simon"/>
+  <authors id="1741" name="Miss Leslie"/>
+  <authors id="1215" name="G.A. Henty"/>
+  <authors id="2347" name="Ernest Seton-Thompson"/>
+  <authors id="149" name="John Fiske"/>
+  <authors id="1723" name="Annie H. Ryder"/>
+  <authors id="549" name="Hesther Lynch Piozzi"/>
+  <authors id="1250" name="Arthur M. Winfield"/>
+  <authors id="496" name="Emma Goldman"/>
+  <authors id="1660" name="Thames Ross Williamson"/>
+  <authors id="2212" name="Dion Clayton Calthrop Granville Barker"/>
+  <authors id="1503" name="Elizabeth von Arnim"/>
+  <authors id="1670" name="S. Weir Mitchell"/>
+  <authors id="1655" name="George William Curtis"/>
+  <authors id="457" name="Thomas De Quincey"/>
+  <authors id="1609" name="Karin Stephen"/>
+  <authors id="2304" name="Fulgence Marion"/>
+  <authors id="1073" name="Ramsay Muir"/>
+  <authors id="248" name="Arthur Ransome"/>
+  <authors id="945" name="F. Marion Crawford"/>
+  <authors id="2382" name="Dora Sigerson"/>
+  <authors id="777" name="Robert Stead"/>
+  <authors id="1961" name="Hilaire Belloc"/>
+  <authors id="1865" name="Andrew J. Blackbird"/>
+  <authors id="1904" name="Mildred Duff"/>
+  <authors id="2020" name="John Lothrop Motley Edited and Arranged by David Widger"/>
+  <authors id="265" name="Frank T. Bullen"/>
+  <authors id="563" name="Niccolo Machiavelli"/>
+  <authors id="1854" name="Jacob Dolson Cox"/>
+  <authors id="686" name="William Harrison Ainsworth"/>
+  <authors id="756" name="H. R. Haggard"/>
+  <authors id="2353" name="Desiderius Erasmus"/>
+  <authors id="2397" name="Erasmus Darwin"/>
+  <authors id="838" name="Homer and Hesiod"/>
+  <authors id="547" name="Valentine Williams"/>
+  <authors id="413" name="B.M. Sinclair, AKA B.M. Bower"/>
+  <authors id="2495" name="Henry Sydnor Harrison"/>
+  <authors id="2253" name="Alice Morse Earle"/>
+  <authors id="1616" name="R. M. Ballantyne"/>
+  <authors id="241" name="E. Phillips Oppenheim"/>
+  <authors id="1861" name="Eugene Stock"/>
+  <authors id="1612" name="Bing Ding, Ed."/>
+  <authors id="1414" name="Edith van Dyne"/>
+  <authors id="1764" name="Charles Turley"/>
+  <authors id="1208" name="James Clerk Maxwell"/>
+  <authors id="1866" name="Robert F. Pennell"/>
+  <authors id="1862" name="James R. McConnell"/>
+  <authors id="1887" name="Minnie L. Carpenter"/>
+  <authors id="170" name="Daniel Defoe"/>
+  <authors id="2062" name="Sara Ware Bassett"/>
+  <authors id="217" name="Lytton Strachey"/>
+  <authors id="439" name="Project Gutenberg"/>
+  <authors id="862" name="Doris Stevens"/>
+  <authors id="818" name="Marie L. McLaughlin"/>
+  <authors id="360" name="E. W. Hornung"/>
+  <authors id="256" name="Sydney Waterlow"/>
+  <authors id="161" name="Christopher Marlowe"/>
+  <authors id="1197" name="Lieutenant Maturin Murray"/>
+  <authors id="1303" name="E J Banfield"/>
+  <authors id="508" name="W. Somerset Maugham"/>
+  <authors id="498" name="Maynard Barbour"/>
+  <authors id="440" name="Browning, Elizabeth Barrett"/>
+  <authors id="1106" name="Justus Liebig"/>
+  <authors id="1130" name="Richard le Gallienne"/>
+  <authors id="1252" name="Ludwig Leichhardt"/>
+  <authors id="1962" name="Swami Abhedananda"/>
+  <authors id="1731" name="Jacob Abbott"/>
+  <authors id="1084" name="Walter Bagehot"/>
+  <authors id="2036" name="Daniel Webster"/>
+  <authors id="585" name="Alexander K. McClure"/>
+  <authors id="1281" name="Richard Nixon"/>
+  <authors id="979" name="Th. Bentzon (Mme. Blanc)"/>
+  <authors id="726" name="John Fox, Jr."/>
+  <authors id="1418" name="A Gentleman"/>
+  <authors id="238" name="John Bunyan"/>
+  <authors id="773" name="Pliny the Younger NOTE.--In the following translation the Teubner text, edited by Keil, has been followed."/>
+  <authors id="1121" name="Susan Coolidge"/>
+  <authors id="1229" name="August Strindberg"/>
+  <authors id="367" name="Anton Chekhov"/>
+  <authors id="33" name="John Buchan"/>
+  <authors id="1434" name="Ivan Turgenev"/>
+  <authors id="824" name="Mary Wollstonecraft [Godwin]"/>
+  <authors id="2172" name="Mary Hallock Foote"/>
+  <authors id="1025" name="Franklin K. Lane Edited by Anne Wintermute Lane and Louise Herrick Wall"/>
+  <authors id="1364" name="Sabine Baring-Gould"/>
+  <authors id="1199" name="Joe Hutsko"/>
+  <authors id="534" name="Oliver Wendell Holmes, Jr."/>
+  <authors id="809" name="Walter Biggs"/>
+  <authors id="1298" name="J.M. Barrie"/>
+  <authors id="1647" name="Constance Fenimore Woolson"/>
+  <authors id="987" name="Rosa Nouchette Carey"/>
+  <authors id="1009" name="J. J. (John Jacob) Thomas"/>
+  <authors id="2229" name="Henri-Frederic Amiel"/>
+  <authors id="2394" name="William M. Thayer"/>
+  <authors id="2071" name="Danske Dandridge"/>
+  <authors id="1958" name="Bjornstjerne M. Bjornson"/>
+  <authors id="627" name="William Makepeace Thackeray (AKA Michael Angelo Titmarch)"/>
+  <authors id="1838" name="John Charles Dent"/>
+  <authors id="1988" name="Marcus Tullius Ciceronis"/>
+  <authors id="1659" name="Margaret Burnham"/>
+  <authors id="716" name="Janis Ian"/>
+  <authors id="1719" name="Frederick Marryat"/>
+  <authors id="1489" name="Miguel de Cervantes Saavedra"/>
+  <authors id="1213" name="Clarence E. Mulford"/>
+  <authors id="1314" name="E.J. Wickson"/>
+  <authors id="1224" name="Mrs. Belle Kendrick Abbott"/>
+  <authors id="1055" name="T. B. Ray"/>
+  <authors id="661" name="United States Army"/>
+  <authors id="1184" name="Riviere Dufresny"/>
+  <authors id="497" name="David Herbert Lawrence"/>
+  <authors id="2013" name="Oliver Wendell Holmes, Sr. Edited and Arranged by David Widger"/>
+  <authors id="80" name="Frank Moore"/>
+  <authors id="2043" name="Robert Grant"/>
+  <authors id="935" name="Eliot Gregory"/>
+  <authors id="1072" name="Georges Duhamel"/>
+  <authors id="2442" name="Fred M. White"/>
+  <authors id="2474" name="Edwin Hodder"/>
+  <authors id="137" name="Franklin Delano Roosevelt"/>
+  <authors id="1778" name="John R. Hutchinson"/>
+  <authors id="1479" name="Ellen Velvin"/>
+  <authors id="1474" name="Francis Marion Crawford"/>
+  <authors id="1597" name="Thomas L. Masson (Editor)"/>
+  <authors id="22" name="Magnay, William"/>
+  <authors id="1033" name="Ernest Scott"/>
+  <authors id="986" name="Sara Teasdale"/>
+  <authors id="2059" name="Madison Cawein"/>
+  <authors id="1397" name="Henry Harland"/>
+  <authors id="23" name="William F. Cody"/>
+  <authors id="1987" name="St. John of Damascus"/>
+  <authors id="2311" name="Demosthenes"/>
+  <authors id="1294" name="Leonard Huxley"/>
+  <authors id="1735" name="Catherine Booth"/>
+  <authors id="1304" name="George Sand, Gustave Flaubert Translated by A.L. McKensie"/>
+  <authors id="1902" name="Edward S. Ellis et. al."/>
+  <authors id="375" name="Alexander Hamilton John Jay James Madison"/>
+  <authors id="315" name="Martin Luther"/>
+  <authors id="1788" name="Henry Ketcham"/>
+  <authors id="2233" name="Emile Faguet"/>
+  <authors id="1096" name="Talbot Mundy"/>
+  <authors id="2084" name="Juliana Horatio Ewing"/>
+  <authors id="1116" name="Ralph Parlette"/>
+  <authors id="1938" name="Laura S. Haviland"/>
+  <authors id="1145" name="Andrew Steinmetz"/>
+  <authors id="2208" name="Antonio Fogazzaro"/>
+  <authors id="867" name="Charlotte Yonge"/>
+  <authors id="1382" name="Katherine Cecil Thurston"/>
+  <authors id="12" name="Dante Alighieri"/>
+  <authors id="1012" name="Edward Potts Cheyney"/>
+  <authors id="2205" name="Pio Baroja Baroja"/>
+  <authors id="2247" name="J. M. Bacon"/>
+  <authors id="870" name="Mary J. Holmes"/>
+  <authors id="392" name="L. Adams Beck"/>
+  <authors id="1435" name="Arabella B. Buckley"/>
+  <authors id="1089" name="Lazarillo of Tormes"/>
+  <authors id="662" name="Joseph Addison"/>
+  <authors id="407" name="Max Brand"/>
+  <authors id="770" name="Albrecht Durer"/>
+  <authors id="171" name="U.S. Census of Population and Housing U.S. Dept. of Commerce, Economics and Statistics Administration, Bureau of the Census"/>
+  <authors id="2337" name="Brevet Col. J.C. Fremont"/>
+  <authors id="120" name="James Richardson"/>
+  <authors id="691" name="Robert Browning"/>
+  <authors id="2388" name="Mary F. Sandars"/>
+  <authors id="36" name="Edith Van Dyne"/>
+  <authors id="84" name="Francis Parkman, Jr."/>
+  <authors id="429" name="E. H. Chapin"/>
+  <authors id="1457" name="W. B. Yeats"/>
+  <authors id="397" name="Kate Douglas Smith Wiggin"/>
+  <authors id="1584" name="Brigadier Margaret Allen"/>
+  <authors id="1079" name="kniaz&apos; Petr Alekseevich Kropotkin"/>
+  <authors id="2038" name="John Murray and Marion Mills Miller"/>
+  <authors id="163" name="Stewart Edward White"/>
+  <authors id="1482" name="James Richard Joy"/>
+  <authors id="1705" name="Pye Henry Chavasse"/>
+  <authors id="2171" name="Frank Lewis Dyer and Thomas Commerford Martin"/>
+  <authors id="245" name="Sun Tzu"/>
+  <authors id="1396" name="William Ferneley Allen"/>
+  <authors id="2300" name="William Ware"/>
+  <authors id="368" name="Justus Friedrich Karl Hecker"/>
+  <authors id="1292" name="William Dean Howells, Mary E. Wilkins Freeman, Mary Heaton Vorse, Mary Stewart Cutting, Elizabeth Jordan, John Kendrick Bangs, Henry James, Elizabeth Stuart Phelps, Edith Wyatt, Mary Raymond Shipman Andrews, Alice Brown, Henry Van Dyke"/>
+  <authors id="384" name="Augusta Groner"/>
+  <authors id="2423" name="Geraldine Bonner"/>
+  <authors id="594" name="Moliere"/>
+  <authors id="512" name="Arnold Bennett"/>
+  <authors id="205" name="J. M. Synge"/>
+  <authors id="2316" name="H. L. Havell"/>
+  <authors id="1696" name="James Bovell Mackenzie"/>
+  <authors id="2305" name="Marion Mills Miller"/>
+  <authors id="860" name="P. J. Proudhon"/>
+  <authors id="2074" name="Beatrice Forbes-Robertson Hale"/>
+  <authors id="859" name="Frances Jenkins Olcott"/>
+  <authors id="2092" name="Winn Schwartau"/>
+  <authors id="1620" name="John Dos Passos"/>
+  <authors id="667" name="Abraham Cahan"/>
+  <authors id="1310" name="Lord Byron"/>
+  <authors id="1058" name="Imbert De Saint-Amand"/>
+  <authors id="1353" name="E. P. Roe"/>
+  <authors id="1945" name="Theo. F. Rodenbough"/>
+  <authors id="530" name="Florence Converse"/>
+  <authors id="637" name="Baron Trenck"/>
+  <authors id="227" name="Victor Appleton"/>
+  <authors id="1770" name="Thomas Moore"/>
+  <authors id="2150" name="Alexis de Toqueville"/>
+  <authors id="906" name="Henry Benjamin Wheatley"/>
+  <authors id="1950" name="John Niles Hubbard"/>
+  <authors id="1456" name="Jane Andrews"/>
+  <authors id="2297" name="D.H. Lawrence"/>
+  <authors id="2445" name="George Washington Cable"/>
+  <authors id="1844" name="Francis Parkman"/>
+  <authors id="2273" name="Jonathan Dunn"/>
+  <authors id="56" name="James Oliver Curwood"/>
+  <authors id="335" name="J. Storer Clouston"/>
+  <authors id="1925" name="Delia Bacon"/>
+  <authors id="1411" name="Anna (Bonus) Kingsford"/>
+  <authors id="2055" name="Ivy Kellerman Reed"/>
+  <authors id="2115" name="Mrs. W. B. Meloney"/>
+  <authors id="829" name="David Widger"/>
+  <authors id="418" name="Nathaniel Hawthorne"/>
+  <authors id="1624" name="Lord Frederic Hamilton"/>
+  <authors id="794" name="Robert Sewell"/>
+  <authors id="1425" name="Arthur Scott Bailey"/>
+  <authors id="1707" name="William Rose Benet"/>
+  <authors id="718" name="Allen Johnson"/>
+  <authors id="1892" name="Marie Le Prince de Beaumont"/>
+  <authors id="2216" name="Hermann Sudermann"/>
+  <authors id="444" name="Edwin A. Abbot"/>
+  <authors id="2078" name="E. Louise Smythe"/>
+  <authors id="554" name="Margaret Pollock Sherwood"/>
+  <authors id="1112" name="George Berkley"/>
+  <authors id="1191" name="Shell Oil Company"/>
+  <authors id="1257" name="James Madison"/>
+  <authors id="2141" name="Sir Hugh Walpole"/>
+  <authors id="273" name="Arthur Hugh Clough"/>
+  <authors id="1439" name="Sarah J Richardson"/>
+  <authors id="72" name="Bob Evans and Chris Dulabone"/>
+  <authors id="1749" name="Edith A. How"/>
+  <authors id="2176" name="John Thackray Bunce"/>
+  <authors id="330" name="Edna Ferber"/>
+  <authors id="1029" name="D. H. Lawrence"/>
+  <authors id="189" name="H. Rider Haggard"/>
+  <authors id="2069" name="J. Stewart Barney"/>
+  <authors id="1428" name="William Osmer"/>
+  <authors id="132" name="John R. Musick"/>
+  <authors id="2499" name="Sarah H. Bradford"/>
+  <authors id="247" name="William H. Prescott"/>
+  <authors id="2139" name="Havelock Ellis"/>
+  <authors id="366" name="Homer"/>
+  <authors id="470" name="Robert Service"/>
+  <authors id="1329" name="Elias L�nnrot"/>
+  <authors id="1018" name="Filson Young"/>
+  <authors id="1357" name="Library of Congress"/>
+  <authors id="866" name="Victoria Cross"/>
+  <authors id="2099" name="John Finnemore"/>
+  <authors id="409" name="William J. Long"/>
+  <authors id="421" name="William Makepeace Thackeray"/>
+  <authors id="2123" name="Mrs. Humphry Ward"/>
+  <authors id="787" name="Emma Lazarus"/>
+  <authors id="2009" name="Alexander Dumas, Pere Edited and Arranged by David Widger"/>
+  <authors id="381" name="Thornton W. Burgess"/>
+  <authors id="1035" name="Charles Henry Eden"/>
+  <authors id="2493" name="John Oxenham"/>
+  <authors id="1322" name="Steven Sills"/>
+  <authors id="821" name="Roald Amundsen"/>
+  <authors id="2107" name="Mrs Blackford"/>
+  <authors id="1679" name="Kabir"/>
+  <authors id="1389" name="Georg Ebers"/>
+  <authors id="2034" name="Duke of Saint-Simon Edited and Arranged by David Widger"/>
+  <authors id="1453" name="Leonid Andreyev"/>
+  <authors id="2180" name="J. Walker McSpadden"/>
+  <authors id="55" name="Anna Katharine Green"/>
+  <authors id="709" name="Albert Bigelow Paine"/>
+  <authors id="307" name="Chester K. Steele"/>
+  <authors id="2350" name="(AKA Kate Douglas Riggs) Kate Douglas Wiggin"/>
+  <authors id="998" name="Walter Horatio Pater"/>
+  <authors id="1207" name="Michel Baron"/>
+  <authors id="2158" name="Helen Fryer"/>
+  <authors id="2093" name="John Jay Smith and John F. Watson"/>
+  <authors id="747" name="Carl Becker"/>
+  <authors id="1464" name="Thomas Chandler Haliburton"/>
+  <authors id="1504" name="Lady Barker"/>
+  <authors id="1955" name="Hesba Stretton"/>
+  <authors id="1931" name="John A. Carpenter"/>
+  <authors id="1220" name="Winston S. Churchill"/>
+  <authors id="283" name="Thomas Holmes"/>
+  <authors id="1635" name="Arthur Stuart-Menteth Hutchinson"/>
+  <authors id="961" name="Madame du Hausset, an Unknown English Girl and the Princess Lamballe"/>
+  <authors id="1785" name="William Worthington Fowler"/>
+  <authors id="1910" name="Frances (Fanny) Burney (Madame d&apos;Arblay)"/>
+  <authors id="324" name="E. S. Brooks"/>
+  <authors id="2404" name="Jennie Hall"/>
+  <authors id="629" name="General Philip Henry Sheridan"/>
+  <authors id="1888" name="Harriet Manning Whitcomb"/>
+  <authors id="625" name="John Arbuthnot"/>
+  <authors id="2367" name="Grace Gallatin Seton-Thompson"/>
+  <authors id="1015" name="Maurice Thompson"/>
+  <authors id="1495" name="Eleanor Hodgman Porter"/>
+  <authors id="1317" name="Richard Marsh"/>
+  <authors id="2014" name="William Dean Howells Edited and Arranged by David Widger"/>
+  <authors id="1016" name="Frederick Trevor Hill"/>
+  <authors id="1594" name="Charles Sumner"/>
+  <authors id="2213" name="Thomas Babbington Macaulay"/>
+  <authors id="2410" name="Vladimir Nosek"/>
+  <authors id="849" name="Watkin Tench"/>
+  <authors id="514" name="Virgil"/>
+  <authors id="1578" name="Flora Annie Steel"/>
+  <authors id="1930" name="Richard Bradley"/>
+  <authors id="2270" name="P. G. Wodehouse and C. H. Bovill"/>
+  <authors id="2486" name="Horatio"/>
+  <authors id="2307" name="Marvin Dana"/>
+  <authors id="2117" name="William Archer"/>
+  <authors id="1420" name="Nathaniel H. Bishop"/>
+  <authors id="437" name="Friedrich Nietzsche"/>
+  <authors id="668" name="G. A. Henty"/>
+  <authors id="1403" name="John Drinkwater"/>
+  <authors id="2252" name="E. L. Bulwer"/>
+  <authors id="1911" name="Henry Kirke White"/>
+  <authors id="35" name="Margaret O. (Wilson) Oliphant"/>
+  <authors id="5" name="Mary King Waddington"/>
+  <authors id="939" name="Rees Howell Gronow"/>
+  <authors id="810" name="Theodore Roosevelt"/>
+  <authors id="260" name="Karl Marx"/>
+  <authors id="1326" name="Clara Reeve"/>
+  <authors id="2041" name="Emily Bronte"/>
+  <authors id="2378" name="Thomas Holcroft"/>
+  <authors id="1879" name="S. B. Shaw"/>
+  <authors id="166" name="Richard McGowan"/>
+  <authors id="768" name="Grady Ward, grady@gradyward.com"/>
+  <authors id="918" name="Henry Van Dyke"/>
+  <authors id="31" name="Joseph Ladue"/>
+  <authors id="1341" name="Isaac Taylor Headland"/>
+  <authors id="1650" name="Martha Finley"/>
+  <authors id="196" name="Frank L. Packard"/>
+  <authors id="297" name="T. S. Eliot"/>
+  <authors id="1874" name="Robert Lee Berry"/>
+  <authors id="246" name="Walt Whitman"/>
+  <authors id="727" name="John Fox Jr."/>
+  <authors id="915" name="Gilbert Parker"/>
+  <authors id="2476" name="Thomas Mitchell"/>
+  <authors id="215" name="Charlotte Bronte"/>
+  <authors id="648" name="Harold Howland"/>
+  <authors id="920" name="Esaias Tegne&apos;r"/>
+  <authors id="841" name="Dr. G.V. (C.V.) Legros"/>
+  <authors id="2359" name="Mrs. Florence (Mother) Roberts"/>
+  <authors id="1831" name="Mary Hartwell Catherwood"/>
+  <authors id="145" name="Thomas Carlyle"/>
+  <authors id="251" name="Helen Bannerman"/>
+  <authors id="2222" name="John Dewey"/>
+  <authors id="1136" name="John F. Davis"/>
+  <authors id="121" name="Boswell"/>
+  <authors id="155" name="Arthur Conan Doyle"/>
+  <authors id="2234" name="Horatio Hale"/>
+  <authors id="833" name="Joseph Furphy"/>
+  <authors id="1748" name="Mary Godolphin"/>
+  <authors id="679" name="Nathaniel W. Stephenson"/>
+  <authors id="285" name="Maria Edgeworth"/>
+  <authors id="1652" name="J. G. Holland"/>
+  <authors id="1908" name="Thucydides"/>
+  <authors id="304" name="Elbridge S. Brooks"/>
+  <authors id="434" name="Mitzi Perdue"/>
+  <authors id="483" name="Thomas More"/>
+  <authors id="1890" name="Frank J. Cannon and Harvey J. O&apos;Higgins"/>
+  <authors id="2086" name="Joseph Jacobs (coll. &amp; ed.)"/>
+  <authors id="816" name="Zitkala-Sa"/>
+  <authors id="1740" name="Mrs. Molesworth"/>
+  <authors id="377" name="William MacLeod Raine"/>
+  <authors id="445" name="Frank R. Stockton"/>
+  <authors id="271" name="Sir Walter Scott"/>
+  <authors id="578" name="Charlotte M. Yonge"/>
+  <authors id="947" name="K. Langloh Parker"/>
+  <authors id="461" name="A. O. Brownson"/>
+  <authors id="1718" name="George Alfred Townsend"/>
+  <authors id="546" name="Chretien de Troyes"/>
+  <authors id="380" name="Ruth Ogden"/>
+  <authors id="1223" name="Lyman Abbott"/>
+  <authors id="229" name="Kenneth Grahame"/>
+  <authors id="761" name="Homer, translated by Alexander Pope"/>
+  <authors id="2464" name="Henry Eldridge Bourne Elbert Jay Benton"/>
+  <authors id="573" name="Michael Hart"/>
+  <authors id="2189" name="Lydia Maria Child"/>
+  <authors id="2018" name="George Meredith Edited and Arranged by David Widger"/>
+  <authors id="406" name="Stanley Weyman"/>
+  <authors id="1672" name="Ellingwood Beach"/>
+  <authors id="1821" name="Demosthenes Translated with notes by Charles Rann Kennedy"/>
+  <authors id="1295" name="Arthur W. Dunn"/>
+  <authors id="1332" name="Charlotte Herr"/>
+  <authors id="2056" name="Earle Ashley Walcott"/>
+  <authors id="536" name="Booker T. Washington"/>
+  <authors id="733" name="Burton J. Hendrick"/>
+  <authors id="1737" name="Sir Robert Baden-Powell"/>
+  <authors id="1148" name="Hector St. John de Crevecoeur"/>
+  <authors id="1692" name="Various Edited by William Patten"/>
+  <authors id="1762" name="George W. Brooks"/>
+  <authors id="1643" name="Ernst Haeckel"/>
+  <authors id="300" name="Saki"/>
+  <authors id="2122" name="Selected and arranged by William Patten"/>
+  <authors id="2105" name="Anna Bowman Dodd"/>
+  <authors id="1327" name="Almroth E. Wright"/>
+  <authors id="2181" name="Thorstein Veblen"/>
+  <authors id="970" name="Jules Claretie"/>
+  <authors id="593" name="Alfred Russell Wallace"/>
+  <authors id="79" name="Arnold Joseph Toynbee"/>
+  <authors id="1507" name="Sara Yorke Stevenson"/>
+  <authors id="292" name="Donald Ogden Stewart"/>
+  <authors id="2177" name="Dean S. Fansler"/>
+  <authors id="851" name="Edward William Bok (1863-1930)"/>
+  <authors id="872" name="Adolphus William Ward"/>
+  <authors id="2097" name="Frederick A. Talbot"/>
+  <authors id="1255" name="George Washington"/>
+  <authors id="1645" name="Barnes &amp; Co."/>
+  <authors id="899" name="William Cowper"/>
+  <authors id="396" name="Anthony Trollope"/>
+  <authors id="1941" name="John Van Der Zee Sears"/>
+  <authors id="1531" name="John Hay"/>
+  <authors id="1542" name="Captain William B. Perry"/>
+  <authors id="1417" name="A. H. Leahy"/>
+  <authors id="2285" name="J. H. Hill"/>
+  <authors id="1783" name="Charles Godfrey Leland"/>
+  <authors id="2400" name="Nicholas Nekrassov"/>
+  <authors id="566" name="Victor Cherbuliez"/>
+  <authors id="628" name="George Otto Trevelyan"/>
+  <authors id="1914" name="Ian Maclaren"/>
+  <authors id="1994" name="Austin Bishop"/>
+  <authors id="1811" name="Morris Rosenfeld"/>
+  <authors id="91" name="Mark Twain (Samuel Clemens)"/>
+  <authors id="257" name="Oscar Wilde"/>
+  <authors id="467" name="Ferdinand Ossendowski"/>
+  <authors id="2271" name="H.B. Whipple"/>
+  <authors id="51" name="Douglas W. Johnson"/>
+  <authors id="1426" name="L. Lamprey"/>
+  <authors id="565" name="Ivan S. Turgenev"/>
+  <authors id="1784" name="Amelia Edith Barr"/>
+  <authors id="2262" name="Cleveland Moffett"/>
+  <authors id="46" name="S. M. Edwardes, C.V.O."/>
+  <authors id="2174" name="Bill Nye"/>
+  <authors id="2465" name="Paul Green Tomlinson"/>
+  <authors id="2002" name="An Anonymous Young Girl"/>
+  <authors id="1581" name="Homer Translated by Edward, Earl of Derby"/>
+  <authors id="2198" name="R. C. Lehmann"/>
+  <authors id="239" name="Lord Dunsany [Dunsany, Edward John Moreton Drax Plunkett, Baron]"/>
+  <authors id="654" name="Margaret Sidney"/>
+  <authors id="682" name="A. Conan Doyle"/>
+  <authors id="2361" name="W. W. Story"/>
+  <authors id="2031" name="Madame De Montespan Edited and Arranged by David Widger"/>
+  <authors id="2333" name="Frederick Landis"/>
+  <authors id="2244" name="Mrs. J. H. Riddell"/>
+  <authors id="2077" name="Gorges Edmond Howard"/>
+  <authors id="543" name="Walter Pater"/>
+  <authors id="610" name="Pedro Calderon de la Barca"/>
+  <authors id="1242" name="Frank Gee Patchin"/>
+  <authors id="1236" name="John H. Bechtel"/>
+  <authors id="1598" name="Thomas de Quincey"/>
+  <authors id="1390" name="Rex Stout"/>
+  <authors id="657" name="White Sands Missile Range Public Affairs Office"/>
+  <authors id="786" name="Raphael Sabatini"/>
+  <authors id="319" name="James Boswell"/>
+  <authors id="658" name="Johann Christoph Friedrich von Schiller"/>
+  <authors id="2483" name="John Forrest"/>
+  <authors id="2100" name="Horatio Bridge"/>
+  <authors id="118" name="Edwin Arlington Robinson"/>
+  <authors id="218" name="Myrtle Reed"/>
+  <authors id="1691" name="Alfred Noyes"/>
+  <authors id="1300" name="Mrs. Everard Cotes (AKA Sara Jeannette Duncan)"/>
+  <authors id="2179" name="Chretien DeTroyes"/>
+  <authors id="725" name="Robert Frost"/>
+  <authors id="194" name="Mary Roberts Rinehart"/>
+  <authors id="2280" name="Dante Alighieri, Translated By The Rev. H. F. Cary"/>
+  <authors id="73" name="H. G. Wells"/>
+  <authors id="1996" name="Ida Lee"/>
+  <authors id="226" name="Edgar Lee Masters"/>
+  <authors id="1586" name="Barry Cornwall"/>
+  <authors id="1272" name="Woodrow Wilson"/>
+  <authors id="38" name="Henry Francis Keenan"/>
+  <authors id="39" name="Elizabeth (Jones) Towne"/>
+  <authors id="1529" name="Albion W. Tourgee"/>
+  <authors id="1824" name="John H. Parker"/>
+  <authors id="1711" name="Nora Pembroke"/>
+  <authors id="2251" name="Gudrun Thorne-Thomsen"/>
+  <authors id="638" name="Eugene Field"/>
+  <authors id="1373" name="Justin Huntly McCarthy"/>
+  <authors id="1985" name="J. A. Mitchell"/>
+  <authors id="468" name="Joseph C. Lincoln"/>
+  <authors id="2343" name="Josephine Preston Peabody"/>
+  <authors id="1777" name="Jens Peter Jacobsen"/>
+  <authors id="1309" name="Vaughan Kester"/>
+  <authors id="1296" name="Joseph Sheridan Le Fanu"/>
+  <authors id="2450" name="Sir Edwin Durning-Lawrence"/>
+  <authors id="162" name="Booth Tarkington"/>
+  <authors id="359" name="By Kate Douglas Wiggin"/>
+  <authors id="477" name="William Smith"/>
+  <authors id="1337" name="Anon."/>
+  <authors id="287" name="E. Nesbit"/>
+  <authors id="202" name="Theophile Gautier"/>
+  <authors id="2277" name="Moliere (Poquelin)"/>
+  <authors id="1947" name="George W. Gough"/>
+  <authors id="1473" name="Harriet E. Wilson"/>
+  <authors id="1934" name="Plautus"/>
+  <authors id="2061" name="Sherred Willcox Adams"/>
+  <authors id="2323" name="Henry M. Robert"/>
+  <authors id="2344" name="George Makepeace Towle"/>
+  <authors id="2008" name="Filson Young Edited and Arranged by David Widger"/>
+  <authors id="2275" name="Louis Joseph Vance"/>
+  <authors id="1082" name="Maurice Maeterlinck"/>
+  <authors id="2048" name="William J. Claxton"/>
+  <authors id="2414" name="John Knox"/>
+  <authors id="1146" name="Paul Verlaine"/>
+  <authors id="1855" name="William H. Elson Christine Keck"/>
+  <authors id="1916" name="Edward Wilson Landor"/>
+  <authors id="1241" name="Harry Steele Morrison"/>
+  <authors id="1833" name="William George Jordan"/>
+  <authors id="326" name="Robert Williams Wood"/>
+  <authors id="621" name="Rupert Brooke"/>
+  <authors id="1536" name="Alfred Lord Tennyson"/>
+  <authors id="1577" name="Diocese Of Connecticut"/>
+  <authors id="765" name="Maurice Liber"/>
+  <authors id="1168" name="John Ruskin"/>
+  <authors id="1546" name="John William Polidori"/>
+  <authors id="1216" name="James Huneker"/>
+  <authors id="583" name="W. M. Thackeray"/>
+  <authors id="2045" name="Emlyn Williams"/>
+  <authors id="1611" name="Captain John Blaine"/>
+  <authors id="980" name="(Mme. Blanc) Th. Bentzon"/>
+  <authors id="1492" name="A.E.J. Rawlinson"/>
+  <authors id="103" name="Jack London"/>
+  <authors id="1081" name="Horace W. C. Newte"/>
+  <authors id="1189" name="Helen Reimensnyder Martin"/>
+  <authors id="21" name="Harold Avery"/>
+  <authors id="2200" name="Samuel Merwin, et al."/>
+  <authors id="1639" name="Frederica Seeger"/>
+  <authors id="2079" name="[Titus Lucretius Carus] Lucretius"/>
+  <authors id="1997" name="Oliver Wendell Holmes"/>
+  <authors id="24" name="Edgar Allan Poe"/>
+  <authors id="284" name="Charles Dickens and Wilkie Collins"/>
+  <authors id="142" name="Martha Summerhayes"/>
+  <authors id="1046" name="John Aubrey"/>
+  <authors id="1814" name="Arthur Colton"/>
+  <authors id="676" name="Friedrich de La Motte-Fouque"/>
+  <authors id="1617" name="A. F. Pollard"/>
+  <authors id="1602" name="Alexander von Humboldt"/>
+  <authors id="778" name="Harold Bell Wright"/>
+  <authors id="1448" name="Walter G. Ivens"/>
+  <authors id="129" name="J.S. Fletcher"/>
+  <authors id="1638" name="A. S. M. Hutchinson"/>
+  <authors id="1864" name="Edward Francis Wilson"/>
+  <authors id="533" name="Anna Katherine Green"/>
+  <authors id="2255" name="Margaret Vandercook"/>
+  <authors id="2453" name="Mary Catherine Judd"/>
+  <authors id="609" name="Adam Lindsay Gordon"/>
+  <authors id="618" name="William Greenwood"/>
+  <authors id="2164" name="Herbert N. Casson"/>
+  <authors id="458" name="Henry Adams"/>
+  <authors id="815" name="[AKA Ohiyesa], Charles A. Eastman"/>
+  <authors id="2225" name="Jehudah Steinberg"/>
+  <authors id="1265" name="Andrew Johnson"/>
+  <authors id="400" name="(AKA Elia Wilkinson) Elia W. Peattie"/>
+  <authors id="2342" name="Arthur Schnitzler"/>
+  <authors id="720" name="Various editors"/>
+  <authors id="1010" name="W. E. B. Du Bois"/>
+  <authors id="580" name="J. F. Bone"/>
+  <authors id="790" name="John Hargrave"/>
+  <authors id="2312" name="J. Smeaton Chase"/>
+  <authors id="95" name="Howard R. Garis"/>
+  <authors id="599" name="Dan Scavelle"/>
+  <authors id="1939" name="P. G. Wodehouse John W. Houghton"/>
+  <authors id="410" name="Dorothy Kilner"/>
+  <authors id="785" name="Edward S. Corwin"/>
+  <authors id="842" name="Dana Gatlin"/>
+  <authors id="1952" name="Ben Macomber"/>
+  <authors id="1144" name="Sir Richard Francis Burton"/>
+  <authors id="1447" name="W.W. Jacobs"/>
+  <authors id="762" name="J. F. Jameson, Editor"/>
+  <authors id="928" name="Joanot Martorell and Marti Johan d&apos;Galba"/>
+  <authors id="1171" name="John Munro"/>
+  <authors id="1151" name="John S. Adams"/>
+  <authors id="2037" name="George Whale"/>
+  <authors id="1699" name="Lucian of Samosata"/>
+  <authors id="2026" name="Madam Campan Edited and Arranged by David Widger"/>
+  <authors id="2188" name="Julia Seton"/>
+  <authors id="1891" name="Alexander Maclaren"/>
+  <authors id="2467" name="Thomas A. Janvier"/>
+  <authors id="839" name="James Sheridan Knowles"/>
+  <authors id="480" name="Fa-Hsien"/>
+  <authors id="1894" name="G. W. [George William] Foote"/>
+  <authors id="2019" name="Michel De Montaigne Edited and Arranged by David Widger"/>
+  <authors id="210" name="Ayn Rand"/>
+  <authors id="814" name="The Earl of Chesterfield"/>
+  <authors id="134" name="Stanley Waterloo"/>
+  <authors id="435" name="Andy Adams"/>
+  <authors id="1320" name="Gouverneur Morris"/>
+  <authors id="2309" name="William A. Alcott"/>
+  <authors id="2448" name="Margaret Turnbull"/>
+  <authors id="1791" name="Isabella Valancy Crawford"/>
+  <authors id="985" name="Emile Souvestre"/>
+  <authors id="111" name="Emile Zola"/>
+  <authors id="128" name="Edmund Venables"/>
+  <authors id="944" name="E. Blantyre Simpson"/>
+  <authors id="1308" name="Laurence Hope"/>
+  <authors id="65" name="John Nichol"/>
+  <authors id="932" name="Henry Kingsley"/>
+  <authors id="1342" name="Charles James Lever"/>
+  <authors id="1963" name="W. M. Flinders Petrie"/>
+  <authors id="2204" name="Charlotte Fuhrer"/>
+  <authors id="1882" name="Richard Lovelace"/>
+  <authors id="2169" name="Garrett P. Serviss"/>
+  <authors id="2384" name="Francis McConnell"/>
+  <authors id="812" name="Eugene Sue"/>
+  <authors id="1311" name="Thomas Stevens"/>
+  <authors id="2010" name="Georg Ebers Edited and Arranged by David Widger"/>
+  <authors id="1595" name="Porter Emerson Browne"/>
+  <authors id="994" name="Eliza Lee Follen"/>
+  <authors id="2238" name="Charles Lever"/>
+  <authors id="2054" name="Louisa Clayton"/>
+  <authors id="569" name="Margaret E. Sangster"/>
+  <authors id="857" name="Constant"/>
+  <authors id="1328" name="Elias Loennrot"/>
+  <authors id="1026" name="August Evans Wilson"/>
+  <authors id="2182" name="Amelia B. Edwards"/>
+  <authors id="2332" name="Daniel G. Brinton"/>
+  <authors id="2355" name="Mary D. Brine"/>
+  <authors id="2379" name="Charlotte Mary Yonge"/>
+  <authors id="1776" name="Selina Bunbury"/>
+  <authors id="1851" name="T.F. Young"/>
+  <authors id="2373" name="Alfred Carmichael"/>
+  <authors id="1237" name="Alice B. Emerson"/>
+  <authors id="106" name="Percy Keese Fitzhugh"/>
+  <authors id="589" name="J.W. von Goethe"/>
+  <authors id="936" name="James Lane Allen"/>
+  <authors id="1702" name="C. A. Fyffe"/>
+  <authors id="2470" name="Angelina Emily Grimke"/>
+  <authors id="262" name="Margaret Hill McCarter"/>
+  <authors id="1693" name="A. Herbert Gray"/>
+  <authors id="1180" name="Julius Wellhausen"/>
+  <authors id="1771" name="Philip Melanchthon"/>
+  <authors id="1964" name="Henry Clay"/>
+  <authors id="643" name="Edgar Wallace"/>
+  <authors id="2046" name="Louisa de la Rame, AKA Ouida"/>
+  <authors id="1506" name="William Lyon Phelps"/>
+  <authors id="17" name="Ada Leverson"/>
+  <authors id="424" name="Carl von Clausewitz"/>
+  <authors id="1095" name="Kirk Munroe"/>
+  <authors id="387" name="John Lawson"/>
+  <authors id="624" name="Eugene Wood"/>
+  <authors id="2289" name="Charles Stewart Given"/>
+  <authors id="242" name="Thomas Henry Huxley"/>
+  <authors id="2076" name="Hjalmar Hjorth Boyesen"/>
+  <authors id="2416" name="David Hume L. A. Selby-Bigge"/>
+  <authors id="614" name="William Gardner"/>
+  <authors id="2420" name="Mrs. Charles Bryce"/>
+  <authors id="2455" name="Fannie Hurst"/>
+  <authors id="2159" name="Alexander Hewatt"/>
+  <authors id="1558" name="Frank V. Webster"/>
+  <authors id="2131" name="Henry Blake Fuller"/>
+  <authors id="2137" name="Teresa of Avila"/>
+  <authors id="506" name="Giambattista Basile"/>
+  <authors id="1756" name="Carrie V. Shuman"/>
+  <authors id="2460" name="Ellen Key"/>
+  <authors id="871" name="J. Hartley Manners"/>
+  <authors id="1176" name="Finley Peter Dunne"/>
+  <authors id="1677" name="Charles Franklin Carter"/>
+  <authors id="931" name="Paul Thorne Mabel Thorne"/>
+  <authors id="1477" name="Philip H. Sheridan"/>
+  <authors id="1233" name="Zoeth S. Eldredge and E. J. Molera"/>
+  <authors id="655" name="Ford Madox Ford"/>
+  <authors id="329" name="Kate Chopin"/>
+  <authors id="412" name="Samuel Butler"/>
+  <authors id="612" name="Robert W. Service"/>
+  <authors id="0" name="Unknown"/>
+  <authors id="509" name="John Webster"/>
+  <authors id="1323" name="Thomas Adolphus Trollope"/>
+  <authors id="1530" name="Frank Bird Linderman"/>
+  <authors id="2411" name="James Barron Hope"/>
+  <authors id="125" name="Thomas Troward"/>
+  <authors id="2000" name="Re-told by Ellen C. Babbitt"/>
+  <authors id="1381" name="John Brown"/>
+  <authors id="364" name="Mary E. Wilkins Freeman"/>
+  <authors id="177" name="Xenophon"/>
+  <authors id="441" name="(AKA Clive Hamilton) C. S. Lewis"/>
+  <authors id="447" name="Marie Belloc Lowndes"/>
+  <authors id="337" name="Mary Eleanor Wilkins Freeman"/>
+  <authors id="2130" name="Maria Monk"/>
+  <authors id="893" name="Louis Stone"/>
+  <authors id="2336" name="St. Jude, R. U. Sirius, Bart Nagel"/>
+  <authors id="338" name="Mark E. Laxer"/>
+  <authors id="1573" name="Homer Randall"/>
+  <authors id="1307" name="John Stuart Mill"/>
+  <authors id="1920" name="Leader Scott"/>
+  <authors id="517" name="Henrik Ibsen"/>
+  <authors id="1840" name="Rose Hawthorne Lathrop"/>
+  <authors id="1884" name="Mable Hale"/>
+  <authors id="763" name="John Burroughs"/>
+  <authors id="1119" name="Marjorie Allen Seiffert"/>
+  <authors id="365" name="G.K. Chesterton"/>
+  <authors id="1470" name="Jeremiah Rev. Chaplin"/>
+  <authors id="2116" name="Thomas Kelly Cheyne"/>
+  <authors id="2269" name="Anonymous Illustrated by Gustave Dore"/>
+  <authors id="819" name="Bliss Perry"/>
+  <authors id="1496" name="Unknown Icelanders"/>
+  <authors id="1569" name="S. L. Brengle"/>
+  <authors id="1170" name="George Barr McCutcheon"/>
+  <authors id="2021" name="Gilbert Parker Edited and Arranged by David Widger"/>
+  <authors id="1115" name="Sara Jeannette Duncan"/>
+  <authors id="2267" name="A Returned Missionary"/>
+  <authors id="1319" name="Henry Stevens"/>
+  <authors id="2065" name="Annie Fellows Johnston"/>
+  <authors id="766" name="Joseph Rodman Drake"/>
+  <authors id="2151" name="Honore De Balzac"/>
+  <authors id="2402" name="William Wordsworth Samuel Taylor Coleridge"/>
+  <authors id="1992" name="G. Whitfield Ray"/>
+  <authors id="1422" name="Alice Turner Curtis"/>
+  <authors id="222" name="Edna Lyall"/>
+  <authors id="776" name="Oliver Wendell Holmes, Sr. (The Physician and Poet not the Jurist)"/>
+  <authors id="2006" name="The Earl of Chesterfield Edited and Arranged by David Widger"/>
+  <authors id="1378" name="Anthony Hamilton"/>
+  <authors id="190" name="William Hickling Prescott"/>
+  <authors id="1605" name="Edited by William Patten"/>
+  <authors id="351" name="An Imitator of Plato"/>
+  <authors id="1267" name="Chester A. Arthur"/>
+  <authors id="64" name="Bruce Sterling"/>
+  <authors id="516" name="Maxim Gorky"/>
+  <authors id="855" name="Orville O. Hiestand"/>
+  <authors id="216" name="Edith Wharton"/>
+  <authors id="1837" name="H. D. Traill"/>
+  <authors id="268" name="Charles Reade"/>
+  <authors id="1254" name="Samuel Hopkins Adams"/>
+  <authors id="1808" name="Sarah Grand"/>
+  <authors id="1083" name="Harry Houdini"/>
+  <authors id="544" name="Robert Harris"/>
+  <authors id="708" name="Horatio Alger Jr."/>
+  <authors id="237" name="Max Beerbohm"/>
+  <authors id="707" name="Jacques Casanova de Seingalt"/>
+  <authors id="2032" name="Duchesse d&apos;Orleans Edited and Arranged by David Widger"/>
+  <authors id="373" name="Thomas Bailey Aldrich"/>
+  <authors id="847" name="John McCrae"/>
+  <authors id="634" name="Oliver Wendell Holmes (Sr.)"/>
+  <authors id="2066" name="Evangeline Booth and Grace Livingston Hill"/>
+  <authors id="1293" name="Mrs Alfred Gatty"/>
+  <authors id="962" name="Madame Campan"/>
+  <authors id="1665" name="George K. Pattee"/>
+  <authors id="197" name="George Meredith"/>
+  <authors id="1321" name="Kaiten Nukariya"/>
+  <authors id="1959" name="Susan Glaspell"/>
+  <authors id="2484" name="Lucy (Fitch) Perkins"/>
+  <authors id="2050" name="Andrew Kippis"/>
+  <authors id="199" name="John Tyndall"/>
+  <authors id="665" name="James Harrington"/>
+  <authors id="1101" name="Norman Douglas"/>
+  <authors id="2390" name="Helen Gray Cone"/>
+  <authors id="6" name="Lindsay, Anna Robertson Brown"/>
+  <authors id="748" name="Archer B. Hulbert"/>
+  <authors id="774" name="Joseph Crosby Lincoln"/>
+  <authors id="402" name="Alexander Whyte"/>
+  <authors id="772" name="F. W. Moorman"/>
+  <authors id="1781" name="Sarojini Naidu"/>
+  <authors id="1458" name="Charles H. Sylvester"/>
+  <authors id="448" name="United States.  Central Intelligence Agency."/>
+  <authors id="564" name="Prosper Merimee"/>
+  <authors id="590" name="Amelia Gere Mason"/>
+  <authors id="2263" name="Young E. Allison"/>
+  <authors id="1734" name="Joseph Edmund Collins"/>
+  <authors id="2318" name="Harriet Stark"/>
+  <authors id="843" name="Lucy Fitch Perkins"/>
+  <authors id="2167" name="Adela Florence Cory Nicolson (AKA Laurence Hope), et al."/>
+  <authors id="295" name="Eleanor H. Porter"/>
+  <authors id="1008" name="L. M�hlbach"/>
+  <authors id="2004" name="Jacquelyn Hedge-Cheney Roland Jon Cheney"/>
+  <authors id="286" name="Katherine Mansfield"/>
+  <authors id="799" name="Joseph Moore"/>
+  <authors id="104" name="Jules Verne"/>
+  <authors id="973" name="Alfred de Musset"/>
+  <authors id="153" name="Joseph A. Altsheler"/>
+  <authors id="2319" name="W. A. Fraser"/>
+  <authors id="1853" name="James E. Seaver"/>
+  <authors id="1466" name="Beatrix Potter"/>
+  <authors id="1132" name="Jennette Lee"/>
+  <authors id="2170" name="Walter Scott"/>
+  <authors id="8" name="Giovanni Boccaccio"/>
+  <authors id="298" name="George Gissing"/>
+  <authors id="1498" name="Richard Henry Savage"/>
+  <authors id="1847" name="Charles Farrar Browne (AKA Artemus Ward)"/>
+  <authors id="2358" name="Mrs Charles Gore"/>
+  <authors id="1271" name="William H. Taft"/>
+  <authors id="2457" name="Theodor Hertzka"/>
+  <authors id="225" name="Andrew Lang."/>
+  <authors id="1722" name="Thomas D&apos;Arcy McGee"/>
+  <authors id="1669" name="John Ellis"/>
+  <authors id="1757" name="Abby Morton Diaz"/>
+  <authors id="474" name="E. V. Lucas"/>
+  <authors id="1820" name="Clara Rayleigh"/>
+  <authors id="124" name="Louisa M. Alcott"/>
+  <authors id="244" name="John N. Reynolds"/>
+  <authors id="2298" name="Edwin Arnold"/>
+  <authors id="45" name="Edward Eggleston"/>
+  <authors id="492" name="Susan Fenimore Cooper"/>
+  <authors id="993" name="Dillon Wallace"/>
+  <authors id="2239" name="P. T. Barnum"/>
+  <authors id="334" name="Hilda Conkling"/>
+  <authors id="1167" name="Jean-Francois Regnard"/>
+  <authors id="449" name="Frederick Douglass"/>
+  <authors id="789" name="Michael Earls"/>
+  <authors id="1603" name="Willam Patten (Editor)"/>
+  <authors id="1675" name="Gustavus Myers"/>
+  <authors id="235" name="William Blades"/>
+  <authors id="1761" name="Clara M. S. Lowe"/>
+  <authors id="1274" name="Calvin Coolidge"/>
+  <authors id="1124" name="William Morton Payne"/>
+  <authors id="374" name="Mary Esther Miller MacGregor, AKA Marion Keith"/>
+  <authors id="1991" name="Charles Felton Pidgin"/>
+  <authors id="739" name="William N. Harben"/>
+  <authors id="2276" name="Wilhelm Meinhold"/>
+  <authors id="956" name="Jean Francois Paul de Gondi, Cardinal de Retz"/>
+  <authors id="2064" name="Gulielma Zollinger"/>
+  <authors id="2443" name="T. Sturge Moore"/>
+  <authors id="598" name="Clarence Edward Mulford"/>
+  <authors id="965" name="Ed Krol"/>
+  <authors id="1750" name="Caroline Clifford Newton"/>
+  <authors id="419" name="Richard Brinsley Sheridan"/>
+  <authors id="527" name="Dinah Maria Mulock Craik"/>
+  <authors id="44" name="Joseph Planta, Esq. F. R. S."/>
+  <authors id="995" name="William Shakespeare [Apocrypha]"/>
+  <authors id="967" name="Georges Ohnet"/>
+  <authors id="1728" name="Lady Gregory"/>
+  <authors id="1747" name="Austin Dobson"/>
+  <authors id="1192" name="James Whitcomb Riley"/>
+  <authors id="1302" name="Henry A. Shute"/>
+  <authors id="729" name="Max Farrand"/>
+  <authors id="868" name="William Guthrie"/>
+  <authors id="903" name="Robert Alexander Wason"/>
+  <authors id="559" name="Hugh Latimer"/>
+  <authors id="1405" name="James E. Talmage"/>
+  <authors id="2096" name="Elizabeth Atkins"/>
+  <authors id="1135" name="L. H. Woolley"/>
+  <authors id="1787" name="Mildred Stapley"/>
+  <authors id="518" name="Lucy Larcom"/>
+  <authors id="2345" name="William H. Davies"/>
+  <authors id="2040" name="Anne Bronte"/>
+  <authors id="460" name="William Hazlitt"/>
+  <authors id="1419" name="W.E. Burghardt Du Bois"/>
+  <authors id="2199" name="E. Barrington"/>
+  <authors id="2237" name="Frances H. Burnett"/>
+  <authors id="675" name="Friedrich de la Motte Fouque"/>
+  <authors id="2281" name="John Greenleaf Whittier"/>
+  <authors id="2140" name="Ilya Tolstoy"/>
+  <authors id="100" name="Zane Grey"/>
+  <authors id="107" name="William Godwin"/>
+  <authors id="913" name="Thomas Paine"/>
+  <authors id="1363" name="Wassily Kandinsky"/>
+  <authors id="2184" name="Mary Wollstonecraft (Godwin) Shelley"/>
+  <authors id="2260" name="C. J. Cornish"/>
+  <authors id="1258" name="James Monroe"/>
+  <authors id="1801" name="Charles Mair"/>
+  <authors id="552" name="George Borrow"/>
+  <authors id="345" name="United States. Central Intelligence Agency."/>
+  <authors id="1835" name="Peter Esprit Radisson"/>
+  <authors id="2422" name="H. C. Bailey"/>
+  <authors id="1027" name="Trumbull White"/>
+  <authors id="2125" name="William Schwenk Gilbert and Arthur Sullivan"/>
+  <authors id="1290" name="Euripedes"/>
+  <authors id="510" name="Edward P. Roe"/>
+  <authors id="861" name="Edward Salisbury Field"/>
+  <authors id="2094" name="John Jay Smith"/>
+  <authors id="14" name="John Muir"/>
+  <authors id="301" name="Benjamin Franklin"/>
+  <authors id="541" name="Padraic Colum"/>
+  <authors id="2103" name="Sir Rabindranath Tagore"/>
+  <authors id="1981" name="Edward J. M. D. Plunkett, Lord Dunsany"/>
+  <authors id="282" name="Percival Lowell"/>
+  <authors id="430" name="Nennius"/>
+  <authors id="1618" name="Charles Mackay"/>
+  <authors id="1726" name="Samuel de Champlain"/>
+  <authors id="1766" name="Fr. Vincent de Paul"/>
+  <authors id="830" name="Francis Leggett &amp; Co."/>
+  <authors id="1210" name="Edward Lasker"/>
+  <authors id="1225" name="Pheleg Van Trusedale A pseudonym for Francis Colburn Adams"/>
+  <authors id="780" name="Ann Radcliffe"/>
+  <authors id="1471" name="Louise de la Ramee"/>
+  <authors id="1742" name="G. G. Putnam and Others"/>
+  <authors id="399" name="Elia W. Peattie"/>
+  <authors id="734" name="Samuel P. Orth"/>
+  <authors id="1100" name="James Allen"/>
+  <authors id="1476" name="William and Ellen Craft"/>
+  <authors id="1424" name="Adelaide L. Fries"/>
+  <authors id="2444" name="George W. Cable"/>
+  <authors id="108" name="Henry James"/>
+  <authors id="1839" name="Moli�re"/>
+  <authors id="1131" name="T.S. Arthur"/>
+  <authors id="1147" name="Madame de Stael"/>
+  <authors id="2376" name="Arthur Sherburne Hardy"/>
+  <authors id="905" name="R.P. Williams"/>
+  <authors id="586" name="Library of Congress Copyright Office"/>
+  <authors id="105" name="Arthur Sullivan"/>
+  <authors id="1007" name="Simon Newcomb"/>
+  <authors id="2209" name="Henry Watterson"/>
+  <authors id="416" name="Harold MacGrath"/>
+  <authors id="48" name="Creever &amp; Bachelor"/>
+  <authors id="1683" name="Mrs. Sutherland Orr"/>
+  <authors id="943" name="J. H. Patterson"/>
+  <authors id="1445" name="Francis Bacon"/>
+  <authors id="951" name="Lord Frederick Hamilton"/>
+  <authors id="537" name="Sylvester Mowry"/>
+  <authors id="2128" name="Cory Doctorow"/>
+  <authors id="2374" name="St. John G. Ervine"/>
+  <authors id="302" name="Thomas Hughes"/>
+  <authors id="1285" name="George H.W. Bush"/>
+  <authors id="1872" name="Alonzo Reed and Brainerd Kellogg"/>
+  <authors id="670" name="Hamlin Garland"/>
+  <authors id="2165" name="Bramwell Booth"/>
+  <authors id="2425" name="A. H. J. Greenidge"/>
+  <authors id="58" name="Louise Forsslund"/>
+  <authors id="178" name="Electronic Frontier Foundation"/>
+  <authors id="1906" name="J. Morris Slemons"/>
+  <authors id="459" name="Chauncey M. Depew"/>
+  <authors id="379" name="Helen Nicolay"/>
+  <authors id="1493" name="Marie L. Shedlock"/>
+  <authors id="4" name="William Hope Hodgson"/>
+  <authors id="1217" name="Jessie Graham Flower"/>
+  <authors id="2027" name="Lewis Goldsmith Edited and Arranged by David Widger"/>
+  <authors id="2028" name="Joseph A. Munk"/>
+  <authors id="393" name="Rudyard Kipling"/>
+  <authors id="1561" name="Japan"/>
+  <authors id="2070" name="W.H. Hudson (AKA Henry Harford)"/>
+  <authors id="472" name="Herbert A. Giles"/>
+  <authors id="558" name="Arthur B. Reeve"/>
+  <authors id="1263" name="Franklin Pierce"/>
+  <authors id="99" name="Robert Louis Stevenson and Lloyd Osbourne"/>
+  <authors id="644" name="Annie Roe Carr"/>
+  <authors id="1768" name="Eliza Chase"/>
+  <authors id="130" name="Earl Wayland Bowman"/>
+  <authors id="2362" name="Willa Cather and Alfred Noyes"/>
+  <authors id="77" name="by (AKA B. M. Sinclair) B. M. Bower"/>
+  <authors id="376" name="United States Central Intelligence Agency"/>
+  <authors id="576" name="Katharine Berry Judson"/>
+  <authors id="1129" name="Horace Walpole"/>
+  <authors id="1331" name="William Henry Rhodes"/>
+  <authors id="2369" name="Josiah Allen&apos;s Wife (Marietta Holley)"/>
+  <authors id="2017" name="Guy de Maupassant Edited and Arranged by David Widger"/>
+  <authors id="978" name="Paul Bourget"/>
+  <authors id="203" name="Noah Brooks"/>
+  <authors id="2469" name="British Museum"/>
+  <authors id="690" name="John Lydgate"/>
+  <authors id="892" name="Steele Rudd"/>
+  <authors id="1738" name="William Sangster"/>
+  <authors id="800" name="Philip Gibbs"/>
+  <authors id="873" name="Albert Keim and Louis Lumet"/>
+  <authors id="779" name="Richard Le Gallienne"/>
+  <authors id="864" name="Samuel W. Baker"/>
+  <authors id="954" name="Johann David Wyss"/>
+  <authors id="2248" name="John Sherburne Sleeper"/>
+  <authors id="1729" name="Dougan Clark"/>
+  <authors id="1873" name="Shinran Shonin"/>
+  <authors id="1535" name="Henry Rider Haggard"/>
+  <authors id="343" name="Frank Norris"/>
+  <authors id="1361" name="J. S. Fletcher"/>
+  <authors id="1551" name="Alfred, Lord Tennyson"/>
+  <authors id="919" name="Van Tassel Sutphen"/>
+  <authors id="154" name="Laurence Sterne"/>
+  <authors id="234" name="G. K. Chesterton"/>
+  <authors id="183" name="Louis de Rougemont"/>
+  <authors id="895" name="Russell H. Conwell"/>
+  <authors id="1462" name="Edward Jenkins"/>
+  <authors id="674" name="Marshall Saunders"/>
+  <authors id="1935" name="Emilie Kip Baker"/>
+  <authors id="719" name="Willis George Emerson"/>
+  <authors id="1235" name="Robert Barr"/>
+  <authors id="1946" name="E. J. Banfield"/>
+  <authors id="2007" name="Hendrik van Loon"/>
+  <authors id="2480" name="Anna McClure Sholl"/>
+  <authors id="54" name="John R. Watson"/>
+  <authors id="342" name="Thomas Dixon"/>
+  <authors id="1782" name="Louis A Banks"/>
+  <authors id="1068" name="David Hume"/>
+  <authors id="792" name="Albert Ernest Jenks"/>
+  <authors id="1606" name="Anna Balmer Myers"/>
+  <authors id="1335" name="B.W. Matz"/>
+  <authors id="2366" name="Adolph Keitel"/>
+  <authors id="505" name="Fyodor Dostoyevsky"/>
+  <authors id="1508" name="Feodor Dostoevsky"/>
+  <authors id="523" name="(His Son) Captain Robert E. Lee"/>
+  <authors id="1181" name="Godmunder Kamban"/>
+  <authors id="2424" name="Cicero"/>
+  <authors id="317" name="Edward Carpenter"/>
+  <authors id="281" name="Alexander Hamilton, John Jay, and James Madison"/>
+  <authors id="988" name="Coventry Patmore"/>
+  <authors id="423" name="Johann Wolfgang Von Goethe"/>
+  <authors id="223" name="John Masefield"/>
+  <authors id="1614" name="Harold Brighouse"/>
+  <authors id="902" name="Ethel C. Pedley"/>
+  <authors id="2197" name="William Gilmore Simms"/>
+  <authors id="158" name="Lewis Roth"/>
+  <authors id="1259" name="John Quincy Adams"/>
+  <authors id="2370" name="Mr. and Mrs. Haldeman-Julius"/>
+  <authors id="1003" name="Richard Johnson"/>
+  <authors id="2126" name="J. W. Powell"/>
+  <authors id="904" name="Gertrude Atherton"/>
+  <authors id="582" name="Basil Hall Chamberlain"/>
+  <authors id="1279" name="John F. Kennedy"/>
+  <authors id="1283" name="Jimmy Carter"/>
+  <authors id="1374" name="Francis Grose"/>
+  <authors id="827" name="William Ewart Gladstone"/>
+  <authors id="1897" name="William  Dean Howells"/>
+  <authors id="1552" name="George Herbert Palmer"/>
+  <authors id="1671" name="Ralph Henry Barbour"/>
+  <authors id="2186" name="Roualeyn Gordon-Cumming"/>
+  <authors id="522" name="Richard Jefferies"/>
+  <authors id="803" name="Leroy Scott"/>
+  <authors id="1555" name="Mangasar Magurditch Mangasarian"/>
+  <authors id="1104" name="Steve Solomon"/>
+  <authors id="401" name="J. Fitzgerald Molloy"/>
+  <authors id="1570" name="Ralph Chaplin"/>
+  <authors id="2375" name="Clarence E. Edwords"/>
+  <authors id="738" name="Sydney G. Fisher"/>
+  <authors id="1444" name="Ludvig Holberg"/>
+  <authors id="240" name="Bret Harte"/>
+  <authors id="1368" name="John Oxley"/>
+  <authors id="528" name="Christopher Evans"/>
+  <authors id="1513" name="W. Gilmore Simms"/>
+  <authors id="1554" name="Henry Seidel Canby"/>
+  <authors id="641" name="Emily Dickinson"/>
+  <authors id="1433" name="A. E. Housman"/>
+  <authors id="2249" name="Margaret Fuller Ossoli"/>
+  <authors id="2152" name="Mrs. Henry Clarke"/>
+  <authors id="2385" name="Will Carleton"/>
+  <authors id="357" name="Mary Johnston"/>
+  <authors id="2187" name="I. T. Thurston"/>
+  <authors id="1575" name="L. T. Meade"/>
+  <authors id="2104" name="C. K. Ober"/>
+  <authors id="1589" name="Alan Seeger"/>
+  <authors id="1685" name="James Root Hulbert"/>
+  <authors id="1212" name="Austin Hall Homer Eon Flint"/>
+  <authors id="1436" name="Gabrielle E. Jackson"/>
+  <authors id="1982" name="Dornford Yates"/>
+  <authors id="1469" name="Edward Sylvester Ellis (AKA Lieutenant R.H. Jayne)"/>
+  <authors id="2372" name="Florence Akin"/>
+  <authors id="478" name="J. E. Hutton"/>
+  <authors id="1522" name="Edwin L. Arnold"/>
+  <authors id="587" name="Victor Hugo"/>
+  <authors id="25" name="Edith Ferguson Black"/>
+  <authors id="1860" name="John Henry Goldfrap"/>
+  <authors id="663" name="Alfred Ollivant"/>
+  <authors id="1413" name="Brother Lawrence"/>
+  <authors id="2073" name="S. M. Dubnow"/>
+  <authors id="306" name="Louis Ginzberg"/>
+  <authors id="991" name="Maurice Leblanc"/>
+  <authors id="1432" name="Paul Leicester Ford"/>
+  <authors id="2142" name="Stephen Hudson"/>
+  <authors id="1688" name="Joanna H. Mathews"/>
+  <authors id="2051" name="Owahyah"/>
+  <authors id="266" name="Alfred Tennyson"/>
+  <authors id="1169" name="Alexandra Kuprin"/>
+  <authors id="2241" name="Arthur Graves Canfield"/>
+  <authors id="1937" name="Charles-Jean-Jacques-Joseph Ardant du Picq"/>
+  <authors id="427" name="Melvin L. Severy"/>
+  <authors id="908" name="John H. Haaren A. B. Poland"/>
+  <authors id="880" name="Mary Austin"/>
+  <authors id="1301" name="J. G. Patterson"/>
+  <authors id="299" name="Thomas Babington Macaulay"/>
+  <authors id="940" name="Joseph Fisher"/>
+  <authors id="769" name="Thomas Hobbes"/>
+  <authors id="1637" name="T.H. Huxley"/>
+  <authors id="489" name="Lew Wallace"/>
+  <authors id="981" name="Rene Bazin"/>
+  <authors id="1574" name="George W. Peck"/>
+  <authors id="349" name="Samuel D. Humphrey"/>
+  <authors id="1384" name="Amy Brooks"/>
+  <authors id="974" name="Octave Feuillet"/>
+  <authors id="791" name="Charles Hose and William McDougall"/>
+  <authors id="476" name="William Wells Brown"/>
+  <authors id="1114" name="U. S. Grant, W. T. Sherman, P. H. Sheridan"/>
+  <authors id="455" name="Eleanor Farjeon"/>
+  <authors id="1993" name="John Goodwin"/>
+  <authors id="542" name="Helen Keller"/>
+  <authors id="2185" name="E.A. Bennett"/>
+  <authors id="1324" name="United States District Court for the Eastern District of Pennsylvania"/>
+  <authors id="1030" name="Ada Cambridge"/>
+  <authors id="1610" name="Major Archibald Lee Fletcher"/>
+  <authors id="888" name="Sir Samuel White Baker"/>
+  <authors id="179" name="John William Draper"/>
+  <authors id="704" name="Ralph Waldo Emerson"/>
+  <authors id="415" name="A.C. Seward and Others"/>
+  <authors id="1576" name="Hamilton Wright Mabie"/>
+  <authors id="1162" name="Lyndon Orr"/>
+  <authors id="666" name="Helen Hunt Jackson"/>
+  <authors id="1040" name="Charles James Fox"/>
+  <authors id="2440" name="Mary Robinson"/>
+  <authors id="316" name="Wilkie Collins"/>
+  <authors id="371" name="Baroness Orczy"/>
+  <authors id="2190" name="Euripides"/>
+  <authors id="1454" name="Tadashi Nakashima"/>
+  <authors id="1698" name="Charles Sainte-Foi"/>
+  <authors id="1165" name="Jeanie Mrs. Aeneas Gunn"/>
+  <authors id="1591" name="Goldsworthy Lowes Dickinson"/>
+  <authors id="403" name="J. Henri Fabre"/>
+  <authors id="1661" name="H. C. Yarrow"/>
+  <authors id="1753" name="William Meinhold"/>
+  <authors id="1305" name="William James"/>
+  <authors id="1922" name="Sarah Anne Curzon"/>
+  <authors id="2380" name="Scian Dubh"/>
+  <authors id="1138" name="William Day Simonds"/>
+  <authors id="1703" name="Roland Cheney"/>
+  <authors id="231" name="James J. Davis"/>
+  <authors id="354" name="Gaston Leroux"/>
+  <authors id="1282" name="Gerald R. Ford"/>
+  <authors id="796" name="Charles Warren Stoddard"/>
+  <authors id="1568" name="Mary Parmele"/>
+  <authors id="362" name="Susanna Rowson"/>
+  <authors id="1142" name="Percy Bysshe Shelley"/>
+  <authors id="1202" name="Oliver Optic"/>
+  <authors id="1919" name="Knut Hamsun"/>
+  <authors id="890" name="Charles Ives"/>
+  <authors id="2232" name="George Lincoln Walton, M.D."/>
+  <authors id="1763" name="Joseph Smith"/>
+  <authors id="1209" name="Norman Lindsay"/>
+  <authors id="1069" name="Elmer U. Hoenshel"/>
+  <authors id="1627" name="Percy Brebner"/>
+  <authors id="1365" name="Cherubini"/>
+  <authors id="660" name="Margaret Penrose"/>
+  <authors id="1017" name="Azel Ames"/>
+  <authors id="1406" name="William Allen White"/>
+  <authors id="1900" name="Black Hawk"/>
+  <authors id="2287" name="Robert Neilson Stephens"/>
+  <authors id="272" name="Rene Doumic"/>
+  <authors id="1800" name="Marcius Willson Robert Pierpont Willson"/>
+  <authors id="85" name="Bram Stoker"/>
+  <authors id="1942" name="Ivan Goncharov"/>
+  <authors id="16" name="Edited by George Newnes"/>
+  <authors id="1623" name="Father Candide Chalippe"/>
+  <authors id="2250" name="Susie F. Harrison"/>
+  <authors id="1028" name="Charles W. Colby"/>
+  <authors id="465" name="William Beckford"/>
+  <authors id="1532" name="Lady Fanshawe"/>
+  <authors id="1732" name="Myra Kelly"/>
+  <authors id="723" name="Dorothy Richardson"/>
+  <authors id="1960" name="John Locke"/>
+  <authors id="1519" name="Edward Gibbon"/>
+  <authors id="1421" name="Frank Pinkerton"/>
+  <authors id="1022" name="L. Frank Baum"/>
+  <authors id="1416" name="Eustace Hale Ball"/>
+  <authors id="858" name="Michel de Montaigne"/>
+  <authors id="1408" name="Alleyne Ireland"/>
+  <authors id="2039" name="Mary Mapes Dodge"/>
+  <authors id="2479" name="William Nowlin"/>
+  <authors id="112" name="G. Lowes Dickinson"/>
+  <authors id="1752" name="Norman Coombs"/>
+  <authors id="150" name="Ulysses S. Grant"/>
+  <authors id="1944" name="Paul Henri Thiry, Baron D&apos;Holbach"/>
+  <authors id="2053" name="Maurice W. Brockwell"/>
+  <authors id="7" name="George Tucker"/>
+  <authors id="1596" name="William W. Walter"/>
+  <authors id="1631" name="C. Suetonius Tranquillus"/>
+  <authors id="1842" name="Edmund Spenser"/>
+  <authors id="2088" name="Johann Wolfgang Goethe"/>
+  <authors id="2274" name="E. Charles Vivian"/>
+  <authors id="1656" name="Susanna Moodie"/>
+  <authors id="568" name="Plutarch"/>
+  <authors id="2175" name="G. W. Curtis, ed. George Willis Cooke"/>
+  <authors id="2201" name="C. B. Clarke"/>
+  <authors id="1103" name="Arthur Christopher Benson"/>
+  <authors id="1582" name="Edward Bulwer-Lytton"/>
+  <authors id="567" name="(AKA David Grayson) Ray Stannard Baker"/>
+  <authors id="521" name="Joel Chandler Harris"/>
+  <authors id="957" name="Madame La Marquise De Montespan"/>
+  <authors id="2265" name="Simeon E. Baldwin"/>
+  <authors id="852" name="Anna Howard Shaw"/>
+  <authors id="1687" name="Charles A. Ellwood"/>
+  <authors id="572" name="Mary Russell Mitford"/>
+  <authors id="1481" name="John Thomas Simpson"/>
+  <authors id="802" name="Thomas Nelson Page"/>
+  <authors id="236" name="Hall Caine"/>
+  <authors id="966" name="Jean Jacques Rousseau"/>
+  <authors id="117" name="Roger McGuinn"/>
+  <authors id="605" name="H. Wilfrid Walker"/>
+  <authors id="964" name="Lewis Goldsmith"/>
+  <authors id="1518" name="John Preston True"/>
+  <authors id="1979" name="George Allan England"/>
+  <authors id="1779" name="Frederich Schiller"/>
+  <authors id="1640" name="Reuben Post Halleck"/>
+  <authors id="323" name="Horatio Alger, Jr."/>
+  <authors id="1161" name="Suelette Dreyfus"/>
+  <authors id="561" name="B. Perez Galdos"/>
+  <authors id="1155" name="Arthur E. Knights"/>
+  <authors id="1708" name="Catherine E. Beecher and Harriet Beecher Stowe"/>
+  <authors id="1751" name="Henry C. Shelley"/>
+  <authors id="581" name="United States"/>
+  <authors id="1642" name="Mrs. S.T. Rorer"/>
+  <authors id="1825" name="Leo Tolstoi"/>
+  <authors id="953" name="Francis Hueffer (translator)"/>
+  <authors id="1056" name="Isabel Ecclestone Mackay"/>
+  <authors id="2161" name="Vernon Lee"/>
+  <authors id="2364" name="Sir Winston S. Churchill"/>
+  <authors id="1869" name="C. E. Orr"/>
+  <authors id="611" name="John Philip Sousa"/>
+  <authors id="1386" name="Horace"/>
+  <authors id="2328" name="J. L. Cherry"/>
+  <authors id="2459" name="John Joy Bell"/>
+  <authors id="1370" name="Edward John Eyre"/>
+  <authors id="2288" name="Carl Schurz"/>
+  <authors id="277" name="Leo Tolstoy"/>
+  <authors id="1736" name="Henry Craik"/>
+  <authors id="2035" name="Marguerite de Valois Edited and Arranged by David Widger"/>
+  <authors id="771" name="Katharine Pyle"/>
+  <authors id="1178" name="C. J. Dennis"/>
+  <authors id="1349" name="W. C. Green"/>
+  <authors id="975" name="Alfred de Vigny"/>
+  <authors id="1400" name="Juliet James"/>
+  <authors id="2228" name="Logan Pearsall Smith"/>
+  <authors id="553" name="Frances Bacon"/>
+  <authors id="949" name="Marie Corelli"/>
+  <authors id="97" name="Mary F. Nixon-Roulet"/>
+  <authors id="2294" name="William Dool Killen"/>
+  <authors id="213" name="Edmond Rostand"/>
+  <authors id="249" name="Elizabeth, AKA Marie Annette Beauchamp"/>
+  <authors id="279" name="Upton Sinclair"/>
+  <authors id="1706" name="Newton H. Chittenden"/>
+  <authors id="1248" name="C. Collodi--Pseudonym of Carlo Lorenzini"/>
+  <authors id="1765" name="Mrs. Cecil Hall"/>
+  <authors id="1727" name="Percy K. Fitzhugh"/>
+  <authors id="2163" name="Samuel Rowlands"/>
+  <authors id="1975" name="Jerry Bonnell and Robert Nemiroff"/>
+  <authors id="2173" name="Frank Tymon"/>
+  <authors id="469" name="Theophilus G. Pinches"/>
+  <authors id="1827" name="Hildegard G. Frey"/>
+  <authors id="1195" name="Dod Grile"/>
+  <authors id="1710" name="Norman F. Joly"/>
+  <authors id="1593" name="Richard de Bury"/>
+  <authors id="1716" name="Kate Seymour Maclean"/>
+  <authors id="1499" name="Snorri Sturlason"/>
+  <authors id="911" name="Nicolay Gogol"/>
+  <authors id="1431" name="Prince de Joinville"/>
+  <authors id="2341" name="Benedetto Croce"/>
+  <authors id="1534" name="Edward Lucas White"/>
+  <authors id="2315" name="John Denham Parsons"/>
+  <authors id="764" name="Juanita Helm Floyd"/>
+  <authors id="1379" name="Horace a.k.a. Quintus Horatius Flaccus Translated by John Conington, M. A."/>
+  <authors id="929" name="G. P. R. James"/>
+  <authors id="2327" name="M. Y. Lermontov"/>
+  <authors id="1701" name="Floyd Dell"/>
+  <authors id="49" name="Venture Smith"/>
+  <authors id="1486" name="Mary H. Kingsley"/>
+  <authors id="19" name="F. J. Cross"/>
+  <authors id="1002" name="Rosa Praed"/>
+  <authors id="1497" name="Alice Hegan Rice"/>
+  <authors id="557" name="Voltaire"/>
+  <authors id="1163" name="William Le Queux"/>
+  <authors id="174" name="Upton Sinclair Eugene Brieux"/>
+  <authors id="370" name="Natalie Sumner Lincoln"/>
+  <authors id="2352" name="William Elliott Griffis"/>
+  <authors id="545" name="Richard F. Burton"/>
+  <authors id="811" name="Edward Hayes"/>
+  <authors id="1107" name="Cyril G. Hopkins"/>
+  <authors id="1491" name="Elizabeth Jordan"/>
+  <authors id="1553" name="Charles N. Crewdson"/>
+  <authors id="1712" name="S. A. Reilly"/>
+  <authors id="1566" name="Alfred Rochefort"/>
+  <authors id="1065" name="Thomas Wright"/>
+  <authors id="805" name="Ottilie A. Liljencrantz"/>
+  <authors id="1392" name="Mariano Azuela"/>
+  <authors id="1410" name="Robert Seymour"/>
+  <authors id="291" name="O. Henry"/>
+  <authors id="414" name="B.M. Sinclair, AKA B. M. Bower"/>
+  <authors id="1974" name="Mrs. O. F. Walton"/>
+  <authors id="2412" name="Charles Boardman Hawes"/>
+  <authors id="1006" name="Edward Creasy"/>
+  <authors id="1972" name="Mildred Maddocks"/>
+  <authors id="1556" name="F. M. McMurry"/>
+  <authors id="1366" name="Brett Page"/>
+  <authors id="114" name="Wilfred Owen"/>
+  <authors id="3" name="Lucius Seneca"/>
+  <authors id="817" name="Brendan P. Kehoe"/>
+  <authors id="1117" name="Augusta J. Evans"/>
+  <authors id="1123" name="Don Marquis"/>
+  <authors id="2282" name="E. Ben Ez-er"/>
+  <authors id="433" name="Ellen Robena Field"/>
+  <authors id="1525" name="William T. Hornaday"/>
+  <authors id="200" name="Charles Darwin"/>
+  <authors id="1346" name="Henry C. Murphy"/>
+  <authors id="1090" name="Guibert of Nogent"/>
+  <authors id="1928" name="Annie Russell Marble"/>
+  <authors id="2044" name="Frances Margaret Fox"/>
+  <authors id="958" name="Elizabeth-Charlotte, Duchesse d&apos;Orleans"/>
+  <authors id="2491" name="Virginia Carter Castleman"/>
+  <authors id="1218" name="St. George Rathborne"/>
+  <authors id="795" name="Inez Haynes Irwin"/>
+  <authors id="804" name="Mrs. Henry Wood"/>
+  <authors id="879" name="Winston Churchill"/>
+  <authors id="700" name="Bayard Taylor"/>
+  <authors id="1799" name="United States Arms Control and Disarmament Agency"/>
+  <authors id="1848" name="D. P. Thompson"/>
+  <authors id="1733" name="Canniff Haight"/>
+  <authors id="1899" name="Eva Stern"/>
+  <authors id="1957" name="W. D. Howells"/>
+  <authors id="1391" name="Carl Maag and Steve Rohrer"/>
+  <authors id="1587" name="Alfred Rochefort Calhoun"/>
+  <authors id="715" name="Thomas Jefferson"/>
+  <authors id="1845" name="A. Frederick Collins"/>
+  <authors id="2118" name="Odd de Presno"/>
+  <authors id="1376" name="W.H. Hudson"/>
+  <authors id="1813" name="Jane D. Abbott"/>
+  <authors id="2134" name="James Cook"/>
+  <authors id="1533" name="Charles Goddard"/>
+  <authors id="2286" name="Kin-nosuke Natsume"/>
+  <authors id="2429" name="William le Queux"/>
+  <authors id="383" name="Mary Murdoch Mason"/>
+  <authors id="1674" name="W. S. Harris"/>
+  <authors id="2398" name="Mrs. Humphrey Ward"/>
+  <authors id="390" name="John Charles McNeill"/>
+  <authors id="43" name="Grace MacGowan Cooke"/>
+  <authors id="164" name="Lewis Carroll"/>
+  <authors id="653" name="The National Atomic Museum"/>
+  <authors id="1943" name="Alan Alexander Milne"/>
+  <authors id="456" name="Samuel White Baker"/>
+  <authors id="996" name="Ignatius Donnelly"/>
+  <authors id="1526" name="Douglas Jerrold"/>
+  <authors id="1126" name="Orison Swett Marden"/>
+  <authors id="1266" name="Rutherford B. Hayes"/>
+  <authors id="2110" name="Elias Johnson"/>
+  <authors id="116" name="Fanny Trollope"/>
+  <authors id="781" name="Charles Farrar Browne"/>
+  <authors id="71" name="Edwin Waugh"/>
+  <authors id="1358" name="(a.k.a. Mrs. Everard Cotes) Sara Jeannette Duncan"/>
+  <authors id="1048" name="Benjamin Nathaniel Bogue"/>
+  <authors id="615" name="Hiram Corson"/>
+  <authors id="2331" name="G. Stanley Hall"/>
+  <authors id="1441" name="Mary C.E. Wemyss"/>
+  <authors id="740" name="Homer (Lang, Leaf, Myers trans.)"/>
+  <authors id="1204" name="Jean Armour Polly"/>
+  <authors id="1501" name="T.S. Eliot"/>
+  <authors id="1730" name="Charlotte Selina Bompas"/>
+  <authors id="2330" name="Rev. Fred A. Ross, D.D."/>
+  <authors id="1870" name="Grace Livingston Hill"/>
+  <authors id="318" name="Maurice LeBlanc"/>
+  <authors id="678" name="Oscar D. Skelton"/>
+  <authors id="1153" name="Glenn D. Bradley"/>
+  <authors id="1312" name="Richard Wagner"/>
+  <authors id="2119" name="Herbert Carter"/>
+  <authors id="784" name="Sir Arthur Conan Doyle"/>
+  <authors id="701" name="Horatio Alger"/>
+  <authors id="826" name="Marietta Holley"/>
+  <authors id="1767" name="Elizabeth Cooper"/>
+  <authors id="2087" name="James W. Steele"/>
+  <authors id="2381" name="Eugenie Foa"/>
+  <authors id="1969" name="Shelden Cheney"/>
+  <authors id="606" name="E.C. (Edmund Clerihew) Bentley"/>
+  <authors id="224" name="Robert Burns"/>
+  <authors id="2154" name="Charles Waterton"/>
+  <authors id="1999" name="Coningsby Dawson"/>
+  <authors id="1198" name="Percy Bysshe Shelley Edited by Thomas Hutchinson, M. A."/>
+  <authors id="2149" name="Pio Baroja"/>
+  <authors id="2193" name="John Esten Cooke"/>
+  <authors id="290" name="(AKA Ralph Iron) Olive Schreiner"/>
+  <authors id="18" name="Charles S. Brooks"/>
+  <authors id="1601" name="Thomas Belt"/>
+  <authors id="2029" name="Anthony Hamilton Edited and Arranged by David Widger"/>
+  <authors id="96" name="Nellie L. McClung"/>
+  <authors id="588" name="Charles Johnston"/>
+  <authors id="1344" name="J. Alexander Gunn"/>
+  <authors id="1909" name="Lawrence J. Leslie"/>
+  <authors id="751" name="Stephen Vincent Benet"/>
+  <authors id="2458" name="Charles Ramsdell Lingley"/>
+  <authors id="504" name="Pierre Loti"/>
+  <authors id="1133" name="Thomas Dykes Beasley"/>
+  <authors id="151" name="Thomas Hardy"/>
+  <authors id="705" name="Octave Thanet"/>
+  <authors id="2075" name="Lord Dunsany [Edward J. M. D. Plunkett]"/>
+  <authors id="372" name="Anton Checkov"/>
+  <authors id="2490" name="Enid Bagnold"/>
+  <authors id="1971" name="William Pittenger"/>
+  <authors id="254" name="Jerome Klapka, AKA Jerome K. Jerome"/>
+  <authors id="1769" name="Jose  Rizal"/>
+  <authors id="955" name="Marguerite de Valois, Queen of Navarre"/>
+  <authors id="703" name="Johan Bojer"/>
+  <authors id="1694" name="Smyrnaeus Quintus"/>
+  <authors id="977" name="Francois Coppee"/>
+  <authors id="2340" name="Mrs. W. G. Waters"/>
+  <authors id="2383" name="Francis Hodgson Burnett"/>
+  <authors id="1186" name="Wallace Irwin"/>
+  <authors id="289" name="Jerome Lobo"/>
+  <authors id="2389" name="L. H. Bailey"/>
+  <authors id="775" name="Ralph Connor"/>
+  <authors id="1867" name="M. P. Shiel"/>
+  <authors id="548" name="Thomas Wentworth Higginson"/>
+  <authors id="2426" name="Francis Augustus Cox"/>
+  <authors id="689" name="E. A. Allen"/>
+  <authors id="938" name="Seneca"/>
+  <authors id="2148" name="Harriet Annie Wilkins"/>
+  <authors id="2206" name="Jessie L. Weston"/>
+  <authors id="1956" name="Clement Juglar"/>
+  <authors id="2196" name="Archibald Forbes"/>
+  <authors id="188" name="B. M. Bower"/>
+  <authors id="1822" name="Alice Dunbar"/>
+  <authors id="713" name="Henry Festing Jones"/>
+  <authors id="2052" name="Clinton Scollard"/>
+  <authors id="1140" name="Almira Bailey"/>
+  <authors id="1834" name="Carlotta C. Greer"/>
+  <authors id="2487" name="William Wallace Blancke"/>
+  <authors id="348" name="Lucius Apuleius"/>
+  <authors id="2261" name="Joel Barlow"/>
+  <authors id="2391" name="F. A. M. Miguet"/>
+  <authors id="135" name="Burton E. Stevenson"/>
+  <authors id="453" name="Harriet Beecher Stowe"/>
+  <authors id="464" name="John Fox"/>
+  <authors id="1460" name="W. B. Laughead"/>
+  <authors id="232" name="Owen Wister"/>
+  <authors id="462" name="Richard Henry Dana"/>
+  <authors id="645" name="Eleanor Atkinson"/>
+  <authors id="1214" name="John A. Widtsoe"/>
+  <authors id="1700" name="Walter E. Traprock"/>
+  <authors id="2348" name="Miss Brightwell"/>
+  <authors id="577" name="Hubert Howe Bancroft"/>
+  <authors id="90" name="(AKA Charlotte, Emily and Anne Bronte) Currer, Ellis, and Acton Bell"/>
+  <authors id="1829" name="Graham B. Forbes"/>
+  <authors id="1085" name="Henri Bergson"/>
+  <authors id="1348" name="Mabel C. Hawley"/>
+  <authors id="261" name="Edouard le Roy"/>
+  <authors id="539" name="Margaret Deland"/>
+  <authors id="891" name="Marion Polk Angellotti"/>
+  <authors id="1122" name="Mrs. C. F. Fraser"/>
+  <authors id="1544" name="John Lyde Wilson"/>
+  <authors id="1682" name="John Goerzen and Ossama Othman"/>
+  <authors id="2235" name="Lucas Malet"/>
+  <authors id="1118" name="John Addington Symonds"/>
+  <authors id="846" name="Ludwig van Beethoven"/>
+  <authors id="1475" name="Herbert Spencer"/>
+  <authors id="1545" name="Jane Porter"/>
+  <authors id="2168" name="H. A. Cody"/>
+  <authors id="952" name="William J. Locke"/>
+  <authors id="2121" name="Francis Lynde"/>
+  <authors id="1793" name="John Beames"/>
+  <authors id="885" name="Henri Rene Guy de Maupassant"/>
+  <authors id="1668" name="Catharine Parr Strickland Traill"/>
+  <authors id="1109" name="Evelyn Scott"/>
+  <authors id="86" name="Baruch Spinoza  [Benedict de Spinoza]"/>
+  <authors id="432" name="Jean Baptiste Racine"/>
+  <authors id="451" name="Jean-Baptiste Poquelin Moliere"/>
+  <authors id="1" name="William Shakespeare"/>
+  <authors id="486" name="Gilbert Keith Chesterton"/>
+  <authors id="2230" name="Traditional Text"/>
+  <authors id="671" name="George Washington Plunkitt"/>
+  <authors id="2220" name="Gordon Home"/>
+  <authors id="2418" name="Edwin A. Abbott"/>
+  <authors id="473" name="Etienne Leon Lamothe-Langon"/>
+  <authors id="1954" name="Emma Gellibrand"/>
+  <authors id="1076" name="J.M. Stone"/>
+  <authors id="1494" name="Frances Little"/>
+  <authors id="115" name="Charles Lamb"/>
+  <authors id="1275" name="Herbert Hoover"/>
+  <authors id="1949" name="Henry T. Sell"/>
+  <authors id="1704" name="William H. Gilder"/>
+  <authors id="602" name="George P. Morris"/>
+  <authors id="1755" name="Charles Edward Stowe"/>
+  <authors id="2166" name="Alexander Pushkin Various"/>
+  <authors id="1446" name="Maurice Hewlett"/>
+  <authors id="1858" name="Jean Mace"/>
+  <authors id="2268" name="Epictetus"/>
+  <authors id="503" name="George Sand"/>
+  <authors id="1120" name="J. B. Bury"/>
+  <authors id="1548" name="Wu Tingfang"/>
+  <authors id="886" name="Lousia Muhlbach"/>
+  <authors id="1350" name="Laura E. Richards"/>
+  <authors id="2339" name="May Sinclair"/>
+  <authors id="2162" name="Charles Willing Beale"/>
+  <authors id="1286" name="William J. Clinton"/>
+  <authors id="34" name="Janet D. Wheeler"/>
+  <authors id="2321" name="John Filson"/>
+  <authors id="999" name="Friedrich Kerst and Henry Edward Krehbiel"/>
+  <authors id="1404" name="Eros Urides and J. L. Kennon"/>
+  <authors id="156" name="Jonathan Swift"/>
+  <authors id="630" name="Abraham Lincoln"/>
+  <authors id="2090" name="Amy Prentice"/>
+  <authors id="2317" name="Charles W. Sanders"/>
+  <authors id="2293" name="Henry B. Fuller"/>
+  <authors id="2236" name="James de Mille"/>
+  <authors id="2245" name="AEschylus"/>
+  <authors id="1160" name="Sam Vaknin"/>
+  <authors id="1099" name="James De Mille"/>
+  <authors id="2127" name="American Sunday School Union"/>
+  <authors id="187" name="Francois Rabelais"/>
+  <authors id="1915" name="Samuel Lover"/>
+  <authors id="41" name="James M. Beck"/>
+  <authors id="2360" name="Robert J. Evans"/>
+  <authors id="2461" name="Elizabeth Cady Stanton"/>
+  <authors id="863" name="Anna Chapin Ray and Hamilton Brock Fuller"/>
+  <authors id="1739" name="Lawrence Beesley"/>
+  <authors id="1940" name="Augustine Birrell"/>
+  <authors id="311" name="Samuel Taylor Coleridge"/>
+  <authors id="1875" name="Ray Woodward"/>
+  <authors id="806" name="Thomas Bulfinch"/>
+  <authors id="592" name="Coalition for Networked Information"/>
+  <authors id="1345" name="Old Sleuth Harlan Page Halsey"/>
+  <authors id="1684" name="Clara Barrus"/>
+  <authors id="182" name="William Congreve"/>
+  <authors id="1113" name="Steven Stills"/>
+  <authors id="2399" name="Ivan Sergeevich Turgenev"/>
+  <authors id="1206" name="H. E. Bird"/>
+  <authors id="2135" name="Lewis H. Morgan"/>
+  <authors id="1629" name="Emma Dorothy Eliza Nevitte Southworth"/>
+  <authors id="555" name="Edmund G. Ross"/>
+  <authors id="923" name="Nettie Garmer Barker"/>
+  <authors id="1429" name="Lord Dunsany"/>
+  <authors id="2441" name="Imbert de Saint-Amand"/>
+  <authors id="50" name="Harold Bindloss"/>
+  <authors id="927" name="Logan Marshall"/>
+  <authors id="133" name="David Livingstone"/>
+  <authors id="900" name="The Marquess of Dufferin (Lord Dufferin)"/>
+  <authors id="2313" name="Louis Bertrand"/>
+  <authors id="823" name="Annie Hamilton Donnell"/>
+  <authors id="491" name="Herbert Allen Giles"/>
+  <authors id="2080" name="Jeannette Marks"/>
+  <authors id="322" name="Jean Webster"/>
+  <authors id="2202" name="Stijn Streuvels"/>
+  <authors id="724" name="Michael Husted"/>
+  <authors id="1797" name="William Henry Withrow"/>
+  <authors id="2482" name="J. Wilbur Chapman"/>
+  <authors id="2224" name="Arlo Bates"/>
+  <authors id="2030" name="Madame du Hausset an Unknown English Girl and Princess Lamballe Edited and Arranged by David Widger"/>
+  <authors id="2063" name="Jessie Eldridge Southwick"/>
+  <authors id="1141" name="Cuthbert Bede"/>
+  <authors id="26" name="Elizabeth Robins (C. E. Raimond)"/>
+  <authors id="1563" name="Franklin P. Adams"/>
+  <authors id="1667" name="J. D. Hooker"/>
+  <authors id="832" name="Ouida [Louise de la Ramee]"/>
+  <authors id="2106" name="Arthur Guy Empey"/>
+  <authors id="2434" name="William H. Ryus"/>
+  <authors id="1000" name="Algernon Blackwood"/>
+  <authors id="2231" name="J. Raymond Elderdice"/>
+  <authors id="2256" name="Alexander Kielland"/>
+  <authors id="750" name="Sophocles"/>
+  <authors id="1886" name="S. O. Susag"/>
+  <authors id="475" name="Samuel Adams"/>
+  <authors id="649" name="Grace S. Richmond"/>
+  <authors id="1401" name="Marion Harland"/>
+  <authors id="47" name="Elizabeth Moxon"/>
+  <authors id="53" name="Robert L. Drake"/>
+  <authors id="1338" name="William Henry Hudson"/>
+  <authors id="2421" name="Frances Parkinson Keyes"/>
+  <authors id="87" name="Nellie McClung"/>
+  <authors id="2203" name="Andreas Latzko"/>
+  <authors id="1859" name="Israel Abrahams"/>
+  <authors id="1907" name="John Alexander Logan"/>
+  <authors id="2496" name="Marian M. George"/>
+  <authors id="1239" name="Laura Lee Hope"/>
+  <authors id="551" name="Alexander Pope"/>
+  <authors id="394" name="Alphonse Daudet"/>
+  <authors id="1516" name="Mark Rutherford"/>
+  <authors id="1387" name="Brillat Savarin"/>
+  <authors id="1246" name="Founding Fathers"/>
+  <authors id="754" name="Joseph Butler"/>
+  <authors id="1059" name="Ralph Centennius"/>
+  <authors id="493" name="Lao-Tze"/>
+  <authors id="2157" name="George Forbes"/>
+  <authors id="1841" name="Washington Gladden"/>
+  <authors id="1023" name="L. Frank Baum."/>
+  <authors id="1205" name="Calamity Jane"/>
+  <authors id="201" name="Nicolo Machiavelli"/>
+  <authors id="1244" name="Roy Rockwood"/>
+  <authors id="1583" name="W. F. Markwick, D. D. and W. A. Smith, A. B."/>
+  <authors id="1075" name="Lola Ridge"/>
+  <authors id="1098" name="Stephen Crane"/>
+  <authors id="834" name="Hugh Walpole"/>
+  <authors id="989" name="Edgar Jepson Maurice Leblanc"/>
+  <authors id="2001" name="A. Frances Friebe"/>
+  <authors id="2292" name="Clara Ingram Judson"/>
+  <authors id="1287" name="George W. Bush"/>
+  <authors id="930" name="Maksim Gorky"/>
+  <authors id="1804" name="Joseph Hergesheimer"/>
+  <authors id="2392" name="Cao Xueqin"/>
+  <authors id="159" name="Ernest Thompson Seton"/>
+  <authors id="172" name="Saxo Grammaticus (Saxo the Learned)"/>
+  <authors id="2396" name="Tibullus"/>
+  <authors id="1817" name="Ellen Glasgow"/>
+  <authors id="1355" name="Jean de La Fontaine"/>
+  <authors id="1883" name="E. M. Hull"/>
+  <authors id="1488" name="Alexander H. Japp"/>
+  <authors id="1063" name="David Graham Phillips"/>
+  <authors id="1201" name="Miriam Michelson"/>
+  <authors id="650" name="William Kirby"/>
+  <authors id="1520" name="Geoffrey de Villehardouin"/>
+  <authors id="639" name="Charles Dudley Warner"/>
+  <authors id="113" name="David Garnett"/>
+  <authors id="1097" name="H. B. Irving"/>
+  <authors id="1989" name="Edward S. Ellis"/>
+  <authors id="2083" name="Kisari Mohan Ganguli"/>
+  <authors id="1240" name="Mrs. L.T. Meade"/>
+  <authors id="1926" name="Jean de la Fontaine"/>
+  <authors id="2089" name="Maurice Le Blanc"/>
+  <authors id="2067" name="James Cowan"/>
+  <authors id="1211" name="S.R. Crockett"/>
+  <authors id="2219" name="James Russell Lowell"/>
+  <authors id="1306" name="Charles Klein"/>
+  <authors id="1951" name="Henry L. Williams"/>
+  <authors id="2349" name="E. T. Seton"/>
+  <authors id="1143" name="William Bennett Munro"/>
+  <authors id="635" name="Oliver Wendell Holmes, Sr."/>
+  <authors id="1564" name="Samuel Richardson"/>
+  <authors id="382" name="Elizabeth Gaskell"/>
+  <authors id="500" name="Joshua Reynolds"/>
+  <authors id="340" name="Louisa May Alcott"/>
+  <authors id="596" name="Samuel Smiles"/>
+  <authors id="463" name="George Smith"/>
+  <authors id="604" name="Baron Etienne Leon Lamothe-Langon"/>
+  <authors id="2428" name="Norman Bentwich"/>
+  <authors id="1467" name="Mary Raymond Shipman Andrews"/>
+  <authors id="2475" name="Charles Thompson"/>
+  <authors id="757" name="Rudolph Erich Raspe"/>
+  <authors id="1232" name="David W Carnegie"/>
+  <authors id="646" name="Anna Sewell"/>
+  <authors id="1480" name="Horatio Alger and Thomas Chandler Haliburton"/>
+  <authors id="1758" name="Brooks Adams"/>
+  <authors id="2192" name="Colonel Eugene C. Jacobs"/>
+  <authors id="1044" name="Edgar Saltus"/>
+  <authors id="1150" name="F. Colburn Adams"/>
+  <authors id="208" name="Helen Cody Wetmore"/>
+  <authors id="481" name="Bernardin de Saint Pierre"/>
+  <authors id="1697" name="Samuel Lowe"/>
+  <authors id="136" name="Elizabeth McCracken"/>
+  <authors id="835" name="Elizabeth Rebecca Ward, AKA Fay Inchfawn"/>
+  <authors id="1394" name="Ralph Victor"/>
+  <authors id="1125" name="T. S. Arthur"/>
+  <authors id="1261" name="Zachary Taylor"/>
+  <authors id="2456" name="Milo Hastings"/>
+  <authors id="1846" name="Agatha Armour"/>
+  <authors id="2060" name="Samuel B. Allison"/>
+  <authors id="488" name="A. J. O&apos;Reilly"/>
+  <authors id="636" name="Oliver Goldsmith"/>
+  <authors id="1780" name="Frances E. W. Harper"/>
+  <authors id="325" name="Eden Phillpotts"/>
+  <authors id="793" name="The Marquis de Nadaillac"/>
+  <authors id="1343" name="Charles James Lever (1806-1872)"/>
+  <authors id="52" name="Harriot Stanton Blatch"/>
+  <authors id="1024" name="William Harmon Norton"/>
+  <authors id="1599" name="Brander Matthews (Editor)"/>
+  <authors id="550" name="Jeffrey Farnol"/>
+  <authors id="1313" name="Charles W. Colby Edited by George M. Wrong and H. H. Langton"/>
+  <authors id="1020" name="Sherwood Anderson"/>
+  <authors id="2132" name="(A.E.)George William Russell"/>
+  <authors id="2463" name="Ernest Alfred Vizetelly"/>
+  <authors id="1636" name="Leon Trotzky"/>
+  <authors id="2223" name="R. L. Alsaker"/>
+  <authors id="293" name="Johanna Spyri"/>
+  <authors id="1509" name="Lillian Elizabeth Roy"/>
+  <authors id="173" name="Sinclair Lewis"/>
+  <authors id="2147" name="John Frederick Schroeder Benson John Lossing"/>
+  <authors id="1913" name="Frank Preston Stearns"/>
+  <authors id="1924" name="Hugo DeVries"/>
+  <authors id="916" name="Ethel D. Puffer"/>
+  <authors id="1053" name="John Habberton"/>
+  <authors id="1034" name="Max Nordau"/>
+  <authors id="1128" name="graf Leo Tolstoy"/>
+  <authors id="1695" name="Hudson&apos;s Bay Company"/>
+  <authors id="632" name="John Pinkerton"/>
+  <authors id="1746" name="Helena Pretrovna Blavatsky"/>
+  <authors id="57" name="James Otis"/>
+  <authors id="896" name="Franz Liszt"/>
+  <authors id="1901" name="George Parsons Lathrop"/>
+  <authors id="1369" name="William F. Drannan"/>
+  <authors id="1567" name="Wm. H. Maher"/>
+  <authors id="1185" name="David Starr Jordan"/>
+  <authors id="1057" name="Frank Channing Haddock"/>
+  <authors id="1826" name="Maria Antonia Field"/>
+  <authors id="1280" name="Lyndon B. Johnson"/>
+  <authors id="288" name="Olive Schreiner"/>
+  <authors id="1527" name="Will N. Harben"/>
+  <authors id="2108" name="Krishna-Dwaipayana Vyasa"/>
+  <authors id="894" name="J. C. F. Johnson"/>
+  <authors id="1228" name="Ludwig Thoma"/>
+  <authors id="515" name="E. Philips Oppenheim"/>
+  <authors id="1092" name="Edith Nesbit"/>
+  <authors id="1921" name="Henry Thomas Hamblin"/>
+  <authors id="1380" name="Clarence Edgar Johnson"/>
+  <authors id="425" name="Gildas"/>
+  <authors id="59" name="An Oxonian"/>
+  <authors id="195" name="Charles Babbage"/>
+  <authors id="898" name="Ben Jonson"/>
+  <authors id="1511" name="Michael Clarke"/>
+  <authors id="1630" name="Antonia Isola"/>
+  <authors id="2042" name="Kakuzo Okakura"/>
+  <authors id="1540" name="Louis Agassiz"/>
+  <authors id="358" name="Elizabeth Cleghorn Gaskell"/>
+  <authors id="571" name="Maurice Baring"/>
+  <authors id="963" name="Arthur Machen"/>
+  <authors id="1139" name="James O&apos;Meara"/>
+  <authors id="259" name="Benjamin Cardozo"/>
+  <authors id="807" name="Walter Raleigh"/>
+  <authors id="1995" name="Robert Gordon Anderson"/>
+  <authors id="15" name="Various"/>
+  <authors id="1032" name="Rolf Boldrewood"/>
+  <authors id="168" name="Anthony Hope"/>
+  <authors id="882" name="Sir Samuel W. Baker"/>
+  <authors id="1560" name="Andrew Barton Paterson"/>
+  <authors id="398" name="A. A. Milne"/>
+  <authors id="759" name="Tom Taylor"/>
+  <authors id="1291" name="Henry C. Northam"/>
+  <authors id="2409" name="Alexandre Dumas (Pere)"/>
+  <authors id="267" name="Henry Wadsworth Longfellow"/>
+  <authors id="878" name="Cosmo Hamilton"/>
+  <authors id="1407" name="Gertrude Page"/>
+  <authors id="219" name="Robert Nemiroff Jerry Bonnell"/>
+  <authors id="1986" name="Louey Chisholm"/>
+  <authors id="443" name="George W. Sands"/>
+  <authors id="2302" name="William F. Kirk"/>
+  <authors id="2401" name="Henry Kendall"/>
+  <authors id="767" name="Charlotte Perkins Stetson Gilman"/>
+  <authors id="2033" name="Cardinal De Retz Edited and Arranged by David Widger"/>
+  <authors id="2338" name="Edward Peple"/>
+  <authors id="529" name="Alice Freeman Palmer"/>
+  <authors id="1356" name="Amy Steedman"/>
+  <authors id="2301" name="John Foster"/>
+  <authors id="2278" name="William Wordsworth"/>
+  <authors id="2481" name="Henry Bore"/>
+  <authors id="92" name="Amy Lowell"/>
+  <authors id="808" name="Samuel Pepys"/>
+  <authors id="490" name="Frank Frankfort Moore"/>
+  <authors id="1754" name="Milliam Meinhold"/>
+  <authors id="731" name="Jesse Macy"/>
+  <authors id="2451" name="Robert Dodsley"/>
+  <authors id="1571" name="Douglas Mawson"/>
+  <authors id="1843" name="Dolores Bacon"/>
+  <authors id="209" name="Gene Stratton Porter"/>
+  <authors id="253" name="Robert F. Murray"/>
+  <authors id="466" name="John Dryden"/>
+  <authors id="562" name="Robert Hichens"/>
+  <authors id="601" name="Fyodor Dostoevsky"/>
+  <authors id="214" name="Alexandre Dumas, Pere"/>
+  <authors id="728" name="Lucretia P. Hale"/>
+  <authors id="1385" name="Jean-Jacques Rousseau"/>
+  <authors id="32" name="H. Irving Hancock"/>
+  <authors id="828" name="E. L. Voynich"/>
+  <authors id="131" name="J. Sheridan Le Fanu"/>
+  <authors id="1043" name="Christopher Morley Bart Haley"/>
+  <authors id="109" name="Edward Stratemeyer"/>
+  <authors id="622" name="Joyce Kilmer"/>
+  <authors id="1158" name="F. C. Adams"/>
+  <authors id="1976" name="Lafayette"/>
+  <authors id="848" name="Stephen Leacock"/>
+  <authors id="1330" name="Frances Boyd Calhoun"/>
+  <authors id="1932" name="Theodore Martin"/>
+  <authors id="76" name="George Tyrrell"/>
+  <authors id="1810" name="Andrew McFarland Davis"/>
+  <authors id="1077" name="Annie Payson Call"/>
+  <authors id="1221" name="Edith Bancroft"/>
+  <authors id="1893" name="Sarah Bernhardt"/>
+  <authors id="2310" name="Robert Sheckley"/>
+  <authors id="1792" name="Helen M. Johnson"/>
+  <authors id="687" name="Fergus Hume"/>
+  <authors id="1678" name="Archbishop Wake"/>
+  <authors id="2155" name="George Brandes"/>
+  <authors id="540" name="Albert Payson Terhune"/>
+  <authors id="1653" name="Henry Frost"/>
+  <authors id="1172" name="Holman Day"/>
+  <authors id="2218" name="R. A. Craig"/>
+  <authors id="2335" name="William Dobein James"/>
+  <authors id="2492" name="Belle K. Maniates"/>
+  <authors id="1315" name="Henry M. Stanley"/>
+  <authors id="619" name="William T. Sherman"/>
+  <authors id="693" name="Carolyn Wells"/>
+  <authors id="479" name="Aesop"/>
+  <authors id="822" name="F. Hopkinson Smith"/>
+  <authors id="1154" name="Eugen Neuhaus"/>
+  <authors id="1196" name="Mrs. Harriet A. Adams"/>
+  <authors id="2296" name="John McDouall Stuart"/>
+  <authors id="755" name="John D. Barry"/>
+  <authors id="2214" name="P. H. Ditchfield"/>
+  <authors id="1689" name="Goldwin Smith"/>
+  <authors id="1815" name="Austin Craig"/>
+  <authors id="1086" name="George Randolph Chester"/>
+  <authors id="1284" name="Ronald Reagan"/>
+  <authors id="1367" name="Dom"/>
+  <authors id="2085" name="George Alfred Henty"/>
+  <authors id="2322" name="Isabella Alden"/>
+  <authors id="600" name="Mrs.(Margaret) Oliphant"/>
+  <authors id="677" name="Fredrich de la Motte-Fouque"/>
+  <authors id="353" name="Henry H. Snelling"/>
+  <authors id="450" name="August Niemann"/>
+  <authors id="971" name="Phillipe de Massa"/>
+  <authors id="94" name="Henry David Thoreau"/>
+  <authors id="278" name="United States.  Central Intelligence Agency"/>
+  <authors id="556" name="William Alexander Linn"/>
+  <authors id="869" name="Attributed (incorrectly) to John Bunyan"/>
+  <authors id="1316" name="Selma Lagerlof"/>
+  <authors id="535" name="Charlotte M. Braeme"/>
+  <authors id="1036" name="Thomas Malthus"/>
+  <authors id="2095" name="Charles Brockden Brown"/>
+  <authors id="2365" name="George Wharton Edwards"/>
+  <authors id="1080" name="Alexander Pushkin"/>
+  <authors id="2081" name="Frederic Remington"/>
+  <authors id="2439" name="Edward Lear"/>
+  <authors id="2057" name="Christoper Marlowe"/>
+  <authors id="2091" name="Allen Chapman"/>
+  <authors id="2257" name="Social Security Board"/>
+  <authors id="499" name="Edmund Burke"/>
+  <authors id="924" name="Henry Edward Krehbiel"/>
+  <authors id="276" name="C. F. [Constantin Francois de] Volney"/>
+  <authors id="1819" name="Edward William Watkin"/>
+  <authors id="1061" name="The US Copyright Office"/>
+  <authors id="1789" name="John G. Nicolay and John Hay"/>
+  <authors id="732" name="John Moody"/>
+  <authors id="1721" name="Stella G. S. Perry"/>
+  <authors id="1830" name="David Slowinski"/>
+  <authors id="1484" name="Steven E. Jones"/>
+  <authors id="2227" name="I. Windslow Ayer"/>
+  <authors id="875" name="Kathleen Norris"/>
+  <authors id="651" name="H. Rider Haggard and Andrew Lang"/>
+  <authors id="925" name="John S. C. Abbott"/>
+  <authors id="1478" name="P. H. Sheridan"/>
+  <authors id="1152" name="Madame de Lafayette"/>
+  <authors id="233" name="B.M. Bower"/>
+  <authors id="2395" name="James Branch Cabell Willson Follett"/>
+  <authors id="333" name="Alexandre Dumas, fils"/>
+  <authors id="1798" name="Gordon Stuart"/>
+  <authors id="2098" name="John Thomas Codman"/>
+  <authors id="309" name="John Lord"/>
+  <authors id="575" name="Rabindranath Tagore"/>
+  <authors id="1690" name="Willard F. Baker"/>
+  <authors id="1608" name="Charles Lyell"/>
+  <authors id="1651" name="Francis W. Parker and Nellie Lathrop Helm"/>
+  <authors id="1880" name="Effie M. Williams"/>
+  <authors id="1559" name="Robert Ames Bennet"/>
+  <authors id="1299" name="John Payne"/>
+  <authors id="1157" name="J.G. Austin"/>
+  <authors id="1502" name="Caesar Flavius Justinian"/>
+  <authors id="1179" name="Ethel Sybil Turner"/>
+  <authors id="1270" name="William McKinley"/>
+  <authors id="1004" name="Mrs. Charles (Ellen) Clacey"/>
+  <authors id="1054" name="Edward John Moreton Drax Plunkett, Baron, Dunsany"/>
+  <authors id="1816" name="Addie Chisholm"/>
+  <authors id="1371" name="Dorothy Canfield"/>
+  <authors id="2436" name="Otto Schoenrich"/>
+  <authors id="78" name="William Cullen Bryant"/>
+  <authors id="560" name="Omar Khayyam"/>
+  <authors id="2178" name="Apollonius Rhodius"/>
+  <authors id="2477" name="Basil King"/>
+  <authors id="339" name="Richard Harding Davis"/>
+  <authors id="659" name="Baroness Emmuska Orczy"/>
+  <authors id="1849" name="Dr. Armgaard Karl Graves"/>
+  <authors id="1021" name="Dr. Martin Luther"/>
+  <authors id="1472" name="Nora A. Smith Kate Douglas Wiggin"/>
+  <authors id="696" name="Walter Lynwood Fleming"/>
+  <authors id="2462" name="Benedict of Spinoza"/>
+  <authors id="2472" name="Leonard Merrick"/>
+  <authors id="2015" name="Abraham Lincoln Edited and Arranged by David Widger"/>
+  <authors id="753" name="Aug. J. Thebaud"/>
+  <authors id="1398" name="Khalil Gibran"/>
+  <authors id="1662" name="George Stuart Fullerton"/>
+  <authors id="1164" name="Mary W. Shelley"/>
+  <authors id="1071" name="Lida Brown McMurry"/>
+  <authors id="2334" name="Isaak Walton"/>
+  <authors id="2386" name="Helen M. Winslow"/>
+  <authors id="2112" name="John Graham (David Graham Phillips)"/>
+  <authors id="850" name="L. Muhlbach"/>
+  <authors id="1190" name="William F. Fox"/>
+  <authors id="695" name="Franklin Hichborn"/>
+  <authors id="436" name="Gideon Wurdz"/>
+  <authors id="69" name="Charles Kingsley"/>
+  <authors id="2124" name="Ann S. Stephens"/>
+  <authors id="1868" name="Edna A. Brown"/>
+  <authors id="1149" name="L.A. Abbott"/>
+  <authors id="607" name="Geoffrey Chaucer"/>
+  <authors id="836" name="E. Pauline Johnson"/>
+  <authors id="1108" name="Mary E. Wilkins"/>
+  <authors id="1823" name="Clarence Day, Jr."/>
+  <authors id="2102" name="I. A. R. Wylie"/>
+  <authors id="336" name="Julian Hawthorne"/>
+  <authors id="140" name="Herbert George Wells"/>
+  <authors id="1105" name="Frank Jardine and Alexander Jardine"/>
+  <authors id="1622" name="Dewitt H. Parker"/>
+  <authors id="212" name="Gustave Flaubert"/>
+  <authors id="1905" name="Alexander Morris"/>
+  <authors id="642" name="Marcus Aurelius"/>
+  <authors id="126" name="Robert Valentine Dolbey"/>
+  <authors id="520" name="Adelaide Anne Procter"/>
+  <authors id="2217" name="Mrs. S. T. Rorer"/>
+  <authors id="454" name="Leonard W. King"/>
+  <authors id="854" name="Carboni Raffaello Real name was Raffaello Carboni"/>
+  <authors id="669" name="Marcus Tullius Cicero"/>
+  <authors id="1550" name="Karl Marx and Friedrich Engels"/>
+  <authors id="752" name="J. Frank Dobie"/>
+  <authors id="1590" name="Robert Blatchford"/>
+  <authors id="1166" name="Gilbert K. Chesterton"/>
+  <authors id="1177" name="Sara Cone Bryant"/>
+  <authors id="685" name="Melville Davisson Post"/>
+  <authors id="1524" name="Thomas Kyd"/>
+  <authors id="1528" name="John Breckenridge Ellis"/>
+  <authors id="1917" name="Roy Benson"/>
+  <authors id="1515" name="Lucan"/>
+  <authors id="1796" name="R. D. Blackmore"/>
+  <authors id="1809" name="J.T. Headley"/>
+  <authors id="2427" name="J. Munro"/>
+  <authors id="1521" name="Rev. William Evans"/>
+  <authors id="2449" name="Henry D. Thoreau"/>
+  <authors id="1066" name="Frederick S. Dellenbaugh"/>
+  <authors id="2468" name="Joseph Stump"/>
+  <authors id="1442" name="Katherine Chandler"/>
+  <authors id="1790" name="Catherine Parr Traill"/>
+  <authors id="1881" name="Lillian Eichler Watson"/>
+  <authors id="220" name="H. L. Mencken"/>
+  <authors id="1011" name="Rex Beach"/>
+  <authors id="2407" name="Louis Christian Mullgardt"/>
+  <authors id="452" name="John Breckinridge Ellis"/>
+  <authors id="1465" name="Mark Twain (Samuel Clemens) and Charles Dudley Warner"/>
+  <authors id="70" name="Robert Graves"/>
+  <authors id="698" name="J. Stark Munro"/>
+  <authors id="1159" name="Frederick Niecks"/>
+  <authors id="2049" name="K. Kay Shearin"/>
+  <authors id="2191" name="Meriwether Lewis and William Clark"/>
+  <authors id="1415" name="Mrs. Charles J. Woodbury"/>
+  <authors id="1724" name="Theodore W. Storm"/>
+  <authors id="1628" name="Edmund Goldsmid"/>
+  <authors id="912" name="Bourrienne, Constant, and Stewarton"/>
+  <authors id="1200" name="John Lothrop Motley"/>
+  <authors id="2012" name="John Galsworthy Edited and Arranged by David Widger"/>
+  <authors id="1047" name="William Shakespeare (Apocrypha)"/>
+  <authors id="1234" name="C.C. Andrews"/>
+  <authors id="27" name="Aphra Behn"/>
+  <authors id="2016" name="Charles James Lever Edited and Arranged by David Widger"/>
+  <authors id="252" name="J. M. Barrie"/>
+  <authors id="626" name="Richard Steele"/>
+  <authors id="631" name="John Gower"/>
+  <authors id="1517" name="William Wood"/>
+  <authors id="1585" name="U.S. Copyright Office"/>
+  <authors id="914" name="Maria Thompson Daviess"/>
+  <authors id="574" name="Herman Hesse"/>
+  <authors id="494" name="Tobias Smollett"/>
+  <authors id="1219" name="Charles Wesley Emerson"/>
+  <authors id="1452" name="Durant Drake"/>
+  <authors id="1772" name="Geneve L.A. Shaffer"/>
+  <authors id="1388" name="Grace M. Remick"/>
+  <authors id="2136" name="T. W. Lumb"/>
+  <authors id="532" name="Willa Cather"/>
+  <authors id="487" name="Algernon Charles Swinburne"/>
+  <authors id="1625" name="H. W. C. Davis"/>
+  <authors id="997" name="George Moore"/>
+  <authors id="684" name="Philip Nichols"/>
+  <authors id="1461" name="Stephen Palfrey Webb"/>
+  <authors id="9" name="J. Sheridan LeFanu"/>
+  <authors id="1565" name="Jacob A. Riis"/>
+  <authors id="2082" name="Gertrude Franklin Horn Atherton"/>
+  <authors id="389" name="Theodore Dreiser"/>
+  <authors id="1078" name="Grant Allen"/>
+  <authors id="181" name="Honore de Balzac"/>
+  <authors id="1443" name="Robert W. Chambers"/>
+  <authors id="312" name="William Shakespeare [Craig, Oxford edition]"/>
+  <authors id="1832" name="Sarah Tytler"/>
+  <authors id="813" name="Rebecca Harding Davis"/>
+  <authors id="2138" name="Hanford Lennox Gordon"/>
+  <authors id="877" name="ARNOLD BENNETT"/>
+  <authors id="1918" name="Henry Ford"/>
+  <authors id="2295" name="Paul Henri Thiery (Baron D&apos;Holbach)"/>
+  <authors id="942" name="Henry Seton Merriman"/>
+  <authors id="2291" name="The Princess Der Ling"/>
+  <authors id="1903" name="Thomas Cowherd"/>
+  <authors id="1336" name="Hon. Jefferson Davis"/>
+  <authors id="2357" name="J. R. Miller"/>
+  <authors id="1673" name="Robert Steele"/>
+  <authors id="591" name="Bertrand Russell"/>
+  <authors id="1227" name="H. W. Conn"/>
+  <authors id="1360" name="Wolfgang Amadeus Mozart"/>
+  <authors id="1383" name="Robert Hillyer"/>
+  <authors id="717" name="Neltje Blanchan"/>
+  <authors id="681" name="C. J. Cutcliffe Hyne"/>
+  <authors id="1889" name="Mary Webb"/>
+  <authors id="884" name="Mary E. Bamford"/>
+  <authors id="93" name="Vachel Lindsay"/>
+  <authors id="972" name="Andre Theuriet"/>
+  <authors id="1262" name="Millard Fillmore"/>
+  <authors id="2478" name="George A. Warren"/>
+  <authors id="531" name="Madame de La Fayette"/>
+  <authors id="1347" name="Vingie E. Roe"/>
+  <authors id="1626" name="The Rev. Alfred J. Church"/>
+  <authors id="735" name="James Elroy Flecker"/>
+  <authors id="1449" name="Daniel Young"/>
+  <authors id="2354" name="Henry Drummond"/>
+  <authors id="1929" name="Harlan K. Ullman James P. Wade"/>
+  <authors id="314" name="William Dean Howells"/>
+  <authors id="617" name="E. M. Forster"/>
+  <authors id="102" name="(AKA Charlotte Bronte) Currer Bell"/>
+  <authors id="2290" name="A Bushman"/>
+  <authors id="206" name="Virginia Woolf"/>
+  <authors id="160" name="Edna St. Vincent Millay"/>
+  <authors id="391" name="Owen Meredith"/>
+  <authors id="1102" name="Bolton Hall"/>
+  <authors id="1182" name="A. E. W. Mason"/>
+  <authors id="901" name="Charles Reade Dion Boucicault"/>
+  <authors id="2005" name="Giacomo Casanova (AKA Jacques Casanova de Seingalt) Edited by David Widger"/>
+  <authors id="417" name="Jerome K. Jerome"/>
+  <authors id="595" name="Edmund Gosse"/>
+  <authors id="426" name="Charlotte Perkins Gilman"/>
+  <authors id="1634" name="Joseph Devlin"/>
+  <authors id="1372" name="F. H. King"/>
+  <authors id="2226" name="Lydia Maria Gurney"/>
+  <authors id="1187" name="Jacob William Wright"/>
+  <authors id="2306" name="Robert Bloomfield"/>
+  <authors id="783" name="John Hanning Speke"/>
+  <authors id="250" name="Harold Frederic"/>
+  <authors id="2023" name="Jean Jacques Rousseau Edited and Arranged by David Widger"/>
+  <authors id="2432" name="William Henry Drummond"/>
+  <authors id="1760" name="Edward Mandell House"/>
+  <authors id="1037" name="Joseph E. Morris"/>
+  <authors id="2072" name="Joseph E. Badger, Jr."/>
+  <authors id="1933" name="Michael Scott"/>
+  <authors id="597" name="Pierre Corneille"/>
+  <authors id="620" name="John Kendrick Bangs"/>
+  <authors id="184" name="Thomas Alexander Browne, AKA Rolf Boldrewood"/>
+  <authors id="1093" name="Henri Barbusse"/>
+  <authors id="1451" name="George William Russell"/>
+  <authors id="722" name="Frederic Austin Ogg"/>
+  <authors id="1354" name="Asa Gray"/>
+  <authors id="721" name="John Bursey"/>
+  <authors id="1807" name="Helen Campbell"/>
+  <authors id="119" name="Samuel Johnson"/>
+  <authors id="331" name="Robert Louis Stevenson and Lloyde Osbourne"/>
+  <authors id="1973" name="Mary Cole"/>
+  <authors id="1856" name="Cicely Kent"/>
+  <authors id="2363" name="Mrs. H. M. Maxwell"/>
+  <authors id="513" name="James Hogg"/>
+  <authors id="2211" name="Sarah Annie Frost"/>
+  <authors id="1514" name="George P. Marsh"/>
+  <authors id="1713" name="Theresa Gowanlock Theresa Delaney"/>
+  <authors id="1898" name="Isabel Meredith"/>
+  <authors id="1676" name="Arthur G. Doughty"/>
+  <authors id="63" name="Richard Garnett"/>
+  <authors id="633" name="Gotthold Ephraim Lessing"/>
+  <authors id="122" name="Harry Leon Wilson"/>
+  <authors id="1339" name="United States Government"/>
+  <authors id="1579" name="Captain Wilbur Lawton (pseudonym for John Henry Goldfrap)"/>
+  <authors id="2" name="Anonymous"/>
+  <authors id="1352" name="Arthur Train"/>
+  <authors id="2393" name="Lucy M. Blanchard"/>
+  <authors id="67" name="Louis Tracy"/>
+  <authors id="2258" name="by Robert Barr"/>
+  <authors id="1923" name="P. G. Wodehouse Herbert Westbrook"/>
+  <authors id="1538" name="George W. Caldwell"/>
+  <authors id="1222" name="Lloyd Osbourne"/>
+  <authors id="1230" name="Thomas Chapais Edited by George M. Wrong and H. H. Langton"/>
+  <authors id="332" name="James Stephens"/>
+  <authors id="1156" name="Maturin Murray"/>
+  <authors id="1468" name="Fanny Burney"/>
+  <authors id="1231" name="Ernest Giles"/>
+  <authors id="1927" name="Josiah Allen&apos;s Wife: Marietta Holley"/>
+  <authors id="782" name="Edgar A. Guest"/>
+  <authors id="1543" name="Clair W. Hayes"/>
+  <authors id="1619" name="Anna Chapin Ray"/>
+  <authors id="296" name="Rafael Sabatini"/>
+  <authors id="1277" name="Harry S. Truman"/>
+  <authors id="1895" name="Rupert Hughes"/>
+  <authors id="404" name="E. R. Punshon"/>
+  <authors id="1362" name="Elinor Glyn"/>
+  <authors id="29" name="James Branch Cabell"/>
+  <authors id="710" name="W. B. M. Ferguson"/>
+  <authors id="1664" name="Captain Marryat"/>
+  <authors id="1980" name="George M. Gould Walter Lytle Pyle"/>
+  <authors id="736" name="Henry Jones Ford"/>
+  <authors id="1588" name="James Baldwin"/>
+  <authors id="1818" name="Archibald Henderson"/>
+  <authors id="138" name="Frederic Stewart Isham"/>
+  <authors id="320" name="Edward George Bulwer-Lytton"/>
+  <authors id="1537" name="Kate Langley Bosher"/>
+  <authors id="2299" name="Timothy Titcomb"/>
+  <authors id="845" name="Laurence Housman"/>
+  <authors id="1091" name="Alice Caldwell Hegan"/>
+  <authors id="1877" name="Lane Cooper"/>
+  <authors id="579" name="William D. Howells"/>
+  <authors id="2419" name="Cal Stewart"/>
+  <authors id="369" name="John Milton"/>
+  <authors id="1359" name="Charles Egbert Craddock (real name: Murfree, Mary Noailles)"/>
+  <authors id="1193" name="Josephine Lawrence"/>
+  <authors id="2246" name="George Willis Cooke"/>
+  <authors id="310" name="Herman Melville"/>
+  <authors id="1562" name="Mark Overton"/>
+  <authors id="1615" name="Will Levington Comfort"/>
+  <authors id="1523" name="Madame D&apos;Arblay"/>
+  <authors id="1604" name="Lucian of Samosata Translated by H. W. Fowler And F. G. Fowler"/>
+  <authors id="1039" name="Isabella L. Bird (Mrs Bishop)"/>
+  <authors id="60" name="Donald A. MacKenzie"/>
+  <authors id="2194" name="James Anthony Froude"/>
+  <authors id="255" name="Francis Thompson"/>
+  <authors id="42" name="Burton Egbert Stevenson"/>
+  <authors id="2406" name="John H. Humphreys"/>
+  <authors id="992" name="Yei Theodora Ozaki"/>
+  <authors id="1268" name="Grover Cleveland"/>
+  <authors id="984" name="Hector Malot"/>
+  <authors id="1174" name="Charles W. Chesnutt"/>
+  <authors id="1251" name="Clarence Young"/>
+  <authors id="321" name="William Osler"/>
+  <authors id="1175" name="George Berkeley"/>
+  <authors id="175" name="Sax Rohmer"/>
+  <authors id="1334" name="Franz Kafka"/>
+  <authors id="831" name="Mary Baker Eddy"/>
+  <authors id="1269" name="Benjamin Harrison"/>
+  <authors id="2114" name="Aleksandr Nicolaevich Ostrovsky"/>
+  <authors id="798" name="Vivia Hemphill"/>
+  <authors id="1759" name="Demetrius Charles Boulger"/>
+  <authors id="2408" name="Pansy"/>
+  <authors id="1715" name="J. C. Yule"/>
+  <authors id="889" name="Sarah Orne Jewett"/>
+  <authors id="840" name="Richard Hakluyt"/>
+  <authors id="2024" name="Mark Twain (S"/>
+</dataset>

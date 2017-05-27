@@ -1,6 +1,5 @@
 package database;
 
-
 import entity.Author;
 import entity.Book;
 import entity.City;
@@ -20,8 +19,19 @@ public class MySQL implements DatabaseInterface, QueryInterface
     private Statement statement;
     private ResultSet resultSet;
 
+    public MySQL()
+    {
+        connection = connect();
+    }
+
+    public MySQL(Connection connection)
+    {
+        this.connection = connection;
+    }
+
     /**
      * Make the connection to MySQL
+     *
      * @return
      */
     public Connection connect()
@@ -70,6 +80,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
 
     /**
      * Get books that mentioned the given city name.
+     *
      * @param city
      * @return
      */
@@ -91,6 +102,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
 
     /**
      * Get books with cities by given book title.
+     *
      * @param title
      * @return
      */
@@ -113,6 +125,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
 
     /**
      * Get books with cities by given Author name.
+     *
      * @param author
      * @return
      */
@@ -135,6 +148,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
 
     /**
      * Get books near the given latitude, longitude and radius.
+     *
      * @param latitude
      * @param longitude
      * @param radiusInKm
@@ -216,6 +230,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
 
     /**
      * Get mentioned in cities in books, and add them to Book object.
+     *
      * @param books
      * @throws SQLException
      */
@@ -243,6 +258,7 @@ public class MySQL implements DatabaseInterface, QueryInterface
 
     /**
      * Get Book to books list
+     *
      * @param query
      * @param books
      * @throws SQLException
@@ -261,17 +277,19 @@ public class MySQL implements DatabaseInterface, QueryInterface
 
     /**
      * Create statement and set resultset.
+     *
      * @param query
      * @throws SQLException
      */
     private void setResultSet(String query) throws SQLException
     {
-        statement = connect().createStatement();
+        statement = connection.createStatement();
         resultSet = statement.executeQuery( query );
     }
 
     /**
      * Get SQL file as String from src/main/files/sql/*
+     *
      * @param filename
      * @param params
      * @return
