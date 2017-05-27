@@ -8,3 +8,5 @@ services:
   - mysql
 before_install:
   - mysql -e 'CREATE DATABASE gutenberg;'
+  - mysql -e 'CREATE USER 'root'@'localhost' IDENTIFIED BY 'root';
+  - mysql -u root -p gutenberg < /Users/ismailcam/IdeaProjects/gutenbergdb/src/main/files/databaseExports/gutenberg_2017-05-27.sql;
