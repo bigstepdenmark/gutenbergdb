@@ -8,7 +8,6 @@ services:
   - mysql
 before_install:
   - mysql -e 'CREATE DATABASE gutenberg';
-  - echo USE mysql;
-  - echo UPDATE user SET password=PASSWORD('root') WHERE user='root';
-  - echo FLUSH PRIVILEGES;
+  - mysql UPDATE user SET password=PASSWORD('root') WHERE user='root';
+  - mysql FLUSH PRIVILEGES;
   - mysql -u root -p gutenberg < 'src/main/files/databaseExports/gutenberg_2017-05-27.sql';
