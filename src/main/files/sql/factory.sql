@@ -58,7 +58,7 @@ FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n'
 (id,name,latitude,longitude,country_code,population,timezone);
 
-ALTER TABLE cities ADD position Point;
+ALTER TABLE cities ADD position Point NOT NULL;
 UPDATE  cities
 SET     position = Point(longitude, latitude);
 
