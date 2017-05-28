@@ -7,10 +7,4 @@ script:
 services:
   - mysql
 before_install:
-  - mysql -e 'CREATE DATABASE gutenberg;'
-  - mysql -e 'CREATE TABLE `author_books` (
-                `book_id` int(11) NOT NULL,
-                `author_id` int(11) NOT NULL,
-                PRIMARY KEY (`book_id`,`author_id`),
-                KEY `fk_author_id` (`author_id`)
-              ) ENGINE=MyISAM DEFAULT CHARSET=utf8;'
+  - mysql -u root -e 'CREATE DATABASE gutenberg;'
