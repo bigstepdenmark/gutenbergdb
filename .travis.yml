@@ -8,3 +8,4 @@ services:
   - mysql
 before_install:
   - mysql -u root -e 'CREATE DATABASE gutenberg;'
+  - mysql -u root gutenberg < src/test/gutenberg_2017-05-27.sql
