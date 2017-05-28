@@ -8,4 +8,5 @@ services:
   - mysql
 before_install:
   - mysql -u root -e 'CREATE DATABASE gutenberg;'
+  - mysql ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
   - mysql -u root gutenberg < gutenberg.sql
