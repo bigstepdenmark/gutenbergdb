@@ -8,7 +8,6 @@ services:
   - mysql
 before_install:
   - mysql -e 'CREATE DATABASE gutenberg;'
-  - mysql -e 'DROP TABLE IF EXISTS books;'
   - mysql -e 'CREATE TABLE `author_books` (
                 `book_id` int(11) NOT NULL,
                 `author_id` int(11) NOT NULL,
