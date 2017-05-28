@@ -11,5 +11,5 @@ services:
 before_install:
   - mysql -u root -e 'CREATE DATABASE gutenberg;'
   - mysql -u root gutenberg < gutenberg.sql
-  - mongo use soft-semeter-1
-  - mongo db.createCollection("gutenberg")
+  - mongo 'use soft-semeter-1;'
+  - mongo 'db.createCollection("gutenberg");'
