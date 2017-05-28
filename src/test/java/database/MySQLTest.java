@@ -79,7 +79,7 @@ public class MySQLTest //extends DBTestCase
     @Before
     public void setUp() throws Exception
     {
-        mySQL = new MySQL();
+        mySQL = new MySQL(DriverManager.getConnection( "jdbc:mysql://127.0.0.1:3306/gutenberg", "root", "" ));
 //        connection = this.getConnection();
 //        dataSet = getDataSet();
         //super.setUp();
