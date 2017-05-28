@@ -6,7 +6,9 @@ script:
 
 services:
   - mysql
+  - mongodb
+
 before_install:
-  - echo "USE mysql;\nUPDATE user SET password=PASSWORD('root') WHERE user='root';\nFLUSH PRIVILEGES;\n" | mysql -u root
   - mysql -u root -e 'CREATE DATABASE gutenberg;'
   - mysql -u root gutenberg < gutenberg.sql
+  - mongo soft-semester-1 --eval 'db.addUser("travis", "test");'

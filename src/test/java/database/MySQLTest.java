@@ -22,6 +22,9 @@ public class MySQLTest
     @Before
     public void setUp() throws Exception
     {
+        // Local
+        // mySQL = new MySQL();
+
         // Travis
         mySQL = new MySQL( DriverManager.getConnection( "jdbc:mysql://127.0.0.1:3306/gutenberg", "root", "" ) );
     }
