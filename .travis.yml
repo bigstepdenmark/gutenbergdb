@@ -11,4 +11,5 @@ services:
 before_install:
   - mysql -u root -e 'CREATE DATABASE gutenberg;'
   - mysql -u root gutenberg < gutenberg.sql
-  - mongo soft-semester-1 --eval 'db.addUser("travis", "test");'
+  - mongo use soft-semeter-1
+  - mongo db.createCollection("gutenberg")

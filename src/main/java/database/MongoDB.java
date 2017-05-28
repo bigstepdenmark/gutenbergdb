@@ -34,7 +34,7 @@ public class MongoDB implements DatabaseInterface, QueryInterface
     public MongoClient connect()
     {
         if( client == null )
-            client = new MongoClient( "localhost", 27017 );
+            client = new MongoClient( "127.0.0.1", 27017 );
 
         return client;
     }
