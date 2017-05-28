@@ -7,7 +7,5 @@ script:
 services:
   - mysql
 before_install:
-  - mysql -e 'CREATE DATABASE gutenberg';
-  - mysql UPDATE user SET password=PASSWORD('root') WHERE user='root';
-  - mysql FLUSH PRIVILEGES;
-  - mysql -u root -p gutenberg < 'src/main/files/databaseExports/gutenberg_2017-05-27.sql';
+  - mysql -e 'CREATE DATABASE gutenberg;'
+  - mysql -u root testbase < src/main/files/databaseExports/gutenberg_2017-05-27.sql
