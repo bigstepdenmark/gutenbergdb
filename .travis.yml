@@ -8,5 +8,4 @@ services:
   - mysql
 before_install:
   - mysql -u root -e 'CREATE DATABASE gutenberg;'
-  - mysql 'USE gutenberg;'
-  - mysql -u root -e 'CREATE TABLE books(id int(11) PRIMARY KEY NOT NULL, title varchar(255) DEFAULT NULL);'
+  - mysql -u root -e 'CREATE TABLE gutenberg.books(id int(11) PRIMARY KEY NOT NULL, title varchar(255) DEFAULT NULL);'
