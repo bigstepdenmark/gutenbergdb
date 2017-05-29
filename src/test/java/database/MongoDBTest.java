@@ -22,7 +22,7 @@ public class MongoDBTest
     {
         mongoDB = new MongoDB();
         mongoDB.connect().getDatabase( "soft-semester-1" ).getCollection( "gutenberg" );
-       // mongoDB.importFromMysqlToMongoDB();
+        mongoDB.importFromMysqlToMongoDB();
     }
 
     @After
