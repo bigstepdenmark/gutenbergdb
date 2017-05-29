@@ -21,7 +21,8 @@ public class MongoDBTest
     public void setUp() throws Exception
     {
         mongoDB = new MongoDB();
-        mongoDB.importFromMysqlToMongoDB();
+        mongoDB.connect().getDatabase( "soft-semester-1" ).getCollection( "gutenberg" );
+       // mongoDB.importFromMysqlToMongoDB();
     }
 
     @After
